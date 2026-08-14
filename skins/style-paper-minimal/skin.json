@@ -1,0 +1,30 @@
+{
+  "id": "style-paper-minimal",
+  "name": "极简纸 Paper Minimal",
+  "nameEn": "Paper Minimal",
+  "author": "aionui-themes",
+  "tagline": "大量留白与一根红线的印刷排版",
+  "description": "夜色纸面上的黑墨与一根红线（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "极简"
+  ],
+  "accent": "#c92a2a",
+  "bodyAttr": "data-dsh-style-paper-minimal",
+  "package": "@whyihaveyou/dsh-skin-style-paper-minimal",
+  "wiring": {
+    "id": "ui-skin-style-paper-minimal",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-paper-minimal/preview/light.png",
+    "dark": "skins/style-paper-minimal/preview/dark.png"
+  },
+  "order": 99,
+  "source": {
+    "aionui-themes": [
+      "style-paper-minimal",
+      "style-paper-minimal-dark"
+    ]
+  }
+}

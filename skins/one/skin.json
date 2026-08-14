@@ -1,0 +1,30 @@
+{
+  "id": "one",
+  "name": "One Light",
+  "nameEn": "One",
+  "author": "aionui-themes",
+  "tagline": "Atom 经典浅色，清爽日间语法色",
+  "description": "Atom 经典深色，蓝紫语法光（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Atom"
+  ],
+  "accent": "#4078f2",
+  "bodyAttr": "data-dsh-one",
+  "package": "@whyihaveyou/dsh-skin-one",
+  "wiring": {
+    "id": "ui-skin-one",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/one/preview/light.png",
+    "dark": "skins/one/preview/dark.png"
+  },
+  "order": 61,
+  "source": {
+    "aionui-themes": [
+      "one-light",
+      "one-dark"
+    ]
+  }
+}

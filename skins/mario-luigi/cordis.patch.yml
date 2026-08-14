@@ -1,0 +1,4 @@
+# mario-luigi skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-mario-luigi
+      name: '@whyihaveyou/dsh-skin-mario-luigi'

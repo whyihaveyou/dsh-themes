@@ -1,0 +1,30 @@
+{
+  "id": "synthwave84",
+  "name": "Synthwave '84",
+  "nameEn": "Synthwave '84",
+  "author": "aionui-themes",
+  "tagline": "落日余晖下的霓虹粉紫白夜",
+  "description": "80年代霓虹粉紫与迈阿密夜色（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Synthwave"
+  ],
+  "accent": "#c22c9e",
+  "bodyAttr": "data-dsh-synthwave84",
+  "package": "@whyihaveyou/dsh-skin-synthwave84",
+  "wiring": {
+    "id": "ui-skin-synthwave84",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/synthwave84/preview/light.png",
+    "dark": "skins/synthwave84/preview/dark.png"
+  },
+  "order": 1,
+  "source": {
+    "aionui-themes": [
+      "synthwave84-light",
+      "synthwave84"
+    ]
+  }
+}

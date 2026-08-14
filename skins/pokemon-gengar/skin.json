@@ -1,0 +1,30 @@
+{
+  "id": "pokemon-gengar",
+  "name": "宝可梦 · 耿鬼",
+  "nameEn": "Pokémon Gengar",
+  "author": "aionui-themes",
+  "tagline": "薄雾薰衣草色里的紫影坏笑",
+  "description": "紫影坏笑与幽蓝鬼火的夜行者（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#7c3aed",
+  "bodyAttr": "data-dsh-pokemon-gengar",
+  "package": "@whyihaveyou/dsh-skin-pokemon-gengar",
+  "wiring": {
+    "id": "ui-skin-pokemon-gengar",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-gengar/preview/light.png",
+    "dark": "skins/pokemon-gengar/preview/dark.png"
+  },
+  "order": 76,
+  "source": {
+    "aionui-themes": [
+      "pokemon-gengar-light",
+      "pokemon-gengar"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-xiao",
+  "name": "原神 · 魈",
+  "nameEn": "Genshin Xiao",
+  "author": "aionui-themes",
+  "tagline": "傩面夜叉昼行，青绿风息拂过璃月山野",
+  "description": "傩面夜叉，青绿风息隐于业障暗夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#1a9c7d",
+  "bodyAttr": "data-dsh-genshin-xiao",
+  "package": "@whyihaveyou/dsh-skin-genshin-xiao",
+  "wiring": {
+    "id": "ui-skin-genshin-xiao",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-xiao/preview/light.png",
+    "dark": "skins/genshin-xiao/preview/dark.png"
+  },
+  "order": 38,
+  "source": {
+    "aionui-themes": [
+      "genshin-xiao-light",
+      "genshin-xiao"
+    ]
+  }
+}

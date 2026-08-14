@@ -1,0 +1,30 @@
+{
+  "id": "style-art-deco",
+  "name": "Art Deco 装饰艺术",
+  "nameEn": "Art Deco",
+  "author": "aionui-themes",
+  "tagline": "象牙纸面上的金墨几何与太阳放射线",
+  "description": "金黑几何与放射太阳线的二十年代奢华（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "Art Deco"
+  ],
+  "accent": "#8f6f1d",
+  "bodyAttr": "data-dsh-style-art-deco",
+  "package": "@whyihaveyou/dsh-skin-style-art-deco",
+  "wiring": {
+    "id": "ui-skin-style-art-deco",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-art-deco/preview/light.png",
+    "dark": "skins/style-art-deco/preview/dark.png"
+  },
+  "order": 85,
+  "source": {
+    "aionui-themes": [
+      "style-art-deco-light",
+      "style-art-deco"
+    ]
+  }
+}

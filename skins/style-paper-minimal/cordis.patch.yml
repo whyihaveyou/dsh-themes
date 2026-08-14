@@ -1,0 +1,4 @@
+# style-paper-minimal skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-paper-minimal
+      name: '@whyihaveyou/dsh-skin-style-paper-minimal'

@@ -1,0 +1,4 @@
+# genshin-klee skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-genshin-klee
+      name: '@whyihaveyou/dsh-skin-genshin-klee'

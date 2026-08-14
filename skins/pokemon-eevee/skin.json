@@ -1,0 +1,31 @@
+{
+  "id": "pokemon-eevee",
+  "name": "宝可梦 · 伊布",
+  "nameEn": "Pokémon Eevee",
+  "author": "aionui-themes",
+  "tagline": "棕绒奶油领结，进化之光",
+  "description": "夜色棕绒，领结沐着进化微光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "动漫",
+    "宝可梦"
+  ],
+  "accent": "#9a6230",
+  "bodyAttr": "data-dsh-pokemon-eevee",
+  "package": "@whyihaveyou/dsh-skin-pokemon-eevee",
+  "wiring": {
+    "id": "ui-skin-pokemon-eevee",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-eevee/preview/light.png",
+    "dark": "skins/pokemon-eevee/preview/dark.png"
+  },
+  "order": 75,
+  "source": {
+    "aionui-themes": [
+      "pokemon-eevee",
+      "pokemon-eevee-dark"
+    ]
+  }
+}

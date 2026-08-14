@@ -1,0 +1,30 @@
+{
+  "id": "os-luna",
+  "name": "Windows XP Luna",
+  "nameEn": "Windows XP Luna",
+  "author": "aionui-themes",
+  "tagline": "蓝天草地与绿色开始按钮",
+  "description": "夜幕 Bliss 下的深蓝标题栏（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Windows XP"
+  ],
+  "accent": "#245edb",
+  "bodyAttr": "data-dsh-os-luna",
+  "package": "@whyihaveyou/dsh-skin-os-luna",
+  "wiring": {
+    "id": "ui-skin-os-luna",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-luna/preview/light.png",
+    "dark": "skins/os-luna/preview/dark.png"
+  },
+  "order": 67,
+  "source": {
+    "aionui-themes": [
+      "os-luna",
+      "os-luna-dark"
+    ]
+  }
+}

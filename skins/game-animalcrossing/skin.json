@@ -1,0 +1,30 @@
+{
+  "id": "game-animalcrossing",
+  "name": "集合啦动物森友会",
+  "nameEn": "Animal Crossing: New Horizons",
+  "author": "aionui-themes",
+  "tagline": "嫩绿叶子与狸克木牌的岛屿小清新",
+  "description": "夜航无人岛：萤火绿叶与狸克木牌（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "动物森友会"
+  ],
+  "accent": "#4fa24b",
+  "bodyAttr": "data-dsh-game-animalcrossing",
+  "package": "@whyihaveyou/dsh-skin-game-animalcrossing",
+  "wiring": {
+    "id": "ui-skin-game-animalcrossing",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-animalcrossing/preview/light.png",
+    "dark": "skins/game-animalcrossing/preview/dark.png"
+  },
+  "order": 21,
+  "source": {
+    "aionui-themes": [
+      "game-animalcrossing",
+      "game-animalcrossing-dark"
+    ]
+  }
+}

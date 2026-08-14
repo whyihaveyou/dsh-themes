@@ -1,0 +1,31 @@
+{
+  "id": "zzz-soldier11",
+  "name": "绝区零 · 11号",
+  "nameEn": "ZZZ Soldier 11",
+  "author": "aionui-themes",
+  "tagline": "白昼阅兵场的白红信号旗",
+  "description": "白红士兵与护目镜的军武冷调（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "军武"
+  ],
+  "accent": "#d92f2f",
+  "bodyAttr": "data-dsh-zzz-soldier11",
+  "package": "@whyihaveyou/dsh-skin-zzz-soldier11",
+  "wiring": {
+    "id": "ui-skin-zzz-soldier11",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-soldier11/preview/light.png",
+    "dark": "skins/zzz-soldier11/preview/dark.png"
+  },
+  "order": 141,
+  "source": {
+    "aionui-themes": [
+      "zzz-soldier11-light",
+      "zzz-soldier11"
+    ]
+  }
+}

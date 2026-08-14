@@ -1,0 +1,30 @@
+{
+  "id": "nord",
+  "name": "Nord",
+  "nameEn": "Nord",
+  "author": "aionui-themes",
+  "tagline": "Snow Storm 雪原昼色，Frost 冰蓝点缀",
+  "description": "极地蓝灰夜色，Frost 冰蓝与 Aurora 极光点缀（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Nord"
+  ],
+  "accent": "#5e81ac",
+  "bodyAttr": "data-dsh-nord",
+  "package": "@whyihaveyou/dsh-skin-nord",
+  "wiring": {
+    "id": "ui-skin-nord",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/nord/preview/light.png",
+    "dark": "skins/nord/preview/dark.png"
+  },
+  "order": 60,
+  "source": {
+    "aionui-themes": [
+      "nord-light",
+      "nord"
+    ]
+  }
+}

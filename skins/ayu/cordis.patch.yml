@@ -1,0 +1,4 @@
+# ayu skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-ayu
+      name: '@whyihaveyou/dsh-skin-ayu'

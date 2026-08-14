@@ -1,0 +1,30 @@
+{
+  "id": "zzz-yixuan",
+  "name": "绝区零 · 仪玄",
+  "nameEn": "ZZZ Yixuan",
+  "author": "aionui-themes",
+  "tagline": "宣纸云白，鎏金朱砂的虚狩宗师",
+  "description": "金黑云岿，符箓朱砂的虚狩宗师（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#a87f2a",
+  "bodyAttr": "data-dsh-zzz-yixuan",
+  "package": "@whyihaveyou/dsh-skin-zzz-yixuan",
+  "wiring": {
+    "id": "ui-skin-zzz-yixuan",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-yixuan/preview/light.png",
+    "dark": "skins/zzz-yixuan/preview/dark.png"
+  },
+  "order": 148,
+  "source": {
+    "aionui-themes": [
+      "zzz-yixuan-light",
+      "zzz-yixuan"
+    ]
+  }
+}

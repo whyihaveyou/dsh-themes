@@ -1,0 +1,4 @@
+# style-dark-academia skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-dark-academia
+      name: '@whyihaveyou/dsh-skin-style-dark-academia'

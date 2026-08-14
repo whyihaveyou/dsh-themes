@@ -1,0 +1,30 @@
+{
+  "id": "solarized",
+  "name": "Solarized Light",
+  "nameEn": "Solarized",
+  "author": "aionui-themes",
+  "tagline": "米色纸底与精确Lab对比度的经典配色",
+  "description": "精确Lab对比度的深青底经典配色（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Solarized"
+  ],
+  "accent": "#268bd2",
+  "bodyAttr": "data-dsh-solarized",
+  "package": "@whyihaveyou/dsh-skin-solarized",
+  "wiring": {
+    "id": "ui-skin-solarized",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/solarized/preview/light.png",
+    "dark": "skins/solarized/preview/dark.png"
+  },
+  "order": 83,
+  "source": {
+    "aionui-themes": [
+      "solarized-light",
+      "solarized"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "style-dark-academia",
+  "name": "暗黑学术",
+  "nameEn": "Dark Academia",
+  "author": "aionui-themes",
+  "tagline": "羊皮纸晨光里的黄铜与旧皮革",
+  "description": "深棕皮革、黄铜与羊皮纸的哥特书房（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "Dark Academia"
+  ],
+  "accent": "#8a6d2f",
+  "bodyAttr": "data-dsh-style-dark-academia",
+  "package": "@whyihaveyou/dsh-skin-style-dark-academia",
+  "wiring": {
+    "id": "ui-skin-style-dark-academia",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-dark-academia/preview/light.png",
+    "dark": "skins/style-dark-academia/preview/dark.png"
+  },
+  "order": 88,
+  "source": {
+    "aionui-themes": [
+      "style-dark-academia-light",
+      "style-dark-academia"
+    ]
+  }
+}

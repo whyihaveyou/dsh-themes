@@ -1,0 +1,30 @@
+{
+  "id": "zzz-anby",
+  "name": "绝区零 · 安比",
+  "nameEn": "ZZZ Anby Demara",
+  "author": "aionui-themes",
+  "tagline": "银白浅绿，狡兔屋的清冷刀手",
+  "description": "银白浅绿入夜，狡兔屋的电光刀手（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#3f8f68",
+  "bodyAttr": "data-dsh-zzz-anby",
+  "package": "@whyihaveyou/dsh-skin-zzz-anby",
+  "wiring": {
+    "id": "ui-skin-zzz-anby",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-anby/preview/light.png",
+    "dark": "skins/zzz-anby/preview/dark.png"
+  },
+  "order": 110,
+  "source": {
+    "aionui-themes": [
+      "zzz-anby",
+      "zzz-anby-dark"
+    ]
+  }
+}

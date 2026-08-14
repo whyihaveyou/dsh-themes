@@ -1,0 +1,30 @@
+{
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "nameEn": "Gruvbox",
+  "author": "aionui-themes",
+  "tagline": "复古暖黄做旧纸底的日光模式",
+  "description": "复古暖黄做旧纸底的深夜模式（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Gruvbox"
+  ],
+  "accent": "#b57614",
+  "bodyAttr": "data-dsh-gruvbox",
+  "package": "@whyihaveyou/dsh-skin-gruvbox",
+  "wiring": {
+    "id": "ui-skin-gruvbox",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/gruvbox/preview/light.png",
+    "dark": "skins/gruvbox/preview/dark.png"
+  },
+  "order": 41,
+  "source": {
+    "aionui-themes": [
+      "gruvbox-light",
+      "gruvbox"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "zzz-zhuyuan",
+  "name": "绝区零 · 朱鸢",
+  "nameEn": "ZZZ Zhu Yuan",
+  "author": "aionui-themes",
+  "tagline": "晨光卷宗上的藏青墨与朱红绳结",
+  "description": "藏青警服与朱红绳结的治安官正气（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#c93b39",
+  "bodyAttr": "data-dsh-zzz-zhuyuan",
+  "package": "@whyihaveyou/dsh-skin-zzz-zhuyuan",
+  "wiring": {
+    "id": "ui-skin-zzz-zhuyuan",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-zhuyuan/preview/light.png",
+    "dark": "skins/zzz-zhuyuan/preview/dark.png"
+  },
+  "order": 151,
+  "source": {
+    "aionui-themes": [
+      "zzz-zhuyuan-light",
+      "zzz-zhuyuan"
+    ]
+  }
+}

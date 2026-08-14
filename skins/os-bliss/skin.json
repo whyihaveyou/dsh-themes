@@ -1,0 +1,30 @@
+{
+  "id": "os-bliss",
+  "name": "Windows XP Bliss",
+  "nameEn": "Windows XP Bliss",
+  "author": "aionui-themes",
+  "tagline": "蓝天白云绿地与 Luna 蓝主题",
+  "description": "夜幕下的 Bliss 山丘与星光（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Windows XP"
+  ],
+  "accent": "#0058e0",
+  "bodyAttr": "data-dsh-os-bliss",
+  "package": "@whyihaveyou/dsh-skin-os-bliss",
+  "wiring": {
+    "id": "ui-skin-os-bliss",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-bliss/preview/light.png",
+    "dark": "skins/os-bliss/preview/dark.png"
+  },
+  "order": 63,
+  "source": {
+    "aionui-themes": [
+      "os-bliss",
+      "os-bliss-dark"
+    ]
+  }
+}

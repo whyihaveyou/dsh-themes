@@ -1,0 +1,30 @@
+{
+  "id": "vscode-plus",
+  "name": "Light+",
+  "nameEn": "VS Code Light+",
+  "author": "aionui-themes",
+  "tagline": "Light+ 白底编辑器与经典蓝调",
+  "description": "Dark+ 深夜编辑器与蓝色状态栏（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "VS Code"
+  ],
+  "accent": "#007acc",
+  "bodyAttr": "data-dsh-vscode-plus",
+  "package": "@whyihaveyou/dsh-skin-vscode-plus",
+  "wiring": {
+    "id": "ui-skin-vscode-plus",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/vscode-plus/preview/light.png",
+    "dark": "skins/vscode-plus/preview/dark.png"
+  },
+  "order": 107,
+  "source": {
+    "aionui-themes": [
+      "vscode-plus-light",
+      "vscode-plus"
+    ]
+  }
+}

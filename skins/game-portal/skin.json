@@ -1,0 +1,30 @@
+{
+  "id": "game-portal",
+  "name": "传送门",
+  "nameEn": "Portal",
+  "author": "aionui-themes",
+  "tagline": "光圈科技白舱与橙蓝双传送门",
+  "description": "深夜实验舱里的橙蓝传送门辉光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "Portal"
+  ],
+  "accent": "#e07800",
+  "bodyAttr": "data-dsh-game-portal",
+  "package": "@whyihaveyou/dsh-skin-game-portal",
+  "wiring": {
+    "id": "ui-skin-game-portal",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-portal/preview/light.png",
+    "dark": "skins/game-portal/preview/dark.png"
+  },
+  "order": 27,
+  "source": {
+    "aionui-themes": [
+      "game-portal",
+      "game-portal-dark"
+    ]
+  }
+}

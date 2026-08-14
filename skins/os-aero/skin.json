@@ -1,0 +1,30 @@
+{
+  "id": "os-aero",
+  "name": "Windows Vista Aero",
+  "nameEn": "Windows Vista Aero Daylight",
+  "author": "aionui-themes",
+  "tagline": "白昼毛玻璃里的极光缎带",
+  "description": "黑玻璃窗框与极光绿光晕缎带（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Windows"
+  ],
+  "accent": "#2e7d38",
+  "bodyAttr": "data-dsh-os-aero",
+  "package": "@whyihaveyou/dsh-skin-os-aero",
+  "wiring": {
+    "id": "ui-skin-os-aero",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-aero/preview/light.png",
+    "dark": "skins/os-aero/preview/dark.png"
+  },
+  "order": 62,
+  "source": {
+    "aionui-themes": [
+      "os-aero-light",
+      "os-aero"
+    ]
+  }
+}

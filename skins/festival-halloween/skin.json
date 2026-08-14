@@ -1,0 +1,30 @@
+{
+  "id": "festival-halloween",
+  "name": "万圣节",
+  "nameEn": "Halloween",
+  "author": "aionui-themes",
+  "tagline": "白昼糖果色的南瓜与蝙蝠巡游",
+  "description": "南瓜灯、蝙蝠与鬼火的紫夜狂欢（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "万圣节"
+  ],
+  "accent": "#c2571a",
+  "bodyAttr": "data-dsh-festival-halloween",
+  "package": "@whyihaveyou/dsh-skin-festival-halloween",
+  "wiring": {
+    "id": "ui-skin-festival-halloween",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-halloween/preview/light.png",
+    "dark": "skins/festival-halloween/preview/dark.png"
+  },
+  "order": 11,
+  "source": {
+    "aionui-themes": [
+      "festival-halloween-light",
+      "festival-halloween"
+    ]
+  }
+}

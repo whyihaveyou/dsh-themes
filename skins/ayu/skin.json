@@ -1,0 +1,30 @@
+{
+  "id": "ayu",
+  "name": "Ayu Light",
+  "nameEn": "Ayu",
+  "author": "aionui-themes",
+  "tagline": "Ayu 官方 Light 版，净白暖橙",
+  "description": "Ayu 官方 Mirage 版，暖橙夜色（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Ayu"
+  ],
+  "accent": "#F29718",
+  "bodyAttr": "data-dsh-ayu",
+  "package": "@whyihaveyou/dsh-skin-ayu",
+  "wiring": {
+    "id": "ui-skin-ayu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/ayu/preview/light.png",
+    "dark": "skins/ayu/preview/dark.png"
+  },
+  "order": 1,
+  "source": {
+    "aionui-themes": [
+      "ayu-light",
+      "ayu"
+    ]
+  }
+}

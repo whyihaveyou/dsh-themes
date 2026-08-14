@@ -1,0 +1,30 @@
+{
+  "id": "palenight",
+  "name": "Material Theme Lighter",
+  "nameEn": "Material Theme Lighter",
+  "author": "aionui-themes",
+  "tagline": "紫调浅昼，Lighter 官方色板",
+  "description": "紫灰夜幕下的 Material 经典（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Material Theme"
+  ],
+  "accent": "#9c3eda",
+  "bodyAttr": "data-dsh-palenight",
+  "package": "@whyihaveyou/dsh-skin-palenight",
+  "wiring": {
+    "id": "ui-skin-palenight",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/palenight/preview/light.png",
+    "dark": "skins/palenight/preview/dark.png"
+  },
+  "order": 72,
+  "source": {
+    "aionui-themes": [
+      "palenight-light",
+      "palenight"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-ganyu",
+  "name": "原神 · 甘雨",
+  "nameEn": "Genshin Ganyu",
+  "author": "aionui-themes",
+  "tagline": "冰蓝麒麟的云海与清心",
+  "description": "夜幕云海间的冰麟微光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#3e7cb0",
+  "bodyAttr": "data-dsh-genshin-ganyu",
+  "package": "@whyihaveyou/dsh-skin-genshin-ganyu",
+  "wiring": {
+    "id": "ui-skin-genshin-ganyu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-ganyu/preview/light.png",
+    "dark": "skins/genshin-ganyu/preview/dark.png"
+  },
+  "order": 32,
+  "source": {
+    "aionui-themes": [
+      "genshin-ganyu",
+      "genshin-ganyu-dark"
+    ]
+  }
+}

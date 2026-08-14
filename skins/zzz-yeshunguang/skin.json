@@ -1,0 +1,31 @@
+{
+  "id": "zzz-yeshunguang",
+  "name": "绝区零 · 叶瞬光",
+  "nameEn": "ZZZ Ye Shunguang",
+  "author": "aionui-themes",
+  "tagline": "白昼楼群间的红绫与银青剑光",
+  "description": "青溟剑主的红绫与银青剑光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "虚狩"
+  ],
+  "accent": "#c22f34",
+  "bodyAttr": "data-dsh-zzz-yeshunguang",
+  "package": "@whyihaveyou/dsh-skin-zzz-yeshunguang",
+  "wiring": {
+    "id": "ui-skin-zzz-yeshunguang",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-yeshunguang/preview/light.png",
+    "dark": "skins/zzz-yeshunguang/preview/dark.png"
+  },
+  "order": 146,
+  "source": {
+    "aionui-themes": [
+      "zzz-yeshunguang-light",
+      "zzz-yeshunguang"
+    ]
+  }
+}

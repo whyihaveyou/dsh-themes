@@ -1,0 +1,30 @@
+{
+  "id": "hsr-march7",
+  "name": "崩坏星穹铁道 · 三月七",
+  "nameEn": "HSR March 7th",
+  "author": "aionui-themes",
+  "tagline": "粉蓝相机与冰晶的元气少女",
+  "description": "星夜冰晶里的粉发快门少女（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#d0448c",
+  "bodyAttr": "data-dsh-hsr-march7",
+  "package": "@whyihaveyou/dsh-skin-hsr-march7",
+  "wiring": {
+    "id": "ui-skin-hsr-march7",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-march7/preview/light.png",
+    "dark": "skins/hsr-march7/preview/dark.png"
+  },
+  "order": 47,
+  "source": {
+    "aionui-themes": [
+      "hsr-march7",
+      "hsr-march7-dark"
+    ]
+  }
+}

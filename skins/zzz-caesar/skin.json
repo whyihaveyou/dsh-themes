@@ -1,0 +1,30 @@
+{
+  "id": "zzz-caesar",
+  "name": "绝区零 · 凯撒",
+  "nameEn": "ZZZ Caesar King",
+  "author": "aionui-themes",
+  "tagline": "红黑机车霸主，披风燃于正午荒原",
+  "description": "红黑机车霸主，火焰披风燃夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#c2241a",
+  "bodyAttr": "data-dsh-zzz-caesar",
+  "package": "@whyihaveyou/dsh-skin-zzz-caesar",
+  "wiring": {
+    "id": "ui-skin-zzz-caesar",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-caesar/preview/light.png",
+    "dark": "skins/zzz-caesar/preview/dark.png"
+  },
+  "order": 117,
+  "source": {
+    "aionui-themes": [
+      "zzz-caesar-light",
+      "zzz-caesar"
+    ]
+  }
+}

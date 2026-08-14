@@ -1,0 +1,31 @@
+{
+  "id": "zzz-anton",
+  "name": "绝区零 · 安东",
+  "nameEn": "ZZZ Anton Ivanov",
+  "author": "aionui-themes",
+  "tagline": "白祇重工蓝白工装，钻头兄弟热血轰鸣",
+  "description": "深夜工地的白祇蓝，焊花在墨色钢板上明灭（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "热血"
+  ],
+  "accent": "#2456d6",
+  "bodyAttr": "data-dsh-zzz-anton",
+  "package": "@whyihaveyou/dsh-skin-zzz-anton",
+  "wiring": {
+    "id": "ui-skin-zzz-anton",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-anton/preview/light.png",
+    "dark": "skins/zzz-anton/preview/dark.png"
+  },
+  "order": 111,
+  "source": {
+    "aionui-themes": [
+      "zzz-anton",
+      "zzz-anton-dark"
+    ]
+  }
+}

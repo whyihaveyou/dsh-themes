@@ -1,0 +1,30 @@
+{
+  "id": "github",
+  "name": "GitHub Light",
+  "nameEn": "GitHub",
+  "author": "aionui-themes",
+  "tagline": "GitHub 官方浅色，白底蓝链与贡献格绿",
+  "description": "GitHub 官方深色，深夜蓝黑与贡献格绿（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "GitHub"
+  ],
+  "accent": "#0969da",
+  "bodyAttr": "data-dsh-github",
+  "package": "@whyihaveyou/dsh-skin-github",
+  "wiring": {
+    "id": "ui-skin-github",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/github/preview/light.png",
+    "dark": "skins/github/preview/dark.png"
+  },
+  "order": 40,
+  "source": {
+    "aionui-themes": [
+      "github-light",
+      "github-dark"
+    ]
+  }
+}

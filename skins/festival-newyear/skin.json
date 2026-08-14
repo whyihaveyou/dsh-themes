@@ -1,0 +1,29 @@
+{
+  "id": "festival-newyear",
+  "name": "跨年夜",
+  "nameEn": "Festival New Year's Eve",
+  "author": "aionui-themes",
+  "tagline": "香槟白昼里的烟花碎金与倒数",
+  "description": "午夜蓝下的烟花与香槟金倒计时（含昼夜双模式）",
+  "tags": [
+    "节日限定"
+  ],
+  "accent": "#a87b1f",
+  "bodyAttr": "data-dsh-festival-newyear",
+  "package": "@whyihaveyou/dsh-skin-festival-newyear",
+  "wiring": {
+    "id": "ui-skin-festival-newyear",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-newyear/preview/light.png",
+    "dark": "skins/festival-newyear/preview/dark.png"
+  },
+  "order": 14,
+  "source": {
+    "aionui-themes": [
+      "festival-newyear-light",
+      "festival-newyear"
+    ]
+  }
+}

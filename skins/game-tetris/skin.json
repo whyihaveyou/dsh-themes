@@ -1,0 +1,30 @@
+{
+  "id": "game-tetris",
+  "name": "俄罗斯方块",
+  "nameEn": "Tetris",
+  "author": "aionui-themes",
+  "tagline": "白昼竞技场上的七彩像素方块",
+  "description": "七彩四格方块的深夜霓虹堆叠（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "俄罗斯方块"
+  ],
+  "accent": "#1488c0",
+  "bodyAttr": "data-dsh-game-tetris",
+  "package": "@whyihaveyou/dsh-skin-game-tetris",
+  "wiring": {
+    "id": "ui-skin-game-tetris",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-tetris/preview/light.png",
+    "dark": "skins/game-tetris/preview/dark.png"
+  },
+  "order": 29,
+  "source": {
+    "aionui-themes": [
+      "game-tetris-light",
+      "game-tetris"
+    ]
+  }
+}

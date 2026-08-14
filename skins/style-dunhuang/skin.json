@@ -1,0 +1,30 @@
+{
+  "id": "style-dunhuang",
+  "name": "敦煌壁画",
+  "nameEn": "Dunhuang Murals Daylight",
+  "author": "aionui-themes",
+  "tagline": "赭石石绿石青，飞天藻井千年壁色",
+  "description": "赭石石绿石青，飞天藻井千年壁色（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "敦煌"
+  ],
+  "accent": "#a85e1f",
+  "bodyAttr": "data-dsh-style-dunhuang",
+  "package": "@whyihaveyou/dsh-skin-style-dunhuang",
+  "wiring": {
+    "id": "ui-skin-style-dunhuang",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-dunhuang/preview/light.png",
+    "dark": "skins/style-dunhuang/preview/dark.png"
+  },
+  "order": 90,
+  "source": {
+    "aionui-themes": [
+      "style-dunhuang-light",
+      "style-dunhuang"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "zzz-orphie",
+  "name": "绝区零 · 奥菲丝",
+  "nameEn": "ZZZ Orphie & Magus",
+  "author": "aionui-themes",
+  "tagline": "白昼军服上的焰橙与晴空磷火",
+  "description": "鬼火尾刃与橙发的暗夜军服（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d95410",
+  "bodyAttr": "data-dsh-zzz-orphie",
+  "package": "@whyihaveyou/dsh-skin-zzz-orphie",
+  "wiring": {
+    "id": "ui-skin-zzz-orphie",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-orphie/preview/light.png",
+    "dark": "skins/zzz-orphie/preview/dark.png"
+  },
+  "order": 133,
+  "source": {
+    "aionui-themes": [
+      "zzz-orphie-light",
+      "zzz-orphie"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "zzz-jane",
+  "name": "绝区零 · 简",
+  "nameEn": "ZZZ Jane Doe",
+  "author": "aionui-themes",
+  "tagline": "鼠希人灰粉与白昼刑侦暖灰调",
+  "description": "鼠希人灰粉与暗夜潜行冷灰调（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#c25d7e",
+  "bodyAttr": "data-dsh-zzz-jane",
+  "package": "@whyihaveyou/dsh-skin-zzz-jane",
+  "wiring": {
+    "id": "ui-skin-zzz-jane",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-jane/preview/light.png",
+    "dark": "skins/zzz-jane/preview/dark.png"
+  },
+  "order": 124,
+  "source": {
+    "aionui-themes": [
+      "zzz-jane-light",
+      "zzz-jane"
+    ]
+  }
+}

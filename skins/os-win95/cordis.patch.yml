@@ -1,0 +1,4 @@
+# os-win95 skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-os-win95
+      name: '@whyihaveyou/dsh-skin-os-win95'

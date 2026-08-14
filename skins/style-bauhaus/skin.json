@@ -1,0 +1,31 @@
+{
+  "id": "style-bauhaus",
+  "name": "包豪斯 Bauhaus",
+  "nameEn": "Bauhaus",
+  "author": "aionui-themes",
+  "tagline": "红黄蓝三原色，圆方三角的理性构成",
+  "description": "红黄蓝三原色，圆方三角的理性构成（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "包豪斯",
+    "几何"
+  ],
+  "accent": "#d22630",
+  "bodyAttr": "data-dsh-style-bauhaus",
+  "package": "@whyihaveyou/dsh-skin-style-bauhaus",
+  "wiring": {
+    "id": "ui-skin-style-bauhaus",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-bauhaus/preview/light.png",
+    "dark": "skins/style-bauhaus/preview/dark.png"
+  },
+  "order": 86,
+  "source": {
+    "aionui-themes": [
+      "style-bauhaus",
+      "style-bauhaus-dark"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "zzz-vivian",
+  "name": "绝区零 · 薇薇安",
+  "nameEn": "ZZZ Vivian Banshee",
+  "author": "aionui-themes",
+  "tagline": "晨光下的紫罗兰花园",
+  "description": "紫罗兰哥特裙与夜色花园（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "哥特"
+  ],
+  "accent": "#7e4ec2",
+  "bodyAttr": "data-dsh-zzz-vivian",
+  "package": "@whyihaveyou/dsh-skin-zzz-vivian",
+  "wiring": {
+    "id": "ui-skin-zzz-vivian",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-vivian/preview/light.png",
+    "dark": "skins/zzz-vivian/preview/dark.png"
+  },
+  "order": 144,
+  "source": {
+    "aionui-themes": [
+      "zzz-vivian-light",
+      "zzz-vivian"
+    ]
+  }
+}

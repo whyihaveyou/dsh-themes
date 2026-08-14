@@ -1,0 +1,30 @@
+{
+  "id": "night-owl",
+  "name": "Night Owl Light",
+  "nameEn": "Night Owl",
+  "author": "aionui-themes",
+  "tagline": "Light Owl 白日版，清爽蓝青",
+  "description": "深夜蓝底，为夜猫子而生（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Night Owl"
+  ],
+  "accent": "#2AA298",
+  "bodyAttr": "data-dsh-night-owl",
+  "package": "@whyihaveyou/dsh-skin-night-owl",
+  "wiring": {
+    "id": "ui-skin-night-owl",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/night-owl/preview/light.png",
+    "dark": "skins/night-owl/preview/dark.png"
+  },
+  "order": 59,
+  "source": {
+    "aionui-themes": [
+      "night-owl-light",
+      "night-owl"
+    ]
+  }
+}

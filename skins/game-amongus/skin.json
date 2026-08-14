@@ -1,0 +1,30 @@
+{
+  "id": "game-amongus",
+  "name": "Among Us",
+  "nameEn": "Among Us",
+  "author": "aionui-themes",
+  "tagline": "飞船食堂晨光里的红色船员",
+  "description": "红色船员在太空舱里做任务（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "Among Us"
+  ],
+  "accent": "#b30f0f",
+  "bodyAttr": "data-dsh-game-amongus",
+  "package": "@whyihaveyou/dsh-skin-game-amongus",
+  "wiring": {
+    "id": "ui-skin-game-amongus",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-amongus/preview/light.png",
+    "dark": "skins/game-amongus/preview/dark.png"
+  },
+  "order": 20,
+  "source": {
+    "aionui-themes": [
+      "game-amongus-light",
+      "game-amongus"
+    ]
+  }
+}

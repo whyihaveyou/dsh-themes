@@ -1,0 +1,29 @@
+{
+  "id": "festival-valentine",
+  "name": "情人节",
+  "nameEn": "Valentine's",
+  "author": "aionui-themes",
+  "tagline": "玫瑰红粉、爱心挂串与情书火漆",
+  "description": "夜色玫瑰、烛光爱心与火漆情书（含昼夜双模式）",
+  "tags": [
+    "节日限定"
+  ],
+  "accent": "#d6336c",
+  "bodyAttr": "data-dsh-festival-valentine",
+  "package": "@whyihaveyou/dsh-skin-festival-valentine",
+  "wiring": {
+    "id": "ui-skin-festival-valentine",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-valentine/preview/light.png",
+    "dark": "skins/festival-valentine/preview/dark.png"
+  },
+  "order": 18,
+  "source": {
+    "aionui-themes": [
+      "festival-valentine",
+      "festival-valentine-dark"
+    ]
+  }
+}

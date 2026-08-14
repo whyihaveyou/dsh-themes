@@ -1,0 +1,30 @@
+{
+  "id": "zzz-banyue",
+  "name": "绝区零 · 般岳",
+  "nameEn": "ZZZ Banyue",
+  "author": "aionui-themes",
+  "tagline": "云岿山晨光里的命破烈焰",
+  "description": "云岿山夜色中的命破烈焰（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#e06412",
+  "bodyAttr": "data-dsh-zzz-banyue",
+  "package": "@whyihaveyou/dsh-skin-zzz-banyue",
+  "wiring": {
+    "id": "ui-skin-zzz-banyue",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-banyue/preview/light.png",
+    "dark": "skins/zzz-banyue/preview/dark.png"
+  },
+  "order": 113,
+  "source": {
+    "aionui-themes": [
+      "zzz-banyue-light",
+      "zzz-banyue"
+    ]
+  }
+}

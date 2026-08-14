@@ -1,0 +1,4 @@
+# zzz-burnice skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-zzz-burnice
+      name: '@whyihaveyou/dsh-skin-zzz-burnice'

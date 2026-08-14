@@ -1,0 +1,31 @@
+{
+  "id": "zzz-piper",
+  "name": "绝区零 · 派派",
+  "nameEn": "ZZZ Piper Wheel",
+  "author": "aionui-themes",
+  "tagline": "沙漠黄昏黄与卡车工装的慵懒公路",
+  "description": "夜色公路与车灯琥珀的慵懒巡航（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "公路"
+  ],
+  "accent": "#e09a2a",
+  "bodyAttr": "data-dsh-zzz-piper",
+  "package": "@whyihaveyou/dsh-skin-zzz-piper",
+  "wiring": {
+    "id": "ui-skin-zzz-piper",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-piper/preview/light.png",
+    "dark": "skins/zzz-piper/preview/dark.png"
+  },
+  "order": 135,
+  "source": {
+    "aionui-themes": [
+      "zzz-piper",
+      "zzz-piper-dark"
+    ]
+  }
+}

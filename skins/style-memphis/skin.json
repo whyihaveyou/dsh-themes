@@ -1,0 +1,30 @@
+{
+  "id": "style-memphis",
+  "name": "孟菲斯 Memphis",
+  "nameEn": "Memphis Design",
+  "author": "aionui-themes",
+  "tagline": "80年代撞色几何与波浪锯齿",
+  "description": "80年代撞色几何的深夜舞池（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "孟菲斯"
+  ],
+  "accent": "#e6007e",
+  "bodyAttr": "data-dsh-style-memphis",
+  "package": "@whyihaveyou/dsh-skin-style-memphis",
+  "wiring": {
+    "id": "ui-skin-style-memphis",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-memphis/preview/light.png",
+    "dark": "skins/style-memphis/preview/dark.png"
+  },
+  "order": 96,
+  "source": {
+    "aionui-themes": [
+      "style-memphis",
+      "style-memphis-dark"
+    ]
+  }
+}

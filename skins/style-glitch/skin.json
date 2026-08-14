@@ -1,0 +1,30 @@
+{
+  "id": "style-glitch",
+  "name": "故障艺术 Glitch",
+  "nameEn": "Glitch Art",
+  "author": "aionui-themes",
+  "tagline": "白昼信号干扰下的色散崩坏",
+  "description": "RGB色散与信号噪点的数字崩坏（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "故障艺术"
+  ],
+  "accent": "#c4005a",
+  "bodyAttr": "data-dsh-style-glitch",
+  "package": "@whyihaveyou/dsh-skin-style-glitch",
+  "wiring": {
+    "id": "ui-skin-style-glitch",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-glitch/preview/light.png",
+    "dark": "skins/style-glitch/preview/dark.png"
+  },
+  "order": 93,
+  "source": {
+    "aionui-themes": [
+      "style-glitch-light",
+      "style-glitch"
+    ]
+  }
+}

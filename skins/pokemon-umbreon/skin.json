@@ -1,0 +1,30 @@
+{
+  "id": "pokemon-umbreon",
+  "name": "宝可梦 · 月亮伊布",
+  "nameEn": "Pokémon Umbreon",
+  "author": "aionui-themes",
+  "tagline": "月光晒成的暖金清晨",
+  "description": "黑金光环的月夜行者（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#a17707",
+  "bodyAttr": "data-dsh-pokemon-umbreon",
+  "package": "@whyihaveyou/dsh-skin-pokemon-umbreon",
+  "wiring": {
+    "id": "ui-skin-pokemon-umbreon",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-umbreon/preview/light.png",
+    "dark": "skins/pokemon-umbreon/preview/dark.png"
+  },
+  "order": 80,
+  "source": {
+    "aionui-themes": [
+      "pokemon-umbreon-light",
+      "pokemon-umbreon"
+    ]
+  }
+}

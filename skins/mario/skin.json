@@ -1,0 +1,30 @@
+{
+  "id": "mario",
+  "name": "超级马里奥",
+  "nameEn": "Super Mario",
+  "author": "aionui-themes",
+  "tagline": "帽衫红、工装蓝与金币黄的蘑菇王国",
+  "description": "夜幕蘑菇王国的红帽与金币辉光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "任天堂"
+  ],
+  "accent": "#e52521",
+  "bodyAttr": "data-dsh-mario",
+  "package": "@whyihaveyou/dsh-skin-mario",
+  "wiring": {
+    "id": "ui-skin-mario",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario/preview/light.png",
+    "dark": "skins/mario/preview/dark.png"
+  },
+  "order": 51,
+  "source": {
+    "aionui-themes": [
+      "mario",
+      "mario-dark"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "festival-dragonboat",
+  "name": "端午",
+  "nameEn": "Dragon Boat Festival",
+  "author": "aionui-themes",
+  "tagline": "艾草绿粽叶香，龙舟红漆竞渡忙",
+  "description": "夜泊汨罗，灯影龙舟映江波（含昼夜双模式）",
+  "tags": [
+    "节日限定"
+  ],
+  "accent": "#2e7d4f",
+  "bodyAttr": "data-dsh-festival-dragonboat",
+  "package": "@whyihaveyou/dsh-skin-festival-dragonboat",
+  "wiring": {
+    "id": "ui-skin-festival-dragonboat",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-dragonboat/preview/light.png",
+    "dark": "skins/festival-dragonboat/preview/dark.png"
+  },
+  "order": 10,
+  "source": {
+    "aionui-themes": [
+      "festival-dragonboat",
+      "festival-dragonboat-dark"
+    ]
+  }
+}

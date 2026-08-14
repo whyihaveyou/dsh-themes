@@ -1,0 +1,30 @@
+{
+  "id": "donald-duck",
+  "name": "唐老鸭",
+  "nameEn": "Donald Duck",
+  "author": "aionui-themes",
+  "tagline": "水手蓝帽衫配黄嘴红领结的海军风",
+  "description": "深夜甲板上水手蓝衫映着黄嘴红领结（含昼夜双模式）",
+  "tags": [
+    "动画",
+    "迪士尼"
+  ],
+  "accent": "#1a3a8f",
+  "bodyAttr": "data-dsh-donald-duck",
+  "package": "@whyihaveyou/dsh-skin-donald-duck",
+  "wiring": {
+    "id": "ui-skin-donald-duck",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/donald-duck/preview/light.png",
+    "dark": "skins/donald-duck/preview/dark.png"
+  },
+  "order": 4,
+  "source": {
+    "aionui-themes": [
+      "donald-duck",
+      "donald-duck-dark"
+    ]
+  }
+}

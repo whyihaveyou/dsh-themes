@@ -1,0 +1,30 @@
+{
+  "id": "style-macaron",
+  "name": "马卡龙 Macaron",
+  "nameEn": "Macaron Pastel",
+  "author": "aionui-themes",
+  "tagline": "法式甜点粉彩，薄荷粉蓝柠檬",
+  "description": "可可夜色里的法式粉彩甜点（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "马卡龙"
+  ],
+  "accent": "#d75a8a",
+  "bodyAttr": "data-dsh-style-macaron",
+  "package": "@whyihaveyou/dsh-skin-style-macaron",
+  "wiring": {
+    "id": "ui-skin-style-macaron",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-macaron/preview/light.png",
+    "dark": "skins/style-macaron/preview/dark.png"
+  },
+  "order": 95,
+  "source": {
+    "aionui-themes": [
+      "style-macaron",
+      "style-macaron-dark"
+    ]
+  }
+}

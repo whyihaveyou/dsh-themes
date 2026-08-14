@@ -1,0 +1,30 @@
+{
+  "id": "catppuccin",
+  "name": "Catppuccin Latte",
+  "nameEn": "Catppuccin Latte",
+  "author": "aionui-themes",
+  "tagline": "Latte 晨光奶咖，Mauve 马卡龙紫",
+  "description": "Mocha 深夜咖啡，Mauve 马卡龙紫（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Catppuccin"
+  ],
+  "accent": "#8839ef",
+  "bodyAttr": "data-dsh-catppuccin",
+  "package": "@whyihaveyou/dsh-skin-catppuccin",
+  "wiring": {
+    "id": "ui-skin-catppuccin",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/catppuccin/preview/light.png",
+    "dark": "skins/catppuccin/preview/dark.png"
+  },
+  "order": 2,
+  "source": {
+    "aionui-themes": [
+      "catppuccin-latte",
+      "catppuccin-mocha"
+    ]
+  }
+}

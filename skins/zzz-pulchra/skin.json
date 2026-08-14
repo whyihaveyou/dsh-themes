@@ -1,0 +1,30 @@
+{
+  "id": "zzz-pulchra",
+  "name": "绝区零 · 波可娜",
+  "nameEn": "ZZZ Pulchra",
+  "author": "aionui-themes",
+  "tagline": "黄黑虎纹的元气佣兵大猫",
+  "description": "夜巡虎猫的墨底琥珀微光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#f0a500",
+  "bodyAttr": "data-dsh-zzz-pulchra",
+  "package": "@whyihaveyou/dsh-skin-zzz-pulchra",
+  "wiring": {
+    "id": "ui-skin-zzz-pulchra",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-pulchra/preview/light.png",
+    "dark": "skins/zzz-pulchra/preview/dark.png"
+  },
+  "order": 136,
+  "source": {
+    "aionui-themes": [
+      "zzz-pulchra",
+      "zzz-pulchra-dark"
+    ]
+  }
+}

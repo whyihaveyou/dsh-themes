@@ -1,0 +1,4 @@
+# mario-peach skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-mario-peach
+      name: '@whyihaveyou/dsh-skin-mario-peach'

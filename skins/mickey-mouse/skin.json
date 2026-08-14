@@ -1,0 +1,30 @@
+{
+  "id": "mickey-mouse",
+  "name": "米老鼠",
+  "nameEn": "Mickey Mouse",
+  "author": "aionui-themes",
+  "tagline": "红短裤黑圆耳黄鞋的复古胶片",
+  "description": "午夜影院里的红短裤黑圆耳（含昼夜双模式）",
+  "tags": [
+    "动画",
+    "迪士尼"
+  ],
+  "accent": "#d92323",
+  "bodyAttr": "data-dsh-mickey-mouse",
+  "package": "@whyihaveyou/dsh-skin-mickey-mouse",
+  "wiring": {
+    "id": "ui-skin-mickey-mouse",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mickey-mouse/preview/light.png",
+    "dark": "skins/mickey-mouse/preview/dark.png"
+  },
+  "order": 57,
+  "source": {
+    "aionui-themes": [
+      "mickey-mouse",
+      "mickey-mouse-dark"
+    ]
+  }
+}

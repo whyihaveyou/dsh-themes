@@ -1,0 +1,31 @@
+{
+  "id": "zelda-link",
+  "name": "塞尔达传说 · 林克",
+  "nameEn": "Zelda Link",
+  "author": "aionui-themes",
+  "tagline": "海利亚绿、大师剑蓝与三角力量金",
+  "description": "深夜海拉鲁：剑光蓝与三角力量金映海利亚绿（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "任天堂",
+    "塞尔达传说"
+  ],
+  "accent": "#3d8a3f",
+  "bodyAttr": "data-dsh-zelda-link",
+  "package": "@whyihaveyou/dsh-skin-zelda-link",
+  "wiring": {
+    "id": "ui-skin-zelda-link",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zelda-link/preview/light.png",
+    "dark": "skins/zelda-link/preview/dark.png"
+  },
+  "order": 108,
+  "source": {
+    "aionui-themes": [
+      "zelda-link",
+      "zelda-link-dark"
+    ]
+  }
+}

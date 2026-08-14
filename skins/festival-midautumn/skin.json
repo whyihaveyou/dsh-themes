@@ -1,0 +1,29 @@
+{
+  "id": "festival-midautumn",
+  "name": "中秋",
+  "nameEn": "Mid-Autumn Festival",
+  "author": "aionui-themes",
+  "tagline": "白昼桂香米纸色，金月玉兔照旧圆",
+  "description": "圆月金辉桂香夜，玉兔月饼共团圆（含昼夜双模式）",
+  "tags": [
+    "节日限定"
+  ],
+  "accent": "#a87b16",
+  "bodyAttr": "data-dsh-festival-midautumn",
+  "package": "@whyihaveyou/dsh-skin-festival-midautumn",
+  "wiring": {
+    "id": "ui-skin-festival-midautumn",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-midautumn/preview/light.png",
+    "dark": "skins/festival-midautumn/preview/dark.png"
+  },
+  "order": 13,
+  "source": {
+    "aionui-themes": [
+      "festival-midautumn-light",
+      "festival-midautumn"
+    ]
+  }
+}

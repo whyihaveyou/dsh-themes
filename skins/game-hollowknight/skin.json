@@ -1,0 +1,30 @@
+{
+  "id": "game-hollowknight",
+  "name": "空洞骑士",
+  "nameEn": "Hollow Knight ·",
+  "author": "aionui-themes",
+  "tagline": "圣巢晨雾中的小骑士面具",
+  "description": "黑白小骑士面具与梦之钉微光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "空洞骑士"
+  ],
+  "accent": "#35608f",
+  "bodyAttr": "data-dsh-game-hollowknight",
+  "package": "@whyihaveyou/dsh-skin-game-hollowknight",
+  "wiring": {
+    "id": "ui-skin-game-hollowknight",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-hollowknight/preview/light.png",
+    "dark": "skins/game-hollowknight/preview/dark.png"
+  },
+  "order": 24,
+  "source": {
+    "aionui-themes": [
+      "game-hollowknight-light",
+      "game-hollowknight"
+    ]
+  }
+}

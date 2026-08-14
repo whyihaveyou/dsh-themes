@@ -1,0 +1,31 @@
+{
+  "id": "zzz-yanagi",
+  "name": "绝区零 · 月城柳",
+  "nameEn": "ZZZ Tsukishiro Yanagi",
+  "author": "aionui-themes",
+  "tagline": "粉紫发丝与紫瞳的六课副课长",
+  "description": "粉紫发丝没入夜色，紫瞳映着刀光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "粉紫"
+  ],
+  "accent": "#c26ba8",
+  "bodyAttr": "data-dsh-zzz-yanagi",
+  "package": "@whyihaveyou/dsh-skin-zzz-yanagi",
+  "wiring": {
+    "id": "ui-skin-zzz-yanagi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-yanagi/preview/light.png",
+    "dark": "skins/zzz-yanagi/preview/dark.png"
+  },
+  "order": 145,
+  "source": {
+    "aionui-themes": [
+      "zzz-yanagi",
+      "zzz-yanagi-dark"
+    ]
+  }
+}

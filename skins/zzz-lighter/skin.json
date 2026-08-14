@@ -1,0 +1,30 @@
+{
+  "id": "zzz-lighter",
+  "name": "绝区零 · 莱特",
+  "nameEn": "ZZZ Lighter",
+  "author": "aionui-themes",
+  "tagline": "白昼擂台上的赤红金拳冠军",
+  "description": "赤红围巾与金拳套的常胜冠军（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d62e20",
+  "bodyAttr": "data-dsh-zzz-lighter",
+  "package": "@whyihaveyou/dsh-skin-zzz-lighter",
+  "wiring": {
+    "id": "ui-skin-zzz-lighter",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-lighter/preview/light.png",
+    "dark": "skins/zzz-lighter/preview/dark.png"
+  },
+  "order": 127,
+  "source": {
+    "aionui-themes": [
+      "zzz-lighter-light",
+      "zzz-lighter"
+    ]
+  }
+}

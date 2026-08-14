@@ -1,0 +1,30 @@
+{
+  "id": "festival-qixi",
+  "name": "七夕",
+  "nameEn": "Qixi Festival",
+  "author": "aionui-themes",
+  "tagline": "晨光里的红线与鹊桥余韵",
+  "description": "银河鹊桥会，一线系牵牛（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "七夕"
+  ],
+  "accent": "#b02740",
+  "bodyAttr": "data-dsh-festival-qixi",
+  "package": "@whyihaveyou/dsh-skin-festival-qixi",
+  "wiring": {
+    "id": "ui-skin-festival-qixi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-qixi/preview/light.png",
+    "dark": "skins/festival-qixi/preview/dark.png"
+  },
+  "order": 15,
+  "source": {
+    "aionui-themes": [
+      "festival-qixi-light",
+      "festival-qixi"
+    ]
+  }
+}

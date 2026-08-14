@@ -1,0 +1,4 @@
+# hsr-march7 skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-hsr-march7
+      name: '@whyihaveyou/dsh-skin-hsr-march7'

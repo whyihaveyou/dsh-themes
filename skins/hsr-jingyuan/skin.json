@@ -1,0 +1,30 @@
+{
+  "id": "hsr-jingyuan",
+  "name": "崩坏星穹铁道 · 景元",
+  "nameEn": "HSR Jing Yuan",
+  "author": "aionui-themes",
+  "tagline": "白金神君的雷霆棋局",
+  "description": "夜幕罗浮上的金雷棋局（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#9c7408",
+  "bodyAttr": "data-dsh-hsr-jingyuan",
+  "package": "@whyihaveyou/dsh-skin-hsr-jingyuan",
+  "wiring": {
+    "id": "ui-skin-hsr-jingyuan",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-jingyuan/preview/light.png",
+    "dark": "skins/hsr-jingyuan/preview/dark.png"
+  },
+  "order": 45,
+  "source": {
+    "aionui-themes": [
+      "hsr-jingyuan",
+      "hsr-jingyuan-dark"
+    ]
+  }
+}

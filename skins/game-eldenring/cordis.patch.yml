@@ -1,0 +1,4 @@
+# game-eldenring skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-game-eldenring
+      name: '@whyihaveyou/dsh-skin-game-eldenring'

@@ -1,0 +1,30 @@
+{
+  "id": "os-macos-aqua",
+  "name": "macOS Aqua",
+  "nameEn": "macOS Aqua",
+  "author": "aionui-themes",
+  "tagline": "千禧年水蓝凝胶与拉丝金属",
+  "description": "夜幕下的水蓝凝胶与石墨金属（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "macOS"
+  ],
+  "accent": "#0a7edb",
+  "bodyAttr": "data-dsh-os-macos-aqua",
+  "package": "@whyihaveyou/dsh-skin-os-macos-aqua",
+  "wiring": {
+    "id": "ui-skin-os-macos-aqua",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-macos-aqua/preview/light.png",
+    "dark": "skins/os-macos-aqua/preview/dark.png"
+  },
+  "order": 68,
+  "source": {
+    "aionui-themes": [
+      "os-macos-aqua",
+      "os-macos-aqua-dark"
+    ]
+  }
+}

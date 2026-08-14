@@ -1,0 +1,30 @@
+{
+  "id": "zzz-hugo",
+  "name": "绝区零 · 雨果",
+  "nameEn": "ZZZ Hugo Vlad",
+  "author": "aionui-themes",
+  "tagline": "白昼怪盗的冰蓝信笺与扑克绯红",
+  "description": "反舌鸟怪盗的冰蓝与扑克绯红（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#3f63c6",
+  "bodyAttr": "data-dsh-zzz-hugo",
+  "package": "@whyihaveyou/dsh-skin-zzz-hugo",
+  "wiring": {
+    "id": "ui-skin-zzz-hugo",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-hugo/preview/light.png",
+    "dark": "skins/zzz-hugo/preview/dark.png"
+  },
+  "order": 123,
+  "source": {
+    "aionui-themes": [
+      "zzz-hugo-light",
+      "zzz-hugo"
+    ]
+  }
+}

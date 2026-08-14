@@ -1,0 +1,30 @@
+{
+  "id": "os-ios",
+  "name": "iOS",
+  "nameEn": "iOS",
+  "author": "aionui-themes",
+  "tagline": "系统蓝毛玻璃与灵动岛",
+  "description": "深色模式纯黑与夜间蓝（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "iOS"
+  ],
+  "accent": "#007aff",
+  "bodyAttr": "data-dsh-os-ios",
+  "package": "@whyihaveyou/dsh-skin-os-ios",
+  "wiring": {
+    "id": "ui-skin-os-ios",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-ios/preview/light.png",
+    "dark": "skins/os-ios/preview/dark.png"
+  },
+  "order": 66,
+  "source": {
+    "aionui-themes": [
+      "os-ios",
+      "os-ios-dark"
+    ]
+  }
+}

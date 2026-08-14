@@ -1,0 +1,30 @@
+{
+  "id": "pokemon-charizard",
+  "name": "宝可梦 · 喷火龙",
+  "nameEn": "Pokémon Charizard",
+  "author": "aionui-themes",
+  "tagline": "橙色天空下喷火龙展开龙翼，尾焰不熄",
+  "description": "夜幕熔岩间喷火龙尾焰长明（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#e87722",
+  "bodyAttr": "data-dsh-pokemon-charizard",
+  "package": "@whyihaveyou/dsh-skin-pokemon-charizard",
+  "wiring": {
+    "id": "ui-skin-pokemon-charizard",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-charizard/preview/light.png",
+    "dark": "skins/pokemon-charizard/preview/dark.png"
+  },
+  "order": 74,
+  "source": {
+    "aionui-themes": [
+      "pokemon-charizard",
+      "pokemon-charizard-dark"
+    ]
+  }
+}

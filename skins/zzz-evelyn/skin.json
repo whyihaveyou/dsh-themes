@@ -1,0 +1,30 @@
+{
+  "id": "zzz-evelyn",
+  "name": "绝区零 · 伊芙琳",
+  "nameEn": "ZZZ Evelyn Chevalier",
+  "author": "aionui-themes",
+  "tagline": "白昼纸面上的炽红特工密令",
+  "description": "黑红特工皮衣与谍影迷城夜色（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d92638",
+  "bodyAttr": "data-dsh-zzz-evelyn",
+  "package": "@whyihaveyou/dsh-skin-zzz-evelyn",
+  "wiring": {
+    "id": "ui-skin-zzz-evelyn",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-evelyn/preview/light.png",
+    "dark": "skins/zzz-evelyn/preview/dark.png"
+  },
+  "order": 120,
+  "source": {
+    "aionui-themes": [
+      "zzz-evelyn-light",
+      "zzz-evelyn"
+    ]
+  }
+}

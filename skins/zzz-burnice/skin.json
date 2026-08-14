@@ -1,0 +1,31 @@
+{
+  "id": "zzz-burnice",
+  "name": "绝区零 · 柏妮思",
+  "nameEn": "ZZZ Burnice White",
+  "author": "aionui-themes",
+  "tagline": "日光吧台与燃油火焰的午后狂欢",
+  "description": "燃油火焰与吧台霓虹的狂欢（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "火焰"
+  ],
+  "accent": "#e0631a",
+  "bodyAttr": "data-dsh-zzz-burnice",
+  "package": "@whyihaveyou/dsh-skin-zzz-burnice",
+  "wiring": {
+    "id": "ui-skin-zzz-burnice",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-burnice/preview/light.png",
+    "dark": "skins/zzz-burnice/preview/dark.png"
+  },
+  "order": 116,
+  "source": {
+    "aionui-themes": [
+      "zzz-burnice-light",
+      "zzz-burnice"
+    ]
+  }
+}

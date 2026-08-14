@@ -1,0 +1,31 @@
+{
+  "id": "zzz-astra",
+  "name": "绝区零 · 耀嘉音",
+  "nameEn": "ZZZ Astra Yao",
+  "author": "aionui-themes",
+  "tagline": "丽都歌后的白昼应援舞台与紫金晴光",
+  "description": "丽都歌后的紫金舞台与红裙烟花（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "偶像"
+  ],
+  "accent": "#8f4ad8",
+  "bodyAttr": "data-dsh-zzz-astra",
+  "package": "@whyihaveyou/dsh-skin-zzz-astra",
+  "wiring": {
+    "id": "ui-skin-zzz-astra",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-astra/preview/light.png",
+    "dark": "skins/zzz-astra/preview/dark.png"
+  },
+  "order": 112,
+  "source": {
+    "aionui-themes": [
+      "zzz-astra-light",
+      "zzz-astra"
+    ]
+  }
+}

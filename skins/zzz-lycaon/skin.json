@@ -1,0 +1,30 @@
+{
+  "id": "zzz-lycaon",
+  "name": "绝区零 · 莱卡恩",
+  "nameEn": "ZZZ Von Lycaon",
+  "author": "aionui-themes",
+  "tagline": "白昼执事：霜白礼服上的冰蓝银辉",
+  "description": "黑白狼执事的冰蓝禁欲优雅（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#2b7dad",
+  "bodyAttr": "data-dsh-zzz-lycaon",
+  "package": "@whyihaveyou/dsh-skin-zzz-lycaon",
+  "wiring": {
+    "id": "ui-skin-zzz-lycaon",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-lycaon/preview/light.png",
+    "dark": "skins/zzz-lycaon/preview/dark.png"
+  },
+  "order": 129,
+  "source": {
+    "aionui-themes": [
+      "zzz-lycaon-light",
+      "zzz-lycaon"
+    ]
+  }
+}

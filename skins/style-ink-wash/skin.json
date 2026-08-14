@@ -1,0 +1,30 @@
+{
+  "id": "style-ink-wash",
+  "name": "水墨 Ink Wash",
+  "nameEn": "Ink Wash",
+  "author": "aionui-themes",
+  "tagline": "宣纸米白上墨色晕染与朱砂印章",
+  "description": "墨夜深处一纸暖光与朱砂落款（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "水墨"
+  ],
+  "accent": "#b23a28",
+  "bodyAttr": "data-dsh-style-ink-wash",
+  "package": "@whyihaveyou/dsh-skin-style-ink-wash",
+  "wiring": {
+    "id": "ui-skin-style-ink-wash",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-ink-wash/preview/light.png",
+    "dark": "skins/style-ink-wash/preview/dark.png"
+  },
+  "order": 94,
+  "source": {
+    "aionui-themes": [
+      "style-ink-wash",
+      "style-ink-wash-dark"
+    ]
+  }
+}

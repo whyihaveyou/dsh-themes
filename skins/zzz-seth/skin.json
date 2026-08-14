@@ -1,0 +1,31 @@
+{
+  "id": "zzz-seth",
+  "name": "绝区零 · 赛斯",
+  "nameEn": "ZZZ Seth Lowell",
+  "author": "aionui-themes",
+  "tagline": "白蓝猫警官的治安局制式清爽风",
+  "description": "白蓝猫警官的治安局夜班巡逻风（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "清爽"
+  ],
+  "accent": "#2f6fe4",
+  "bodyAttr": "data-dsh-zzz-seth",
+  "package": "@whyihaveyou/dsh-skin-zzz-seth",
+  "wiring": {
+    "id": "ui-skin-zzz-seth",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-seth/preview/light.png",
+    "dark": "skins/zzz-seth/preview/dark.png"
+  },
+  "order": 140,
+  "source": {
+    "aionui-themes": [
+      "zzz-seth",
+      "zzz-seth-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "style-vaporwave",
+  "name": "蒸汽波 Vaporwave",
+  "nameEn": "Vaporwave Aesthetic",
+  "author": "aionui-themes",
+  "tagline": "白昼大理石广场上的粉青霓虹落日",
+  "description": "粉紫青霓虹、大理石雕像与网格落日（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "蒸汽波"
+  ],
+  "accent": "#e055b8",
+  "bodyAttr": "data-dsh-style-vaporwave",
+  "package": "@whyihaveyou/dsh-skin-style-vaporwave",
+  "wiring": {
+    "id": "ui-skin-style-vaporwave",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-vaporwave/preview/light.png",
+    "dark": "skins/style-vaporwave/preview/dark.png"
+  },
+  "order": 103,
+  "source": {
+    "aionui-themes": [
+      "style-vaporwave-light",
+      "style-vaporwave"
+    ]
+  }
+}

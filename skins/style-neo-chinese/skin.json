@@ -1,0 +1,30 @@
+{
+  "id": "style-neo-chinese",
+  "name": "新中式 Neo-Chinese",
+  "nameEn": "Neo-Chinese",
+  "author": "aionui-themes",
+  "tagline": "月白黛蓝，窗棂祥云飞白",
+  "description": "黛墨夜色，月白飞白印章（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "新中式"
+  ],
+  "accent": "#2e4f63",
+  "bodyAttr": "data-dsh-style-neo-chinese",
+  "package": "@whyihaveyou/dsh-skin-style-neo-chinese",
+  "wiring": {
+    "id": "ui-skin-style-neo-chinese",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-neo-chinese/preview/light.png",
+    "dark": "skins/style-neo-chinese/preview/dark.png"
+  },
+  "order": 98,
+  "source": {
+    "aionui-themes": [
+      "style-neo-chinese",
+      "style-neo-chinese-dark"
+    ]
+  }
+}

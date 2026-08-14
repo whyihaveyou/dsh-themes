@@ -1,0 +1,4 @@
+# retro-terminal skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-retro-terminal
+      name: '@whyihaveyou/dsh-skin-retro-terminal'

@@ -1,0 +1,31 @@
+{
+  "id": "zzz-nicole",
+  "name": "绝区零 · 妮可",
+  "nameEn": "ZZZ Nicole Demara",
+  "author": "aionui-themes",
+  "tagline": "粉发双马尾的狡兔屋甜辣老大",
+  "description": "粉发双马尾的狡兔屋甜辣老大·夜巷版（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "粉色"
+  ],
+  "accent": "#f0338a",
+  "bodyAttr": "data-dsh-zzz-nicole",
+  "package": "@whyihaveyou/dsh-skin-zzz-nicole",
+  "wiring": {
+    "id": "ui-skin-zzz-nicole",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-nicole/preview/light.png",
+    "dark": "skins/zzz-nicole/preview/dark.png"
+  },
+  "order": 132,
+  "source": {
+    "aionui-themes": [
+      "zzz-nicole",
+      "zzz-nicole-dark"
+    ]
+  }
+}

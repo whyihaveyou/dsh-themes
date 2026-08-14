@@ -1,0 +1,30 @@
+{
+  "id": "hsr-sparkle",
+  "name": "崩坏星穹铁道 · 花火",
+  "nameEn": "HSR Sparkle",
+  "author": "aionui-themes",
+  "tagline": "红金狐面昼场，烟花落入白昼",
+  "description": "红金狐面剧场，烟花绽于夜幕（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#cf1f3a",
+  "bodyAttr": "data-dsh-hsr-sparkle",
+  "package": "@whyihaveyou/dsh-skin-hsr-sparkle",
+  "wiring": {
+    "id": "ui-skin-hsr-sparkle",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-sparkle/preview/light.png",
+    "dark": "skins/hsr-sparkle/preview/dark.png"
+  },
+  "order": 49,
+  "source": {
+    "aionui-themes": [
+      "hsr-sparkle-light",
+      "hsr-sparkle"
+    ]
+  }
+}

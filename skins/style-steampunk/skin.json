@@ -1,0 +1,30 @@
+{
+  "id": "style-steampunk",
+  "name": "蒸汽朋克 Steampunk",
+  "nameEn": "Steampunk Daylight",
+  "author": "aionui-themes",
+  "tagline": "羊皮纸上的黄铜齿轮与铜管",
+  "description": "黄铜齿轮与皮革铆钉的工业夜色（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "蒸汽朋克"
+  ],
+  "accent": "#8f6b12",
+  "bodyAttr": "data-dsh-style-steampunk",
+  "package": "@whyihaveyou/dsh-skin-style-steampunk",
+  "wiring": {
+    "id": "ui-skin-style-steampunk",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-steampunk/preview/light.png",
+    "dark": "skins/style-steampunk/preview/dark.png"
+  },
+  "order": 102,
+  "source": {
+    "aionui-themes": [
+      "style-steampunk-light",
+      "style-steampunk"
+    ]
+  }
+}

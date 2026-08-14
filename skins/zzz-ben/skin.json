@@ -1,0 +1,30 @@
+{
+  "id": "zzz-ben",
+  "name": "绝区零 · 本",
+  "nameEn": "ZZZ Ben Bigger",
+  "author": "aionui-themes",
+  "tagline": "棕熊与安全帽的黄黑工地安全色",
+  "description": "夜色工地里不熄的安全黄警示灯（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#bc7a06",
+  "bodyAttr": "data-dsh-zzz-ben",
+  "package": "@whyihaveyou/dsh-skin-zzz-ben",
+  "wiring": {
+    "id": "ui-skin-zzz-ben",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-ben/preview/light.png",
+    "dark": "skins/zzz-ben/preview/dark.png"
+  },
+  "order": 114,
+  "source": {
+    "aionui-themes": [
+      "zzz-ben",
+      "zzz-ben-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kanagawa",
+  "name": "Kanagawa Lotus",
+  "nameEn": "Kanagawa Lotus",
+  "author": "aionui-themes",
+  "tagline": "葛饰北斋浮世绘，米纸白莲昼卷",
+  "description": "葛饰北斋浮世绘，神奈川深海浪蓝（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "莲米纸"
+  ],
+  "accent": "#4d699b",
+  "bodyAttr": "data-dsh-kanagawa",
+  "package": "@whyihaveyou/dsh-skin-kanagawa",
+  "wiring": {
+    "id": "ui-skin-kanagawa",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/kanagawa/preview/light.png",
+    "dark": "skins/kanagawa/preview/dark.png"
+  },
+  "order": 50,
+  "source": {
+    "aionui-themes": [
+      "kanagawa-light",
+      "kanagawa"
+    ]
+  }
+}

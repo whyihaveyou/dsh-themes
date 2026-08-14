@@ -1,0 +1,30 @@
+{
+  "id": "game-cyberpunk2077",
+  "name": "赛博朋克2077",
+  "nameEn": "Cyberpunk 2077 ·",
+  "author": "aionui-themes",
+  "tagline": "白昼夜之城，黄黑警示与残存霓虹",
+  "description": "夜之城霓虹黄黑与RELIC红（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "赛博朋克2077"
+  ],
+  "accent": "#b8a300",
+  "bodyAttr": "data-dsh-game-cyberpunk2077",
+  "package": "@whyihaveyou/dsh-skin-game-cyberpunk2077",
+  "wiring": {
+    "id": "ui-skin-game-cyberpunk2077",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-cyberpunk2077/preview/light.png",
+    "dark": "skins/game-cyberpunk2077/preview/dark.png"
+  },
+  "order": 22,
+  "source": {
+    "aionui-themes": [
+      "game-cyberpunk2077-light",
+      "game-cyberpunk2077"
+    ]
+  }
+}

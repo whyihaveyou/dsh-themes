@@ -1,0 +1,30 @@
+{
+  "id": "rose-pine",
+  "name": "Rosé Pine Dawn",
+  "nameEn": "Rosé Pine Dawn",
+  "author": "aionui-themes",
+  "tagline": "晨光里的玫瑰金与松木绿",
+  "description": "玫瑰与松木的深夜低饱和松林（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Rosé Pine"
+  ],
+  "accent": "#b4637a",
+  "bodyAttr": "data-dsh-rose-pine",
+  "package": "@whyihaveyou/dsh-skin-rose-pine",
+  "wiring": {
+    "id": "ui-skin-rose-pine",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/rose-pine/preview/light.png",
+    "dark": "skins/rose-pine/preview/dark.png"
+  },
+  "order": 82,
+  "source": {
+    "aionui-themes": [
+      "rose-pine-dawn",
+      "rose-pine"
+    ]
+  }
+}

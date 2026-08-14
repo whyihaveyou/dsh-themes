@@ -1,0 +1,30 @@
+{
+  "id": "mario-toad",
+  "name": "超级马里奥 · 奇诺比奥",
+  "nameEn": "Super Mario Toad",
+  "author": "aionui-themes",
+  "tagline": "白底红点蘑菇头与蓝马甲的寻宝之旅",
+  "description": "夜幕下头灯照亮红蘑菇的寻宝之旅（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "超级马里奥"
+  ],
+  "accent": "#e52521",
+  "bodyAttr": "data-dsh-mario-toad",
+  "package": "@whyihaveyou/dsh-skin-mario-toad",
+  "wiring": {
+    "id": "ui-skin-mario-toad",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario-toad/preview/light.png",
+    "dark": "skins/mario-toad/preview/dark.png"
+  },
+  "order": 55,
+  "source": {
+    "aionui-themes": [
+      "mario-toad",
+      "mario-toad-dark"
+    ]
+  }
+}

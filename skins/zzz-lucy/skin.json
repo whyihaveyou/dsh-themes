@@ -1,0 +1,30 @@
+{
+  "id": "zzz-lucy",
+  "name": "绝区零 · 露西",
+  "nameEn": "ZZZ Lucy",
+  "author": "aionui-themes",
+  "tagline": "粉金不良少女与野猪暴走族",
+  "description": "粉金不良少女的午夜暴走（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d42c34",
+  "bodyAttr": "data-dsh-zzz-lucy",
+  "package": "@whyihaveyou/dsh-skin-zzz-lucy",
+  "wiring": {
+    "id": "ui-skin-zzz-lucy",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-lucy/preview/light.png",
+    "dark": "skins/zzz-lucy/preview/dark.png"
+  },
+  "order": 128,
+  "source": {
+    "aionui-themes": [
+      "zzz-lucy",
+      "zzz-lucy-dark"
+    ]
+  }
+}

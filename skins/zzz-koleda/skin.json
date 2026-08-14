@@ -1,0 +1,30 @@
+{
+  "id": "zzz-koleda",
+  "name": "绝区零 · 珂蕾妲",
+  "nameEn": "ZZZ Koleda Belobog",
+  "author": "aionui-themes",
+  "tagline": "白祇重工社长，白红战衣配警示条纹",
+  "description": "夜班工地，白祇红钢在深海黑里发光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d43a33",
+  "bodyAttr": "data-dsh-zzz-koleda",
+  "package": "@whyihaveyou/dsh-skin-zzz-koleda",
+  "wiring": {
+    "id": "ui-skin-zzz-koleda",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-koleda/preview/light.png",
+    "dark": "skins/zzz-koleda/preview/dark.png"
+  },
+  "order": 126,
+  "source": {
+    "aionui-themes": [
+      "zzz-koleda",
+      "zzz-koleda-dark"
+    ]
+  }
+}

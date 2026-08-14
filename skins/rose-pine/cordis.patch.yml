@@ -1,0 +1,4 @@
+# rose-pine skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-rose-pine
+      name: '@whyihaveyou/dsh-skin-rose-pine'

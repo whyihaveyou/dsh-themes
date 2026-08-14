@@ -1,0 +1,30 @@
+{
+  "id": "os-winamp",
+  "name": "Winamp",
+  "nameEn": "Winamp Daylight",
+  "author": "aionui-themes",
+  "tagline": "假如 Winamp 有昼间银色皮肤",
+  "description": "黑绿播放器，均衡器彻夜跳动（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Winamp"
+  ],
+  "accent": "#0a8a34",
+  "bodyAttr": "data-dsh-os-winamp",
+  "package": "@whyihaveyou/dsh-skin-os-winamp",
+  "wiring": {
+    "id": "ui-skin-os-winamp",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-winamp/preview/light.png",
+    "dark": "skins/os-winamp/preview/dark.png"
+  },
+  "order": 71,
+  "source": {
+    "aionui-themes": [
+      "os-winamp-light",
+      "os-winamp"
+    ]
+  }
+}

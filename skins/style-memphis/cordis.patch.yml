@@ -1,0 +1,4 @@
+# style-memphis skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-memphis
+      name: '@whyihaveyou/dsh-skin-style-memphis'

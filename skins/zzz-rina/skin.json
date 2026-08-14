@@ -1,0 +1,31 @@
+{
+  "id": "zzz-rina",
+  "name": "绝区零 · 丽娜",
+  "nameEn": "ZZZ Alexandrina",
+  "author": "aionui-themes",
+  "tagline": "幽灵女仆的午后茶会与淡紫微光",
+  "description": "幽灵女仆的幽紫电光之夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "女仆"
+  ],
+  "accent": "#7a4fd0",
+  "bodyAttr": "data-dsh-zzz-rina",
+  "package": "@whyihaveyou/dsh-skin-zzz-rina",
+  "wiring": {
+    "id": "ui-skin-zzz-rina",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-rina/preview/light.png",
+    "dark": "skins/zzz-rina/preview/dark.png"
+  },
+  "order": 138,
+  "source": {
+    "aionui-themes": [
+      "zzz-rina-light",
+      "zzz-rina"
+    ]
+  }
+}

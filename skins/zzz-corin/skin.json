@@ -1,0 +1,31 @@
+{
+  "id": "zzz-corin",
+  "name": "绝区零 · 可琳",
+  "nameEn": "ZZZ Corin Wickes",
+  "author": "aionui-themes",
+  "tagline": "抹茶绿小女仆，白围裙藏着电锯",
+  "description": "深夜值勤的小女仆，抹茶光里藏着电锯（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "女仆"
+  ],
+  "accent": "#58a05a",
+  "bodyAttr": "data-dsh-zzz-corin",
+  "package": "@whyihaveyou/dsh-skin-zzz-corin",
+  "wiring": {
+    "id": "ui-skin-zzz-corin",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-corin/preview/light.png",
+    "dark": "skins/zzz-corin/preview/dark.png"
+  },
+  "order": 118,
+  "source": {
+    "aionui-themes": [
+      "zzz-corin",
+      "zzz-corin-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "game-stardew",
+  "name": "星露谷物语",
+  "nameEn": "Stardew Valley",
+  "author": "aionui-themes",
+  "tagline": "田园像素农场，蓝鸡与四季作物",
+  "description": "夜幕农场，星光下的蓝鸡低鸣（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "星露谷物语"
+  ],
+  "accent": "#2d7dbd",
+  "bodyAttr": "data-dsh-game-stardew",
+  "package": "@whyihaveyou/dsh-skin-game-stardew",
+  "wiring": {
+    "id": "ui-skin-game-stardew",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-stardew/preview/light.png",
+    "dark": "skins/game-stardew/preview/dark.png"
+  },
+  "order": 28,
+  "source": {
+    "aionui-themes": [
+      "game-stardew",
+      "game-stardew-dark"
+    ]
+  }
+}

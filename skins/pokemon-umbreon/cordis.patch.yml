@@ -1,0 +1,4 @@
+# pokemon-umbreon skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-pokemon-umbreon
+      name: '@whyihaveyou/dsh-skin-pokemon-umbreon'

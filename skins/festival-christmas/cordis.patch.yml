@@ -1,0 +1,4 @@
+# festival-christmas skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-festival-christmas
+      name: '@whyihaveyou/dsh-skin-festival-christmas'

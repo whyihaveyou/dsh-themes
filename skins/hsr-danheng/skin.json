@@ -1,0 +1,30 @@
+{
+  "id": "hsr-danheng",
+  "name": "崩坏星穹铁道 · 丹恒",
+  "nameEn": "HSR Dan Heng (Light)",
+  "author": "aionui-themes",
+  "tagline": "青龙水纹与长枪寒光的清晓",
+  "description": "青龙水纹与长枪寒光的冷青夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#1f8a99",
+  "bodyAttr": "data-dsh-hsr-danheng",
+  "package": "@whyihaveyou/dsh-skin-hsr-danheng",
+  "wiring": {
+    "id": "ui-skin-hsr-danheng",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-danheng/preview/light.png",
+    "dark": "skins/hsr-danheng/preview/dark.png"
+  },
+  "order": 43,
+  "source": {
+    "aionui-themes": [
+      "hsr-danheng-light",
+      "hsr-danheng"
+    ]
+  }
+}

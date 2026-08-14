@@ -1,0 +1,31 @@
+{
+  "id": "pokemon-mewtwo",
+  "name": "宝可梦 · 超梦",
+  "nameEn": "Pokémon Mewtwo",
+  "author": "aionui-themes",
+  "tagline": "白昼实验室里的紫白超能力波",
+  "description": "培养舱深处的紫色念力光纹（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "动漫",
+    "宝可梦"
+  ],
+  "accent": "#7a4ac0",
+  "bodyAttr": "data-dsh-pokemon-mewtwo",
+  "package": "@whyihaveyou/dsh-skin-pokemon-mewtwo",
+  "wiring": {
+    "id": "ui-skin-pokemon-mewtwo",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-mewtwo/preview/light.png",
+    "dark": "skins/pokemon-mewtwo/preview/dark.png"
+  },
+  "order": 77,
+  "source": {
+    "aionui-themes": [
+      "pokemon-mewtwo-light",
+      "pokemon-mewtwo"
+    ]
+  }
+}

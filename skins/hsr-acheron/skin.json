@@ -1,0 +1,30 @@
+{
+  "id": "hsr-acheron",
+  "name": "崩坏星穹铁道 · 黄泉",
+  "nameEn": "HSR Acheron",
+  "author": "aionui-themes",
+  "tagline": "雾紫晨空下的血刃与彼岸花",
+  "description": "紫黑虚无里的血刃与彼岸花（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#7b3fc4",
+  "bodyAttr": "data-dsh-hsr-acheron",
+  "package": "@whyihaveyou/dsh-skin-hsr-acheron",
+  "wiring": {
+    "id": "ui-skin-hsr-acheron",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-acheron/preview/light.png",
+    "dark": "skins/hsr-acheron/preview/dark.png"
+  },
+  "order": 42,
+  "source": {
+    "aionui-themes": [
+      "hsr-acheron-light",
+      "hsr-acheron"
+    ]
+  }
+}

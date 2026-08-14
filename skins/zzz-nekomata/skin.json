@@ -1,0 +1,30 @@
+{
+  "id": "zzz-nekomata",
+  "name": "绝区零 · 猫又",
+  "nameEn": "ZZZ Nekomata",
+  "author": "aionui-themes",
+  "tagline": "白昼黑猫，赤红围巾与暖阳金币",
+  "description": "黑猫夜行，赤红围巾与狡兔屋（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#e02b2b",
+  "bodyAttr": "data-dsh-zzz-nekomata",
+  "package": "@whyihaveyou/dsh-skin-zzz-nekomata",
+  "wiring": {
+    "id": "ui-skin-zzz-nekomata",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-nekomata/preview/light.png",
+    "dark": "skins/zzz-nekomata/preview/dark.png"
+  },
+  "order": 131,
+  "source": {
+    "aionui-themes": [
+      "zzz-nekomata-light",
+      "zzz-nekomata"
+    ]
+  }
+}

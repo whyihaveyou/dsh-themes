@@ -1,0 +1,30 @@
+{
+  "id": "zzz-ellen",
+  "name": "绝区零 · 艾莲",
+  "nameEn": "ZZZ Ellen Joe",
+  "author": "aionui-themes",
+  "tagline": "鲨鱼女仆的白围裙与晨光红丝带",
+  "description": "鲨鱼女仆的红丝带与深夜黑裙（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d21f2f",
+  "bodyAttr": "data-dsh-zzz-ellen",
+  "package": "@whyihaveyou/dsh-skin-zzz-ellen",
+  "wiring": {
+    "id": "ui-skin-zzz-ellen",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-ellen/preview/light.png",
+    "dark": "skins/zzz-ellen/preview/dark.png"
+  },
+  "order": 119,
+  "source": {
+    "aionui-themes": [
+      "zzz-ellen-light",
+      "zzz-ellen"
+    ]
+  }
+}

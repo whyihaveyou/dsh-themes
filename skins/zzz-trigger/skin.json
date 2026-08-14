@@ -1,0 +1,31 @@
+{
+  "id": "zzz-trigger",
+  "name": "绝区零 · 扳机",
+  "nameEn": "ZZZ Trigger",
+  "author": "aionui-themes",
+  "tagline": "军绿狙击与白昼战术目镜的清晰锁定",
+  "description": "军绿狙击与战术目镜的冷峻锁定（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "军绿"
+  ],
+  "accent": "#667d2a",
+  "bodyAttr": "data-dsh-zzz-trigger",
+  "package": "@whyihaveyou/dsh-skin-zzz-trigger",
+  "wiring": {
+    "id": "ui-skin-zzz-trigger",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-trigger/preview/light.png",
+    "dark": "skins/zzz-trigger/preview/dark.png"
+  },
+  "order": 143,
+  "source": {
+    "aionui-themes": [
+      "zzz-trigger-light",
+      "zzz-trigger"
+    ]
+  }
+}

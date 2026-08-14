@@ -1,0 +1,30 @@
+{
+  "id": "style-doodle",
+  "name": "手绘涂鸦 Doodle",
+  "nameEn": "Hand-drawn Doodle",
+  "author": "aionui-themes",
+  "tagline": "马克笔涂鸦手账，格纹贴纸与手绘星星",
+  "description": "夜幕书桌上发光的荧光笔涂鸦（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "手绘"
+  ],
+  "accent": "#3563e9",
+  "bodyAttr": "data-dsh-style-doodle",
+  "package": "@whyihaveyou/dsh-skin-style-doodle",
+  "wiring": {
+    "id": "ui-skin-style-doodle",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-doodle/preview/light.png",
+    "dark": "skins/style-doodle/preview/dark.png"
+  },
+  "order": 89,
+  "source": {
+    "aionui-themes": [
+      "style-doodle",
+      "style-doodle-dark"
+    ]
+  }
+}

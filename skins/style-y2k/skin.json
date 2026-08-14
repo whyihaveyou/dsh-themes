@@ -1,0 +1,30 @@
+{
+  "id": "style-y2k",
+  "name": "Y2K 千禧",
+  "nameEn": "Y2K Millennium",
+  "author": "aionui-themes",
+  "tagline": "金属银与泡泡糖粉的千禧光泽",
+  "description": "午夜铬银上的荧光泡泡糖（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "Y2K"
+  ],
+  "accent": "#d02f96",
+  "bodyAttr": "data-dsh-style-y2k",
+  "package": "@whyihaveyou/dsh-skin-style-y2k",
+  "wiring": {
+    "id": "ui-skin-style-y2k",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-y2k/preview/light.png",
+    "dark": "skins/style-y2k/preview/dark.png"
+  },
+  "order": 104,
+  "source": {
+    "aionui-themes": [
+      "style-y2k",
+      "style-y2k-dark"
+    ]
+  }
+}

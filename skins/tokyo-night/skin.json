@@ -1,0 +1,29 @@
+{
+  "id": "tokyo-night",
+  "name": "Tokyo Night Day",
+  "nameEn": "Tokyo Night",
+  "author": "aionui-themes",
+  "tagline": "白昼东京的清爽蓝调",
+  "description": "东京夜景的蓝紫霓虹（含昼夜双模式）",
+  "tags": [
+    "经典配色"
+  ],
+  "accent": "#2e7de9",
+  "bodyAttr": "data-dsh-tokyo-night",
+  "package": "@whyihaveyou/dsh-skin-tokyo-night",
+  "wiring": {
+    "id": "ui-skin-tokyo-night",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/tokyo-night/preview/light.png",
+    "dark": "skins/tokyo-night/preview/dark.png"
+  },
+  "order": 106,
+  "source": {
+    "aionui-themes": [
+      "tokyo-night-light",
+      "tokyo-night"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-nahida",
+  "name": "原神 · 纳西妲",
+  "nameEn": "Genshin Nahida",
+  "author": "aionui-themes",
+  "tagline": "草绿梦境与四叶草的净善宫晨光",
+  "description": "虚空终端绿光照亮的深夜梦境（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#3d9a52",
+  "bodyAttr": "data-dsh-genshin-nahida",
+  "package": "@whyihaveyou/dsh-skin-genshin-nahida",
+  "wiring": {
+    "id": "ui-skin-genshin-nahida",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-nahida/preview/light.png",
+    "dark": "skins/genshin-nahida/preview/dark.png"
+  },
+  "order": 35,
+  "source": {
+    "aionui-themes": [
+      "genshin-nahida",
+      "genshin-nahida-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-furina",
+  "name": "原神 · 芙宁娜",
+  "nameEn": "Genshin Furina",
+  "author": "aionui-themes",
+  "tagline": "水神的歌剧舞台，聚光灯与泡泡",
+  "description": "谢幕后的深蓝剧场，水光与礼帽（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#3585c8",
+  "bodyAttr": "data-dsh-genshin-furina",
+  "package": "@whyihaveyou/dsh-skin-genshin-furina",
+  "wiring": {
+    "id": "ui-skin-genshin-furina",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-furina/preview/light.png",
+    "dark": "skins/genshin-furina/preview/dark.png"
+  },
+  "order": 31,
+  "source": {
+    "aionui-themes": [
+      "genshin-furina",
+      "genshin-furina-dark"
+    ]
+  }
+}

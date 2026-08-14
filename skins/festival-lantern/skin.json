@@ -1,0 +1,30 @@
+{
+  "id": "festival-lantern",
+  "name": "元宵",
+  "nameEn": "Lantern Festival",
+  "author": "aionui-themes",
+  "tagline": "汤圆白底，灯谜红纸点睛",
+  "description": "夜色灯会，花灯暖光映汤圆（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "元宵"
+  ],
+  "accent": "#c22a1c",
+  "bodyAttr": "data-dsh-festival-lantern",
+  "package": "@whyihaveyou/dsh-skin-festival-lantern",
+  "wiring": {
+    "id": "ui-skin-festival-lantern",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-lantern/preview/light.png",
+    "dark": "skins/festival-lantern/preview/dark.png"
+  },
+  "order": 12,
+  "source": {
+    "aionui-themes": [
+      "festival-lantern-light",
+      "festival-lantern"
+    ]
+  }
+}

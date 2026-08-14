@@ -1,0 +1,30 @@
+{
+  "id": "os-msdos",
+  "name": "MS-DOS",
+  "nameEn": "MS-DOS Daylight",
+  "author": "aionui-themes",
+  "tagline": "假如 DOS 有白昼纸白屏",
+  "description": "海军蓝屏黄字与灰对话框（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "MS-DOS"
+  ],
+  "accent": "#0000aa",
+  "bodyAttr": "data-dsh-os-msdos",
+  "package": "@whyihaveyou/dsh-skin-os-msdos",
+  "wiring": {
+    "id": "ui-skin-os-msdos",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-msdos/preview/light.png",
+    "dark": "skins/os-msdos/preview/dark.png"
+  },
+  "order": 69,
+  "source": {
+    "aionui-themes": [
+      "os-msdos-light",
+      "os-msdos"
+    ]
+  }
+}

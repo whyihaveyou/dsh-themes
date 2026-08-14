@@ -1,0 +1,30 @@
+{
+  "id": "flexoki",
+  "name": "Flexoki",
+  "nameEn": "Flexoki",
+  "author": "aionui-themes",
+  "tagline": "暖纸墨字亮色系，青墨点睛",
+  "description": "墨色纸感暗色系，青墨点睛（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Flexoki"
+  ],
+  "accent": "#24837B",
+  "bodyAttr": "data-dsh-flexoki",
+  "package": "@whyihaveyou/dsh-skin-flexoki",
+  "wiring": {
+    "id": "ui-skin-flexoki",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/flexoki/preview/light.png",
+    "dark": "skins/flexoki/preview/dark.png"
+  },
+  "order": 19,
+  "source": {
+    "aionui-themes": [
+      "flexoki-light",
+      "flexoki"
+    ]
+  }
+}

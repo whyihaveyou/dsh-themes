@@ -1,0 +1,31 @@
+{
+  "id": "zzz-seed",
+  "name": "绝区零 · 席德",
+  "nameEn": "ZZZ Seed",
+  "author": "aionui-themes",
+  "tagline": "白昼钢甲与电弧黄的白色恶魔",
+  "description": "蓝灰机甲与电光黄的白色恶魔（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "机甲"
+  ],
+  "accent": "#ffd21f",
+  "bodyAttr": "data-dsh-zzz-seed",
+  "package": "@whyihaveyou/dsh-skin-zzz-seed",
+  "wiring": {
+    "id": "ui-skin-zzz-seed",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-seed/preview/light.png",
+    "dark": "skins/zzz-seed/preview/dark.png"
+  },
+  "order": 139,
+  "source": {
+    "aionui-themes": [
+      "zzz-seed-light",
+      "zzz-seed"
+    ]
+  }
+}

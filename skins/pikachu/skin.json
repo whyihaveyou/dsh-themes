@@ -1,0 +1,30 @@
+{
+  "id": "pikachu",
+  "name": "宝可梦 · 皮卡丘",
+  "nameEn": "Pokemon Pikachu",
+  "author": "aionui-themes",
+  "tagline": "电气黄配脸颊红的十万伏特",
+  "description": "深夜电气黄配脸颊红的十万伏特（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#f0b90b",
+  "bodyAttr": "data-dsh-pikachu",
+  "package": "@whyihaveyou/dsh-skin-pikachu",
+  "wiring": {
+    "id": "ui-skin-pikachu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pikachu/preview/light.png",
+    "dark": "skins/pikachu/preview/dark.png"
+  },
+  "order": 73,
+  "source": {
+    "aionui-themes": [
+      "pikachu",
+      "pikachu-dark"
+    ]
+  }
+}

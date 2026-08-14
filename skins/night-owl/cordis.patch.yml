@@ -1,0 +1,4 @@
+# night-owl skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-night-owl
+      name: '@whyihaveyou/dsh-skin-night-owl'

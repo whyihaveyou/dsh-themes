@@ -1,0 +1,30 @@
+{
+  "id": "pokemon-mimikyu",
+  "name": "宝可梦 · 谜拟丘",
+  "nameEn": "Pokémon Mimikyu Daylight",
+  "author": "aionui-themes",
+  "tagline": "破布涂鸦在日光下晾着暗影",
+  "description": "破布伪装下的暗影爪与涂鸦脸（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#6f4fb3",
+  "bodyAttr": "data-dsh-pokemon-mimikyu",
+  "package": "@whyihaveyou/dsh-skin-pokemon-mimikyu",
+  "wiring": {
+    "id": "ui-skin-pokemon-mimikyu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-mimikyu/preview/light.png",
+    "dark": "skins/pokemon-mimikyu/preview/dark.png"
+  },
+  "order": 78,
+  "source": {
+    "aionui-themes": [
+      "pokemon-mimikyu-light",
+      "pokemon-mimikyu"
+    ]
+  }
+}

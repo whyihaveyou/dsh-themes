@@ -1,0 +1,30 @@
+{
+  "id": "game-eldenring",
+  "name": "艾尔登法环",
+  "nameEn": "Elden Ring",
+  "author": "aionui-themes",
+  "tagline": "黄金树晨光下的赐福指引",
+  "description": "黄金树的赐福与褪色者的夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "艾尔登法环"
+  ],
+  "accent": "#a07c2a",
+  "bodyAttr": "data-dsh-game-eldenring",
+  "package": "@whyihaveyou/dsh-skin-game-eldenring",
+  "wiring": {
+    "id": "ui-skin-game-eldenring",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-eldenring/preview/light.png",
+    "dark": "skins/game-eldenring/preview/dark.png"
+  },
+  "order": 23,
+  "source": {
+    "aionui-themes": [
+      "game-eldenring-light",
+      "game-eldenring"
+    ]
+  }
+}

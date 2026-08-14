@@ -1,0 +1,31 @@
+{
+  "id": "style-pixel-art",
+  "name": "像素艺术",
+  "nameEn": "Pixel Art",
+  "author": "aionui-themes",
+  "tagline": "卡带纸色的8bit硬边像素风",
+  "description": "8bit硬边像素与抖动纹理夜色（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "像素",
+    "8bit"
+  ],
+  "accent": "#1d5cd6",
+  "bodyAttr": "data-dsh-style-pixel-art",
+  "package": "@whyihaveyou/dsh-skin-style-pixel-art",
+  "wiring": {
+    "id": "ui-skin-style-pixel-art",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-pixel-art/preview/light.png",
+    "dark": "skins/style-pixel-art/preview/dark.png"
+  },
+  "order": 100,
+  "source": {
+    "aionui-themes": [
+      "style-pixel-art-light",
+      "style-pixel-art"
+    ]
+  }
+}

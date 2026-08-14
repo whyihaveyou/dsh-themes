@@ -1,0 +1,30 @@
+{
+  "id": "darcula",
+  "name": "IntelliJ Light",
+  "nameEn": "IntelliJ",
+  "author": "aionui-themes",
+  "tagline": "IntelliJ 经典白底与藏青关键字",
+  "description": "IntelliJ 经典深灰底与橙黄关键字（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "JetBrains"
+  ],
+  "accent": "#0033b3",
+  "bodyAttr": "data-dsh-darcula",
+  "package": "@whyihaveyou/dsh-skin-darcula",
+  "wiring": {
+    "id": "ui-skin-darcula",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/darcula/preview/light.png",
+    "dark": "skins/darcula/preview/dark.png"
+  },
+  "order": 3,
+  "source": {
+    "aionui-themes": [
+      "darcula-light",
+      "darcula"
+    ]
+  }
+}

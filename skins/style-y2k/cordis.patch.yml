@@ -1,0 +1,4 @@
+# style-y2k skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-y2k
+      name: '@whyihaveyou/dsh-skin-style-y2k'

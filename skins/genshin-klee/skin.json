@@ -1,0 +1,30 @@
+{
+  "id": "genshin-klee",
+  "name": "原神 · 可莉",
+  "nameEn": "Genshin Impact Klee",
+  "author": "aionui-themes",
+  "tagline": "蹦蹦炸弹与火花四叶草的童趣涂鸦",
+  "description": "夜幕下的蹦蹦炸弹火花涂鸦（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#e0352b",
+  "bodyAttr": "data-dsh-genshin-klee",
+  "package": "@whyihaveyou/dsh-skin-genshin-klee",
+  "wiring": {
+    "id": "ui-skin-genshin-klee",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-klee/preview/light.png",
+    "dark": "skins/genshin-klee/preview/dark.png"
+  },
+  "order": 34,
+  "source": {
+    "aionui-themes": [
+      "genshin-klee",
+      "genshin-klee-dark"
+    ]
+  }
+}

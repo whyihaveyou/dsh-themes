@@ -1,0 +1,31 @@
+{
+  "id": "zzz-billy",
+  "name": "绝区零 · 比利",
+  "nameEn": "ZZZ Billy Kid",
+  "author": "aionui-themes",
+  "tagline": "红铬骑士与银色盔甲的星徽枪手",
+  "description": "午夜铬甲下依旧炽热的星徽枪手（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "热血"
+  ],
+  "accent": "#d91f26",
+  "bodyAttr": "data-dsh-zzz-billy",
+  "package": "@whyihaveyou/dsh-skin-zzz-billy",
+  "wiring": {
+    "id": "ui-skin-zzz-billy",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-billy/preview/light.png",
+    "dark": "skins/zzz-billy/preview/dark.png"
+  },
+  "order": 115,
+  "source": {
+    "aionui-themes": [
+      "zzz-billy",
+      "zzz-billy-dark"
+    ]
+  }
+}

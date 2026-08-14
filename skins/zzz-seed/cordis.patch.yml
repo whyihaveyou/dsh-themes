@@ -1,0 +1,4 @@
+# zzz-seed skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-zzz-seed
+      name: '@whyihaveyou/dsh-skin-zzz-seed'

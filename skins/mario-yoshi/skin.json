@@ -1,0 +1,30 @@
+{
+  "id": "mario-yoshi",
+  "name": "超级马里奥 · 耀西",
+  "nameEn": "Super Mario Yoshi",
+  "author": "aionui-themes",
+  "tagline": "耀西绿蛋壳白，斑点蛋童话手绘",
+  "description": "夜色耀西绿，斑点蛋微光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "超级马里奥"
+  ],
+  "accent": "#1e8a34",
+  "bodyAttr": "data-dsh-mario-yoshi",
+  "package": "@whyihaveyou/dsh-skin-mario-yoshi",
+  "wiring": {
+    "id": "ui-skin-mario-yoshi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario-yoshi/preview/light.png",
+    "dark": "skins/mario-yoshi/preview/dark.png"
+  },
+  "order": 56,
+  "source": {
+    "aionui-themes": [
+      "mario-yoshi",
+      "mario-yoshi-dark"
+    ]
+  }
+}

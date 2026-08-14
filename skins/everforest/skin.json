@@ -1,0 +1,30 @@
+{
+  "id": "everforest",
+  "name": "Everforest",
+  "nameEn": "Everforest",
+  "author": "aionui-themes",
+  "tagline": "晨雾米白纸面，林间新绿的护眼浅色",
+  "description": "森林绿底，护眼低对比的暗夜林海（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "编辑器"
+  ],
+  "accent": "#8da101",
+  "bodyAttr": "data-dsh-everforest",
+  "package": "@whyihaveyou/dsh-skin-everforest",
+  "wiring": {
+    "id": "ui-skin-everforest",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/everforest/preview/light.png",
+    "dark": "skins/everforest/preview/dark.png"
+  },
+  "order": 8,
+  "source": {
+    "aionui-themes": [
+      "everforest-light",
+      "everforest"
+    ]
+  }
+}

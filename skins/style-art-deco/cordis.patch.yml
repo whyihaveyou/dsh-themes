@@ -1,0 +1,4 @@
+# style-art-deco skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-art-deco
+      name: '@whyihaveyou/dsh-skin-style-art-deco'

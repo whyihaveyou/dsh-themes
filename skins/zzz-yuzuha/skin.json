@@ -1,0 +1,31 @@
+{
+  "id": "zzz-yuzuha",
+  "name": "绝区零 · 浮波柚叶",
+  "nameEn": "ZZZ Ukinami Yuzuha",
+  "author": "aionui-themes",
+  "tagline": "狸猫绿棕的夏夜怪谈收藏屋",
+  "description": "狸猫绿棕的深夜怪谈收藏屋（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "怪啖屋"
+  ],
+  "accent": "#3b9d63",
+  "bodyAttr": "data-dsh-zzz-yuzuha",
+  "package": "@whyihaveyou/dsh-skin-zzz-yuzuha",
+  "wiring": {
+    "id": "ui-skin-zzz-yuzuha",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-yuzuha/preview/light.png",
+    "dark": "skins/zzz-yuzuha/preview/dark.png"
+  },
+  "order": 149,
+  "source": {
+    "aionui-themes": [
+      "zzz-yuzuha",
+      "zzz-yuzuha-dark"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "egg-matrix",
+  "name": "黑客帝国 Matrix",
+  "nameEn": "The Matrix Daylight",
+  "author": "aionui-themes",
+  "tagline": "白昼矩阵：纸上打印的绿色代码流",
+  "description": "绿色数字雨落在黑色终端上（含昼夜双模式）",
+  "tags": [
+    "彩蛋",
+    "黑客帝国",
+    "Matrix"
+  ],
+  "accent": "#008f11",
+  "bodyAttr": "data-dsh-egg-matrix",
+  "package": "@whyihaveyou/dsh-skin-egg-matrix",
+  "wiring": {
+    "id": "ui-skin-egg-matrix",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/egg-matrix/preview/light.png",
+    "dark": "skins/egg-matrix/preview/dark.png"
+  },
+  "order": 6,
+  "source": {
+    "aionui-themes": [
+      "egg-matrix-light",
+      "egg-matrix"
+    ]
+  }
+}

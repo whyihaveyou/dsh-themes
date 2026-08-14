@@ -1,0 +1,4 @@
+# game-tetris skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-game-tetris
+      name: '@whyihaveyou/dsh-skin-game-tetris'

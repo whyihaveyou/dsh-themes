@@ -1,0 +1,30 @@
+{
+  "id": "os-win95",
+  "name": "Windows 95",
+  "nameEn": "Windows 95",
+  "author": "aionui-themes",
+  "tagline": "浮雕灰窗口与蓝色标题栏的 95 记忆",
+  "description": "假如 Win95 也有夜间模式（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Windows 95"
+  ],
+  "accent": "#000080",
+  "bodyAttr": "data-dsh-os-win95",
+  "package": "@whyihaveyou/dsh-skin-os-win95",
+  "wiring": {
+    "id": "ui-skin-os-win95",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-win95/preview/light.png",
+    "dark": "skins/os-win95/preview/dark.png"
+  },
+  "order": 70,
+  "source": {
+    "aionui-themes": [
+      "os-win95",
+      "os-win95-dark"
+    ]
+  }
+}

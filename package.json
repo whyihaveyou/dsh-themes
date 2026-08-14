@@ -1,0 +1,20 @@
+{
+  "name": "dsh-themes",
+  "private": true,
+  "type": "module",
+  "description": "DSH (DeepSeek Harness) 皮肤合集 — 151 个皮肤，全部由 aionui-themes 迁移",
+  "scripts": {
+    "convert": "python3 tools/convert.py",
+    "validate": "python3 tools/validate_skin.py"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "jsdom": "29.1.1",
+    "lightningcss": "^1.32.0",
+    "tsdown": "^0.22.2",
+    "typescript": "^5.6.0",
+    "unrun": "^0.3.1",
+    "vite-tsconfig-paths": "^6.1.1",
+    "vitest": "^4.1.8"
+  }
+}

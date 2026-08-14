@@ -1,0 +1,30 @@
+{
+  "id": "monokai",
+  "name": "Monokai",
+  "nameEn": "Monokai",
+  "author": "aionui-themes",
+  "tagline": "Monokai 语法色的纸面浅色演绎",
+  "description": "Sublime 原版暗色，粉绿橙高饱和语法色（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Monokai"
+  ],
+  "accent": "#f92672",
+  "bodyAttr": "data-dsh-monokai",
+  "package": "@whyihaveyou/dsh-skin-monokai",
+  "wiring": {
+    "id": "ui-skin-monokai",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/monokai/preview/light.png",
+    "dark": "skins/monokai/preview/dark.png"
+  },
+  "order": 58,
+  "source": {
+    "aionui-themes": [
+      "monokai-light",
+      "monokai"
+    ]
+  }
+}

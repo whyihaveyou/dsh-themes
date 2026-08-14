@@ -1,0 +1,30 @@
+{
+  "id": "genshin-hutao",
+  "name": "原神 · 胡桃",
+  "nameEn": "Genshin Impact Hu Tao",
+  "author": "aionui-themes",
+  "tagline": "白梅映雪的火红昼行",
+  "description": "往生堂主的火红梅花夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#c42331",
+  "bodyAttr": "data-dsh-genshin-hutao",
+  "package": "@whyihaveyou/dsh-skin-genshin-hutao",
+  "wiring": {
+    "id": "ui-skin-genshin-hutao",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-hutao/preview/light.png",
+    "dark": "skins/genshin-hutao/preview/dark.png"
+  },
+  "order": 33,
+  "source": {
+    "aionui-themes": [
+      "genshin-hutao-light",
+      "genshin-hutao"
+    ]
+  }
+}

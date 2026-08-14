@@ -1,0 +1,30 @@
+{
+  "id": "style-morandi",
+  "name": "莫兰迪 Morandi",
+  "nameEn": "Morandi",
+  "author": "aionui-themes",
+  "tagline": "高级灰静物，雾粉燕麦柔光",
+  "description": "夜色高级灰，静物柔光不熄（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "莫兰迪"
+  ],
+  "accent": "#9C7A72",
+  "bodyAttr": "data-dsh-style-morandi",
+  "package": "@whyihaveyou/dsh-skin-style-morandi",
+  "wiring": {
+    "id": "ui-skin-style-morandi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-morandi/preview/light.png",
+    "dark": "skins/style-morandi/preview/dark.png"
+  },
+  "order": 97,
+  "source": {
+    "aionui-themes": [
+      "style-morandi",
+      "style-morandi-dark"
+    ]
+  }
+}

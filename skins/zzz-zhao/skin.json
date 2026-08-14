@@ -1,0 +1,30 @@
+{
+  "id": "zzz-zhao",
+  "name": "绝区零 · 照",
+  "nameEn": "ZZZ Zhao",
+  "author": "aionui-themes",
+  "tagline": "粉发兔耳裁决官的糖果审判",
+  "description": "粉发兔耳裁决官的夜幕审判（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#e05a7d",
+  "bodyAttr": "data-dsh-zzz-zhao",
+  "package": "@whyihaveyou/dsh-skin-zzz-zhao",
+  "wiring": {
+    "id": "ui-skin-zzz-zhao",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-zhao/preview/light.png",
+    "dark": "skins/zzz-zhao/preview/dark.png"
+  },
+  "order": 150,
+  "source": {
+    "aionui-themes": [
+      "zzz-zhao",
+      "zzz-zhao-dark"
+    ]
+  }
+}

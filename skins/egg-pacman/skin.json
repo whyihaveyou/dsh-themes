@@ -1,0 +1,30 @@
+{
+  "id": "egg-pacman",
+  "name": "吃豆人 Pac-Man",
+  "nameEn": "Pac-Man Daylight",
+  "author": "aionui-themes",
+  "tagline": "白昼街机厅，迷宫依旧运转",
+  "description": "黑底黄吃豆人，迷宫蓝墙四幽灵（含昼夜双模式）",
+  "tags": [
+    "彩蛋",
+    "街机"
+  ],
+  "accent": "#2121de",
+  "bodyAttr": "data-dsh-egg-pacman",
+  "package": "@whyihaveyou/dsh-skin-egg-pacman",
+  "wiring": {
+    "id": "ui-skin-egg-pacman",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/egg-pacman/preview/light.png",
+    "dark": "skins/egg-pacman/preview/dark.png"
+  },
+  "order": 7,
+  "source": {
+    "aionui-themes": [
+      "egg-pacman-light",
+      "egg-pacman"
+    ]
+  }
+}

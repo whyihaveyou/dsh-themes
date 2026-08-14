@@ -1,0 +1,4 @@
+# hsr-acheron skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-hsr-acheron
+      name: '@whyihaveyou/dsh-skin-hsr-acheron'

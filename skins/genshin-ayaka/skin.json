@@ -1,0 +1,30 @@
+{
+  "id": "genshin-ayaka",
+  "name": "原神 · 神里绫华",
+  "nameEn": "Genshin Impact Kamisato Ayaka",
+  "author": "aionui-themes",
+  "tagline": "白鹭公主的冰蓝折扇与椿花",
+  "description": "雪夜庭园的冰蓝折扇与椿花（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#3d7ea8",
+  "bodyAttr": "data-dsh-genshin-ayaka",
+  "package": "@whyihaveyou/dsh-skin-genshin-ayaka",
+  "wiring": {
+    "id": "ui-skin-genshin-ayaka",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-ayaka/preview/light.png",
+    "dark": "skins/genshin-ayaka/preview/dark.png"
+  },
+  "order": 30,
+  "source": {
+    "aionui-themes": [
+      "genshin-ayaka",
+      "genshin-ayaka-dark"
+    ]
+  }
+}

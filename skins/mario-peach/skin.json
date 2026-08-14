@@ -1,0 +1,30 @@
+{
+  "id": "mario-peach",
+  "name": "超级马里奥 · 桃花公主",
+  "nameEn": "Super Mario Princess Peach",
+  "author": "aionui-themes",
+  "tagline": "粉色城堡与皇冠的甜心主题",
+  "description": "夜幕城堡下的桃粉皇冠（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "超级马里奥"
+  ],
+  "accent": "#d6378b",
+  "bodyAttr": "data-dsh-mario-peach",
+  "package": "@whyihaveyou/dsh-skin-mario-peach",
+  "wiring": {
+    "id": "ui-skin-mario-peach",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario-peach/preview/light.png",
+    "dark": "skins/mario-peach/preview/dark.png"
+  },
+  "order": 54,
+  "source": {
+    "aionui-themes": [
+      "mario-peach",
+      "mario-peach-dark"
+    ]
+  }
+}

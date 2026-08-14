@@ -1,0 +1,31 @@
+{
+  "id": "zzz-yidhari",
+  "name": "绝区零 · 伊德海莉",
+  "nameEn": "ZZZ Yidhari",
+  "author": "aionui-themes",
+  "tagline": "触手紫与冰青的白昼浅海",
+  "description": "触手紫与冰青的深海诡梦（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "克系"
+  ],
+  "accent": "#7e4ec0",
+  "bodyAttr": "data-dsh-zzz-yidhari",
+  "package": "@whyihaveyou/dsh-skin-zzz-yidhari",
+  "wiring": {
+    "id": "ui-skin-zzz-yidhari",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-yidhari/preview/light.png",
+    "dark": "skins/zzz-yidhari/preview/dark.png"
+  },
+  "order": 147,
+  "source": {
+    "aionui-themes": [
+      "zzz-yidhari-light",
+      "zzz-yidhari"
+    ]
+  }
+}

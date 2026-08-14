@@ -1,0 +1,31 @@
+{
+  "id": "zzz-jufufu",
+  "name": "绝区零 · 橘福福",
+  "nameEn": "ZZZ Ju Fufu",
+  "author": "aionui-themes",
+  "tagline": "云岿山小猛虎的橘色火锅蒸汽",
+  "description": "深夜锅气里的小猛虎暖光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "可爱"
+  ],
+  "accent": "#f0831e",
+  "bodyAttr": "data-dsh-zzz-jufufu",
+  "package": "@whyihaveyou/dsh-skin-zzz-jufufu",
+  "wiring": {
+    "id": "ui-skin-zzz-jufufu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-jufufu/preview/light.png",
+    "dark": "skins/zzz-jufufu/preview/dark.png"
+  },
+  "order": 125,
+  "source": {
+    "aionui-themes": [
+      "zzz-jufufu",
+      "zzz-jufufu-dark"
+    ]
+  }
+}

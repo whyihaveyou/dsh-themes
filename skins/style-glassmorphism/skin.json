@@ -1,0 +1,29 @@
+{
+  "id": "style-glassmorphism",
+  "name": "玻璃拟态 Glassmorphism",
+  "nameEn": "Glassmorphism",
+  "author": "aionui-themes",
+  "tagline": "毛玻璃悬浮卡片与柔光渐变",
+  "description": "暗夜毛玻璃与极光霓虹光晕（含昼夜双模式）",
+  "tags": [
+    "美学风格"
+  ],
+  "accent": "#5b5bd6",
+  "bodyAttr": "data-dsh-style-glassmorphism",
+  "package": "@whyihaveyou/dsh-skin-style-glassmorphism",
+  "wiring": {
+    "id": "ui-skin-style-glassmorphism",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-glassmorphism/preview/light.png",
+    "dark": "skins/style-glassmorphism/preview/dark.png"
+  },
+  "order": 92,
+  "source": {
+    "aionui-themes": [
+      "style-glassmorphism",
+      "style-glassmorphism-dark"
+    ]
+  }
+}

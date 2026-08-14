@@ -1,0 +1,4 @@
+# mario-bowser skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-mario-bowser
+      name: '@whyihaveyou/dsh-skin-mario-bowser'

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-zhongli",
+  "name": "原神 · 钟离",
+  "nameEn": "Genshin Zhongli",
+  "author": "aionui-themes",
+  "tagline": "岩王帝君的宣纸金纹与茶烟",
+  "description": "岩王帝君的棕金华袍与天星（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#9a6b1e",
+  "bodyAttr": "data-dsh-genshin-zhongli",
+  "package": "@whyihaveyou/dsh-skin-genshin-zhongli",
+  "wiring": {
+    "id": "ui-skin-genshin-zhongli",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-zhongli/preview/light.png",
+    "dark": "skins/genshin-zhongli/preview/dark.png"
+  },
+  "order": 39,
+  "source": {
+    "aionui-themes": [
+      "genshin-zhongli-light",
+      "genshin-zhongli"
+    ]
+  }
+}

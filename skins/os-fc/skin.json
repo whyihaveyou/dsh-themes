@@ -1,0 +1,32 @@
+{
+  "id": "os-fc",
+  "name": "红白机 FC",
+  "nameEn": "Famicom FC",
+  "author": "aionui-themes",
+  "tagline": "红白机身配卡带金手指，像素硬边",
+  "description": "关灯后的 CRT 磷光与待机红点（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "红白机",
+    "FC",
+    "8bit"
+  ],
+  "accent": "#d10f1c",
+  "bodyAttr": "data-dsh-os-fc",
+  "package": "@whyihaveyou/dsh-skin-os-fc",
+  "wiring": {
+    "id": "ui-skin-os-fc",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-fc/preview/light.png",
+    "dark": "skins/os-fc/preview/dark.png"
+  },
+  "order": 64,
+  "source": {
+    "aionui-themes": [
+      "os-fc",
+      "os-fc-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "style-cottagecore",
+  "name": "田园 Cottagecore",
+  "nameEn": "Cottagecore",
+  "author": "aionui-themes",
+  "tagline": "奶油亚麻、小碎花与午后阳光",
+  "description": "月光下的鼠尾草与萤火（含昼夜双模式）",
+  "tags": [
+    "美学风格",
+    "田园"
+  ],
+  "accent": "#5c744a",
+  "bodyAttr": "data-dsh-style-cottagecore",
+  "package": "@whyihaveyou/dsh-skin-style-cottagecore",
+  "wiring": {
+    "id": "ui-skin-style-cottagecore",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-cottagecore/preview/light.png",
+    "dark": "skins/style-cottagecore/preview/dark.png"
+  },
+  "order": 87,
+  "source": {
+    "aionui-themes": [
+      "style-cottagecore",
+      "style-cottagecore-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mario-bowser",
+  "name": "超级马里奥 · 库巴",
+  "nameEn": "Super Mario Bowser",
+  "author": "aionui-themes",
+  "tagline": "日光下的橙黄刺壳与绿壳城堡",
+  "description": "熔岩城堡里的橙黄刺壳魔王（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "超级马里奥"
+  ],
+  "accent": "#d95f0e",
+  "bodyAttr": "data-dsh-mario-bowser",
+  "package": "@whyihaveyou/dsh-skin-mario-bowser",
+  "wiring": {
+    "id": "ui-skin-mario-bowser",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario-bowser/preview/light.png",
+    "dark": "skins/mario-bowser/preview/dark.png"
+  },
+  "order": 52,
+  "source": {
+    "aionui-themes": [
+      "mario-bowser-light",
+      "mario-bowser"
+    ]
+  }
+}

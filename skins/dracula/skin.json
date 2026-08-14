@@ -1,0 +1,30 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "nameEn": "Dracula",
+  "author": "aionui-themes",
+  "tagline": "羊皮纸白底上的紫粉语法色，白昼古堡",
+  "description": "暗紫古堡底，紫粉绿的吸血鬼之夜（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "Dracula"
+  ],
+  "accent": "#8a50d8",
+  "bodyAttr": "data-dsh-dracula",
+  "package": "@whyihaveyou/dsh-skin-dracula",
+  "wiring": {
+    "id": "ui-skin-dracula",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/dracula/preview/light.png",
+    "dark": "skins/dracula/preview/dark.png"
+  },
+  "order": 5,
+  "source": {
+    "aionui-themes": [
+      "dracula-light",
+      "dracula"
+    ]
+  }
+}

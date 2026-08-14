@@ -1,0 +1,30 @@
+{
+  "id": "mario-luigi",
+  "name": "超级马里奥 · 路易吉",
+  "nameEn": "Super Mario Luigi",
+  "author": "aionui-themes",
+  "tagline": "绿帽L与幽灵吸尘器的白昼冒险",
+  "description": "洋馆暗夜里闪着绿光的吸尘器（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "超级马里奥"
+  ],
+  "accent": "#159a3c",
+  "bodyAttr": "data-dsh-mario-luigi",
+  "package": "@whyihaveyou/dsh-skin-mario-luigi",
+  "wiring": {
+    "id": "ui-skin-mario-luigi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/mario-luigi/preview/light.png",
+    "dark": "skins/mario-luigi/preview/dark.png"
+  },
+  "order": 53,
+  "source": {
+    "aionui-themes": [
+      "mario-luigi",
+      "mario-luigi-dark"
+    ]
+  }
+}

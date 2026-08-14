@@ -1,0 +1,30 @@
+{
+  "id": "hsr-kafka",
+  "name": "崩坏星穹铁道 · 卡芙卡",
+  "nameEn": "HSR Kafka",
+  "author": "aionui-themes",
+  "tagline": "白昼酒杯里游走的紫红蛛丝",
+  "description": "紫红蛛丝缠绕的红酒之夜（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#a82f74",
+  "bodyAttr": "data-dsh-hsr-kafka",
+  "package": "@whyihaveyou/dsh-skin-hsr-kafka",
+  "wiring": {
+    "id": "ui-skin-hsr-kafka",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-kafka/preview/light.png",
+    "dark": "skins/hsr-kafka/preview/dark.png"
+  },
+  "order": 46,
+  "source": {
+    "aionui-themes": [
+      "hsr-kafka-light",
+      "hsr-kafka"
+    ]
+  }
+}

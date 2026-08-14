@@ -1,0 +1,30 @@
+{
+  "id": "genshin-wanderer",
+  "name": "原神 · 散兵",
+  "nameEn": "Genshin Wanderer",
+  "author": "aionui-themes",
+  "tagline": "白昼风起，斗笠下的旅人",
+  "description": "靛蓝斗笠下，风起人偶行（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#5748c8",
+  "bodyAttr": "data-dsh-genshin-wanderer",
+  "package": "@whyihaveyou/dsh-skin-genshin-wanderer",
+  "wiring": {
+    "id": "ui-skin-genshin-wanderer",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-wanderer/preview/light.png",
+    "dark": "skins/genshin-wanderer/preview/dark.png"
+  },
+  "order": 37,
+  "source": {
+    "aionui-themes": [
+      "genshin-wanderer-light",
+      "genshin-wanderer"
+    ]
+  }
+}

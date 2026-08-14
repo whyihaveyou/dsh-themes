@@ -1,0 +1,30 @@
+{
+  "id": "zzz-miyabi",
+  "name": "绝区零 · 星见雅",
+  "nameEn": "ZZZ Hoshimi Miyabi",
+  "author": "aionui-themes",
+  "tagline": "白昼雪原上的冰蓝太刀寒光",
+  "description": "狐耳课长的冰蓝太刀寒光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#2f9fd8",
+  "bodyAttr": "data-dsh-zzz-miyabi",
+  "package": "@whyihaveyou/dsh-skin-zzz-miyabi",
+  "wiring": {
+    "id": "ui-skin-zzz-miyabi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-miyabi/preview/light.png",
+    "dark": "skins/zzz-miyabi/preview/dark.png"
+  },
+  "order": 130,
+  "source": {
+    "aionui-themes": [
+      "zzz-miyabi-light",
+      "zzz-miyabi"
+    ]
+  }
+}

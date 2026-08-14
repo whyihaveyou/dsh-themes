@@ -1,0 +1,30 @@
+{
+  "id": "game-minecraft",
+  "name": "我的世界 · 苦力怕",
+  "nameEn": "Minecraft Creeper",
+  "author": "aionui-themes",
+  "tagline": "苦力怕绿的像素方块世界",
+  "description": "黑夜嘶嘶作响的苦力怕（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "Minecraft"
+  ],
+  "accent": "#43a047",
+  "bodyAttr": "data-dsh-game-minecraft",
+  "package": "@whyihaveyou/dsh-skin-game-minecraft",
+  "wiring": {
+    "id": "ui-skin-game-minecraft",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-minecraft/preview/light.png",
+    "dark": "skins/game-minecraft/preview/dark.png"
+  },
+  "order": 26,
+  "source": {
+    "aionui-themes": [
+      "game-minecraft",
+      "game-minecraft-dark"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "genshin-raiden",
+  "name": "原神 · 雷电将军",
+  "nameEn": "Genshin Raiden Shogun",
+  "author": "aionui-themes",
+  "tagline": "白无垢上的紫电金纹",
+  "description": "紫电巴纹，无想一刀（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "原神"
+  ],
+  "accent": "#7a4fc4",
+  "bodyAttr": "data-dsh-genshin-raiden",
+  "package": "@whyihaveyou/dsh-skin-genshin-raiden",
+  "wiring": {
+    "id": "ui-skin-genshin-raiden",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/genshin-raiden/preview/light.png",
+    "dark": "skins/genshin-raiden/preview/dark.png"
+  },
+  "order": 36,
+  "source": {
+    "aionui-themes": [
+      "genshin-raiden-light",
+      "genshin-raiden"
+    ]
+  }
+}

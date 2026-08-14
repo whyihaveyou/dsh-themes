@@ -1,0 +1,4 @@
+# style-pixel-art skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-pixel-art
+      name: '@whyihaveyou/dsh-skin-style-pixel-art'

@@ -1,0 +1,30 @@
+{
+  "id": "zzz-soukaku",
+  "name": "绝区零 · 苍角",
+  "nameEn": "ZZZ Soukaku",
+  "author": "aionui-themes",
+  "tagline": "蓝肤鬼族的雪原白昼冰蓝幻想",
+  "description": "蓝肤鬼族的深夜冰蓝幻想（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#2f86c0",
+  "bodyAttr": "data-dsh-zzz-soukaku",
+  "package": "@whyihaveyou/dsh-skin-zzz-soukaku",
+  "wiring": {
+    "id": "ui-skin-zzz-soukaku",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-soukaku/preview/light.png",
+    "dark": "skins/zzz-soukaku/preview/dark.png"
+  },
+  "order": 142,
+  "source": {
+    "aionui-themes": [
+      "zzz-soukaku-light",
+      "zzz-soukaku"
+    ]
+  }
+}

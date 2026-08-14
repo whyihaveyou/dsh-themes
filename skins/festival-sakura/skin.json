@@ -1,0 +1,30 @@
+{
+  "id": "festival-sakura",
+  "name": "樱花季",
+  "nameEn": "Festival Sakura",
+  "author": "aionui-themes",
+  "tagline": "粉樱吹雪与日式暖帘的春日白昼",
+  "description": "夜樱灯影下缓缓飘落的绯色花瓣（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "樱花"
+  ],
+  "accent": "#c94f6d",
+  "bodyAttr": "data-dsh-festival-sakura",
+  "package": "@whyihaveyou/dsh-skin-festival-sakura",
+  "wiring": {
+    "id": "ui-skin-festival-sakura",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-sakura/preview/light.png",
+    "dark": "skins/festival-sakura/preview/dark.png"
+  },
+  "order": 16,
+  "source": {
+    "aionui-themes": [
+      "festival-sakura",
+      "festival-sakura-dark"
+    ]
+  }
+}

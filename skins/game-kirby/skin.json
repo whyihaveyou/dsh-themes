@@ -1,0 +1,30 @@
+{
+  "id": "game-kirby",
+  "name": "星之卡比",
+  "nameEn": "Kirby",
+  "author": "aionui-themes",
+  "tagline": "粉红圆球与星星棒的软萌白昼",
+  "description": "夜空下粉球与星星棒的梦境（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "星之卡比"
+  ],
+  "accent": "#e2447f",
+  "bodyAttr": "data-dsh-game-kirby",
+  "package": "@whyihaveyou/dsh-skin-game-kirby",
+  "wiring": {
+    "id": "ui-skin-game-kirby",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/game-kirby/preview/light.png",
+    "dark": "skins/game-kirby/preview/dark.png"
+  },
+  "order": 25,
+  "source": {
+    "aionui-themes": [
+      "game-kirby",
+      "game-kirby-dark"
+    ]
+  }
+}

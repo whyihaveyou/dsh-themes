@@ -1,0 +1,30 @@
+{
+  "id": "retro-terminal",
+  "name": "Retro Terminal Amber",
+  "nameEn": "Retro Terminal Amber Phosphor",
+  "author": "aionui-themes",
+  "tagline": "P3 琥珀磷光终端的亮屏",
+  "description": "P1 绿磷光 CRT 终端（含昼夜双模式）",
+  "tags": [
+    "经典配色",
+    "CRT"
+  ],
+  "accent": "#b26a00",
+  "bodyAttr": "data-dsh-retro-terminal",
+  "package": "@whyihaveyou/dsh-skin-retro-terminal",
+  "wiring": {
+    "id": "ui-skin-retro-terminal",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/retro-terminal/preview/light.png",
+    "dark": "skins/retro-terminal/preview/dark.png"
+  },
+  "order": 81,
+  "source": {
+    "aionui-themes": [
+      "retro-terminal-amber",
+      "retro-terminal"
+    ]
+  }
+}

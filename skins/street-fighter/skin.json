@@ -1,0 +1,30 @@
+{
+  "id": "street-fighter",
+  "name": "街头霸王",
+  "nameEn": "Street Fighter",
+  "author": "aionui-themes",
+  "tagline": "阳光道场里的红头带与波动拳蓝焰",
+  "description": "街机厅暗场里的红头带与波动拳蓝焰（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "格斗"
+  ],
+  "accent": "#d8262e",
+  "bodyAttr": "data-dsh-street-fighter",
+  "package": "@whyihaveyou/dsh-skin-street-fighter",
+  "wiring": {
+    "id": "ui-skin-street-fighter",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/street-fighter/preview/light.png",
+    "dark": "skins/street-fighter/preview/dark.png"
+  },
+  "order": 84,
+  "source": {
+    "aionui-themes": [
+      "street-fighter-light",
+      "street-fighter"
+    ]
+  }
+}

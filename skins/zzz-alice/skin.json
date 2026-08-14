@@ -1,0 +1,30 @@
+{
+  "id": "zzz-alice",
+  "name": "绝区零 · 爱丽丝",
+  "nameEn": "ZZZ Alice Thymefield",
+  "author": "aionui-themes",
+  "tagline": "金发异色瞳的怪啖屋大小姐",
+  "description": "金发异色瞳大小姐的午夜茶会（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#d93a5e",
+  "bodyAttr": "data-dsh-zzz-alice",
+  "package": "@whyihaveyou/dsh-skin-zzz-alice",
+  "wiring": {
+    "id": "ui-skin-zzz-alice",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-alice/preview/light.png",
+    "dark": "skins/zzz-alice/preview/dark.png"
+  },
+  "order": 109,
+  "source": {
+    "aionui-themes": [
+      "zzz-alice",
+      "zzz-alice-dark"
+    ]
+  }
+}

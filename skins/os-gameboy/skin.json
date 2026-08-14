@@ -1,0 +1,31 @@
+{
+  "id": "os-gameboy",
+  "name": "Game Boy",
+  "nameEn": "Game Boy",
+  "author": "aionui-themes",
+  "tagline": "四阶绿灰点阵屏与轻微扫描线",
+  "description": "背光改装机的深夜磷光绿屏（含昼夜双模式）",
+  "tags": [
+    "系统复古",
+    "Game Boy",
+    "像素"
+  ],
+  "accent": "#306230",
+  "bodyAttr": "data-dsh-os-gameboy",
+  "package": "@whyihaveyou/dsh-skin-os-gameboy",
+  "wiring": {
+    "id": "ui-skin-os-gameboy",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/os-gameboy/preview/light.png",
+    "dark": "skins/os-gameboy/preview/dark.png"
+  },
+  "order": 65,
+  "source": {
+    "aionui-themes": [
+      "os-gameboy",
+      "os-gameboy-dark"
+    ]
+  }
+}

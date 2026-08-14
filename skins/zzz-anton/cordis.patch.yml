@@ -1,0 +1,4 @@
+# zzz-anton skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-zzz-anton
+      name: '@whyihaveyou/dsh-skin-zzz-anton'

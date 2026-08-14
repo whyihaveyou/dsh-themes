@@ -1,0 +1,4 @@
+# style-dunhuang skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-style-dunhuang
+      name: '@whyihaveyou/dsh-skin-style-dunhuang'

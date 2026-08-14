@@ -1,0 +1,31 @@
+{
+  "id": "zzz-qingyi",
+  "name": "绝区零 · 青衣",
+  "nameEn": "ZZZ Qingyi",
+  "author": "aionui-themes",
+  "tagline": "青花瓷白底，青绿纹路绕机娘关节",
+  "description": "墨夜瓷底，青绿电光映描金关节（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "新中式"
+  ],
+  "accent": "#0e8a76",
+  "bodyAttr": "data-dsh-zzz-qingyi",
+  "package": "@whyihaveyou/dsh-skin-zzz-qingyi",
+  "wiring": {
+    "id": "ui-skin-zzz-qingyi",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-qingyi/preview/light.png",
+    "dark": "skins/zzz-qingyi/preview/dark.png"
+  },
+  "order": 137,
+  "source": {
+    "aionui-themes": [
+      "zzz-qingyi",
+      "zzz-qingyi-dark"
+    ]
+  }
+}

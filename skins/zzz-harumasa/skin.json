@@ -1,0 +1,30 @@
+{
+  "id": "zzz-harumasa",
+  "name": "绝区零 · 悠真",
+  "nameEn": "ZZZ Harumasa",
+  "author": "aionui-themes",
+  "tagline": "白金弓手，薄荷清风",
+  "description": "夜巡弓手，薄荷冷月（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零"
+  ],
+  "accent": "#1ea88c",
+  "bodyAttr": "data-dsh-zzz-harumasa",
+  "package": "@whyihaveyou/dsh-skin-zzz-harumasa",
+  "wiring": {
+    "id": "ui-skin-zzz-harumasa",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-harumasa/preview/light.png",
+    "dark": "skins/zzz-harumasa/preview/dark.png"
+  },
+  "order": 122,
+  "source": {
+    "aionui-themes": [
+      "zzz-harumasa",
+      "zzz-harumasa-dark"
+    ]
+  }
+}

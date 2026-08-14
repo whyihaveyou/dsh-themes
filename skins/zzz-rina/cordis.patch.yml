@@ -1,0 +1,4 @@
+# zzz-rina skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-zzz-rina
+      name: '@whyihaveyou/dsh-skin-zzz-rina'

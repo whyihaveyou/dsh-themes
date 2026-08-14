@@ -1,0 +1,30 @@
+{
+  "id": "hsr-silverwolf",
+  "name": "崩坏星穹铁道 · 银狼",
+  "nameEn": "HSR Silver Wolf",
+  "author": "aionui-themes",
+  "tagline": "银白浅紫的像素故障网吧白昼",
+  "description": "像素故障与紫蓝霓虹的黑客空间（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#6d3fd8",
+  "bodyAttr": "data-dsh-hsr-silverwolf",
+  "package": "@whyihaveyou/dsh-skin-hsr-silverwolf",
+  "wiring": {
+    "id": "ui-skin-hsr-silverwolf",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-silverwolf/preview/light.png",
+    "dark": "skins/hsr-silverwolf/preview/dark.png"
+  },
+  "order": 48,
+  "source": {
+    "aionui-themes": [
+      "hsr-silverwolf-light",
+      "hsr-silverwolf"
+    ]
+  }
+}

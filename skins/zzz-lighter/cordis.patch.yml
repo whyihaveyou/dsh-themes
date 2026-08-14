@@ -1,0 +1,4 @@
+# zzz-lighter skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-zzz-lighter
+      name: '@whyihaveyou/dsh-skin-zzz-lighter'

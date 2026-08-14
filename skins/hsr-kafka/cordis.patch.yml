@@ -1,0 +1,4 @@
+# hsr-kafka skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-hsr-kafka
+      name: '@whyihaveyou/dsh-skin-hsr-kafka'

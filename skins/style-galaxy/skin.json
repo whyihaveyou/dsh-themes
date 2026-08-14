@@ -1,0 +1,29 @@
+{
+  "id": "style-galaxy",
+  "name": "星云 Galaxy",
+  "nameEn": "Galaxy Nebula",
+  "author": "aionui-themes",
+  "tagline": "白昼星云，淡紫天光里的星尘",
+  "description": "深空紫蓝星云，星点闪烁流星划过（含昼夜双模式）",
+  "tags": [
+    "美学风格"
+  ],
+  "accent": "#5b45b8",
+  "bodyAttr": "data-dsh-style-galaxy",
+  "package": "@whyihaveyou/dsh-skin-style-galaxy",
+  "wiring": {
+    "id": "ui-skin-style-galaxy",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/style-galaxy/preview/light.png",
+    "dark": "skins/style-galaxy/preview/dark.png"
+  },
+  "order": 91,
+  "source": {
+    "aionui-themes": [
+      "style-galaxy-light",
+      "style-galaxy"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "festival-spring",
+  "name": "春节",
+  "nameEn": "Spring Festival",
+  "author": "aionui-themes",
+  "tagline": "宣纸暖白衬红金窗花与灯笼",
+  "description": "中国红金灯笼映照的喜庆年夜（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "春节"
+  ],
+  "accent": "#c81e10",
+  "bodyAttr": "data-dsh-festival-spring",
+  "package": "@whyihaveyou/dsh-skin-festival-spring",
+  "wiring": {
+    "id": "ui-skin-festival-spring",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-spring/preview/light.png",
+    "dark": "skins/festival-spring/preview/dark.png"
+  },
+  "order": 17,
+  "source": {
+    "aionui-themes": [
+      "festival-spring-light",
+      "festival-spring"
+    ]
+  }
+}

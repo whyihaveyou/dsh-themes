@@ -1,0 +1,30 @@
+{
+  "id": "festival-christmas",
+  "name": "圣诞节",
+  "nameEn": "Christmas",
+  "author": "aionui-themes",
+  "tagline": "白昼雪景，红绿金装点圣诞",
+  "description": "圣诞夜雪落，彩灯与礼物相伴（含昼夜双模式）",
+  "tags": [
+    "节日限定",
+    "圣诞节"
+  ],
+  "accent": "#c2262f",
+  "bodyAttr": "data-dsh-festival-christmas",
+  "package": "@whyihaveyou/dsh-skin-festival-christmas",
+  "wiring": {
+    "id": "ui-skin-festival-christmas",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/festival-christmas/preview/light.png",
+    "dark": "skins/festival-christmas/preview/dark.png"
+  },
+  "order": 9,
+  "source": {
+    "aionui-themes": [
+      "festival-christmas-light",
+      "festival-christmas"
+    ]
+  }
+}

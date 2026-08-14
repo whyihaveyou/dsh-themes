@@ -1,0 +1,31 @@
+{
+  "id": "zzz-panyinhu",
+  "name": "绝区零 · 潘引壶",
+  "nameEn": "ZZZ Pan Yinhu",
+  "author": "aionui-themes",
+  "tagline": "熊猫大侠的竹绿茶馆闲趣",
+  "description": "深夜茶馆,竹影灯下的麻将局（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "熊猫"
+  ],
+  "accent": "#2e7d46",
+  "bodyAttr": "data-dsh-zzz-panyinhu",
+  "package": "@whyihaveyou/dsh-skin-zzz-panyinhu",
+  "wiring": {
+    "id": "ui-skin-zzz-panyinhu",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-panyinhu/preview/light.png",
+    "dark": "skins/zzz-panyinhu/preview/dark.png"
+  },
+  "order": 134,
+  "source": {
+    "aionui-themes": [
+      "zzz-panyinhu",
+      "zzz-panyinhu-dark"
+    ]
+  }
+}

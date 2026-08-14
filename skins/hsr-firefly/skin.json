@@ -1,0 +1,30 @@
+{
+  "id": "hsr-firefly",
+  "name": "崩坏星穹铁道 · 流萤",
+  "nameEn": "HSR Firefly",
+  "author": "aionui-themes",
+  "tagline": "白昼薄暮下的萤火绿与银白装甲",
+  "description": "夏夜萤火绿光与萨姆银白机甲（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "崩坏星穹铁道"
+  ],
+  "accent": "#12835c",
+  "bodyAttr": "data-dsh-hsr-firefly",
+  "package": "@whyihaveyou/dsh-skin-hsr-firefly",
+  "wiring": {
+    "id": "ui-skin-hsr-firefly",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/hsr-firefly/preview/light.png",
+    "dark": "skins/hsr-firefly/preview/dark.png"
+  },
+  "order": 44,
+  "source": {
+    "aionui-themes": [
+      "hsr-firefly-light",
+      "hsr-firefly"
+    ]
+  }
+}

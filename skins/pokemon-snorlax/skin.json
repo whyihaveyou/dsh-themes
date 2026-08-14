@@ -1,0 +1,30 @@
+{
+  "id": "pokemon-snorlax",
+  "name": "宝可梦 · 卡比兽",
+  "nameEn": "Pokémon Snorlax",
+  "author": "aionui-themes",
+  "tagline": "树荫下午睡的蓝绿大肚与奶油肚皮",
+  "description": "月光树荫下卡比兽抱着肚子熟睡（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "宝可梦"
+  ],
+  "accent": "#2e6e64",
+  "bodyAttr": "data-dsh-pokemon-snorlax",
+  "package": "@whyihaveyou/dsh-skin-pokemon-snorlax",
+  "wiring": {
+    "id": "ui-skin-pokemon-snorlax",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/pokemon-snorlax/preview/light.png",
+    "dark": "skins/pokemon-snorlax/preview/dark.png"
+  },
+  "order": 79,
+  "source": {
+    "aionui-themes": [
+      "pokemon-snorlax",
+      "pokemon-snorlax-dark"
+    ]
+  }
+}

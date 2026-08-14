@@ -1,0 +1,4 @@
+# os-gameboy skin bundle patch: inserts its dshClient row into the web plugin roster.
+- insert:
+    - id: ui-skin-os-gameboy
+      name: '@whyihaveyou/dsh-skin-os-gameboy'

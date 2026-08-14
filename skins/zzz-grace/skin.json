@@ -1,0 +1,31 @@
+{
+  "id": "zzz-grace",
+  "name": "绝区零 · 格莉丝",
+  "nameEn": "ZZZ Grace Howard",
+  "author": "aionui-themes",
+  "tagline": "白祇重工橙白工装与蓝屏仪光",
+  "description": "夜班车间的安全橙与蓝图荧光（含昼夜双模式）",
+  "tags": [
+    "游戏",
+    "绝区零",
+    "机械"
+  ],
+  "accent": "#e8700f",
+  "bodyAttr": "data-dsh-zzz-grace",
+  "package": "@whyihaveyou/dsh-skin-zzz-grace",
+  "wiring": {
+    "id": "ui-skin-zzz-grace",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "skins/zzz-grace/preview/light.png",
+    "dark": "skins/zzz-grace/preview/dark.png"
+  },
+  "order": 121,
+  "source": {
+    "aionui-themes": [
+      "zzz-grace",
+      "zzz-grace-dark"
+    ]
+  }
+}
