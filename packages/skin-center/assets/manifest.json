@@ -1,0 +1,3049 @@
+{
+  "generatedAt": "2026-08-14T17:56:18.210Z",
+  "count": 151,
+  "skins": [
+    {
+      "id": "ayu",
+      "name": "Ayu Light",
+      "nameEn": "Ayu",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Ayu"
+      ],
+      "accent": "#F29718",
+      "bodyAttr": "data-dsh-ayu",
+      "author": "aionui-themes",
+      "tagline": "Ayu 官方 Light 版，净白暖橙",
+      "order": 1,
+      "thumb": {
+        "light": "thumbs/ayu.light.webp",
+        "dark": "thumbs/ayu.dark.webp"
+      }
+    },
+    {
+      "id": "catppuccin",
+      "name": "Catppuccin Latte",
+      "nameEn": "Catppuccin Latte",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Catppuccin"
+      ],
+      "accent": "#8839ef",
+      "bodyAttr": "data-dsh-catppuccin",
+      "author": "aionui-themes",
+      "tagline": "Latte 晨光奶咖，Mauve 马卡龙紫",
+      "order": 2,
+      "thumb": {
+        "light": "thumbs/catppuccin.light.webp",
+        "dark": "thumbs/catppuccin.dark.webp"
+      }
+    },
+    {
+      "id": "darcula",
+      "name": "IntelliJ Light",
+      "nameEn": "IntelliJ",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "JetBrains"
+      ],
+      "accent": "#0033b3",
+      "bodyAttr": "data-dsh-darcula",
+      "author": "aionui-themes",
+      "tagline": "IntelliJ 经典白底与藏青关键字",
+      "order": 3,
+      "thumb": {
+        "light": "thumbs/darcula.light.webp",
+        "dark": "thumbs/darcula.dark.webp"
+      }
+    },
+    {
+      "id": "donald-duck",
+      "name": "唐老鸭",
+      "nameEn": "Donald Duck",
+      "group": "动画",
+      "collection": "动画",
+      "tags": [
+        "动画",
+        "迪士尼"
+      ],
+      "accent": "#1a3a8f",
+      "bodyAttr": "data-dsh-donald-duck",
+      "author": "aionui-themes",
+      "tagline": "水手蓝帽衫配黄嘴红领结的海军风",
+      "order": 4,
+      "thumb": {
+        "light": "thumbs/donald-duck.light.webp",
+        "dark": "thumbs/donald-duck.dark.webp"
+      }
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "nameEn": "Dracula",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Dracula"
+      ],
+      "accent": "#8a50d8",
+      "bodyAttr": "data-dsh-dracula",
+      "author": "aionui-themes",
+      "tagline": "羊皮纸白底上的紫粉语法色，白昼古堡",
+      "order": 5,
+      "thumb": {
+        "light": "thumbs/dracula.light.webp",
+        "dark": "thumbs/dracula.dark.webp"
+      }
+    },
+    {
+      "id": "egg-matrix",
+      "name": "黑客帝国 Matrix",
+      "nameEn": "The Matrix Daylight",
+      "group": "彩蛋",
+      "collection": "彩蛋",
+      "tags": [
+        "彩蛋",
+        "黑客帝国",
+        "Matrix"
+      ],
+      "accent": "#008f11",
+      "bodyAttr": "data-dsh-egg-matrix",
+      "author": "aionui-themes",
+      "tagline": "白昼矩阵：纸上打印的绿色代码流",
+      "order": 6,
+      "thumb": {
+        "light": "thumbs/egg-matrix.light.webp",
+        "dark": "thumbs/egg-matrix.dark.webp"
+      }
+    },
+    {
+      "id": "egg-pacman",
+      "name": "吃豆人 Pac-Man",
+      "nameEn": "Pac-Man Daylight",
+      "group": "彩蛋",
+      "collection": "彩蛋",
+      "tags": [
+        "彩蛋",
+        "街机"
+      ],
+      "accent": "#2121de",
+      "bodyAttr": "data-dsh-egg-pacman",
+      "author": "aionui-themes",
+      "tagline": "白昼街机厅，迷宫依旧运转",
+      "order": 7,
+      "thumb": {
+        "light": "thumbs/egg-pacman.light.webp",
+        "dark": "thumbs/egg-pacman.dark.webp"
+      }
+    },
+    {
+      "id": "everforest",
+      "name": "Everforest",
+      "nameEn": "Everforest",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "编辑器"
+      ],
+      "accent": "#8da101",
+      "bodyAttr": "data-dsh-everforest",
+      "author": "aionui-themes",
+      "tagline": "晨雾米白纸面，林间新绿的护眼浅色",
+      "order": 8,
+      "thumb": {
+        "light": "thumbs/everforest.light.webp",
+        "dark": "thumbs/everforest.dark.webp"
+      }
+    },
+    {
+      "id": "festival-christmas",
+      "name": "圣诞节",
+      "nameEn": "Christmas",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "圣诞节"
+      ],
+      "accent": "#c2262f",
+      "bodyAttr": "data-dsh-festival-christmas",
+      "author": "aionui-themes",
+      "tagline": "白昼雪景，红绿金装点圣诞",
+      "order": 9,
+      "thumb": {
+        "light": "thumbs/festival-christmas.light.webp",
+        "dark": "thumbs/festival-christmas.dark.webp"
+      }
+    },
+    {
+      "id": "festival-dragonboat",
+      "name": "端午",
+      "nameEn": "Dragon Boat Festival",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定"
+      ],
+      "accent": "#2e7d4f",
+      "bodyAttr": "data-dsh-festival-dragonboat",
+      "author": "aionui-themes",
+      "tagline": "艾草绿粽叶香，龙舟红漆竞渡忙",
+      "order": 10,
+      "thumb": {
+        "light": "thumbs/festival-dragonboat.light.webp",
+        "dark": "thumbs/festival-dragonboat.dark.webp"
+      }
+    },
+    {
+      "id": "festival-halloween",
+      "name": "万圣节",
+      "nameEn": "Halloween",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "万圣节"
+      ],
+      "accent": "#c2571a",
+      "bodyAttr": "data-dsh-festival-halloween",
+      "author": "aionui-themes",
+      "tagline": "白昼糖果色的南瓜与蝙蝠巡游",
+      "order": 11,
+      "thumb": {
+        "light": "thumbs/festival-halloween.light.webp",
+        "dark": "thumbs/festival-halloween.dark.webp"
+      }
+    },
+    {
+      "id": "festival-lantern",
+      "name": "元宵",
+      "nameEn": "Lantern Festival",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "元宵"
+      ],
+      "accent": "#c22a1c",
+      "bodyAttr": "data-dsh-festival-lantern",
+      "author": "aionui-themes",
+      "tagline": "汤圆白底，灯谜红纸点睛",
+      "order": 12,
+      "thumb": {
+        "light": "thumbs/festival-lantern.light.webp",
+        "dark": "thumbs/festival-lantern.dark.webp"
+      }
+    },
+    {
+      "id": "festival-midautumn",
+      "name": "中秋",
+      "nameEn": "Mid-Autumn Festival",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定"
+      ],
+      "accent": "#a87b16",
+      "bodyAttr": "data-dsh-festival-midautumn",
+      "author": "aionui-themes",
+      "tagline": "白昼桂香米纸色，金月玉兔照旧圆",
+      "order": 13,
+      "thumb": {
+        "light": "thumbs/festival-midautumn.light.webp",
+        "dark": "thumbs/festival-midautumn.dark.webp"
+      }
+    },
+    {
+      "id": "festival-newyear",
+      "name": "跨年夜",
+      "nameEn": "Festival New Year's Eve",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定"
+      ],
+      "accent": "#a87b1f",
+      "bodyAttr": "data-dsh-festival-newyear",
+      "author": "aionui-themes",
+      "tagline": "香槟白昼里的烟花碎金与倒数",
+      "order": 14,
+      "thumb": {
+        "light": "thumbs/festival-newyear.light.webp",
+        "dark": "thumbs/festival-newyear.dark.webp"
+      }
+    },
+    {
+      "id": "festival-qixi",
+      "name": "七夕",
+      "nameEn": "Qixi Festival",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "七夕"
+      ],
+      "accent": "#b02740",
+      "bodyAttr": "data-dsh-festival-qixi",
+      "author": "aionui-themes",
+      "tagline": "晨光里的红线与鹊桥余韵",
+      "order": 15,
+      "thumb": {
+        "light": "thumbs/festival-qixi.light.webp",
+        "dark": "thumbs/festival-qixi.dark.webp"
+      }
+    },
+    {
+      "id": "festival-sakura",
+      "name": "樱花季",
+      "nameEn": "Festival Sakura",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "樱花"
+      ],
+      "accent": "#c94f6d",
+      "bodyAttr": "data-dsh-festival-sakura",
+      "author": "aionui-themes",
+      "tagline": "粉樱吹雪与日式暖帘的春日白昼",
+      "order": 16,
+      "thumb": {
+        "light": "thumbs/festival-sakura.light.webp",
+        "dark": "thumbs/festival-sakura.dark.webp"
+      }
+    },
+    {
+      "id": "festival-spring",
+      "name": "春节",
+      "nameEn": "Spring Festival",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定",
+        "春节"
+      ],
+      "accent": "#c81e10",
+      "bodyAttr": "data-dsh-festival-spring",
+      "author": "aionui-themes",
+      "tagline": "宣纸暖白衬红金窗花与灯笼",
+      "order": 17,
+      "thumb": {
+        "light": "thumbs/festival-spring.light.webp",
+        "dark": "thumbs/festival-spring.dark.webp"
+      }
+    },
+    {
+      "id": "festival-valentine",
+      "name": "情人节",
+      "nameEn": "Valentine's",
+      "group": "节日限定",
+      "collection": "节日限定",
+      "tags": [
+        "节日限定"
+      ],
+      "accent": "#d6336c",
+      "bodyAttr": "data-dsh-festival-valentine",
+      "author": "aionui-themes",
+      "tagline": "玫瑰红粉、爱心挂串与情书火漆",
+      "order": 18,
+      "thumb": {
+        "light": "thumbs/festival-valentine.light.webp",
+        "dark": "thumbs/festival-valentine.dark.webp"
+      }
+    },
+    {
+      "id": "flexoki",
+      "name": "Flexoki",
+      "nameEn": "Flexoki",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Flexoki"
+      ],
+      "accent": "#24837B",
+      "bodyAttr": "data-dsh-flexoki",
+      "author": "aionui-themes",
+      "tagline": "暖纸墨字亮色系，青墨点睛",
+      "order": 19,
+      "thumb": {
+        "light": "thumbs/flexoki.light.webp",
+        "dark": "thumbs/flexoki.dark.webp"
+      }
+    },
+    {
+      "id": "game-amongus",
+      "name": "Among Us",
+      "nameEn": "Among Us",
+      "group": "Among Us",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "Among Us"
+      ],
+      "accent": "#b30f0f",
+      "bodyAttr": "data-dsh-game-amongus",
+      "author": "aionui-themes",
+      "tagline": "飞船食堂晨光里的红色船员",
+      "order": 20,
+      "thumb": {
+        "light": "thumbs/game-amongus.light.webp",
+        "dark": "thumbs/game-amongus.dark.webp"
+      }
+    },
+    {
+      "id": "game-animalcrossing",
+      "name": "集合啦动物森友会",
+      "nameEn": "Animal Crossing: New Horizons",
+      "group": "动物森友会",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "动物森友会"
+      ],
+      "accent": "#4fa24b",
+      "bodyAttr": "data-dsh-game-animalcrossing",
+      "author": "aionui-themes",
+      "tagline": "嫩绿叶子与狸克木牌的岛屿小清新",
+      "order": 21,
+      "thumb": {
+        "light": "thumbs/game-animalcrossing.light.webp",
+        "dark": "thumbs/game-animalcrossing.dark.webp"
+      }
+    },
+    {
+      "id": "game-cyberpunk2077",
+      "name": "赛博朋克2077",
+      "nameEn": "Cyberpunk 2077 ·",
+      "group": "赛博朋克2077",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "赛博朋克2077"
+      ],
+      "accent": "#b8a300",
+      "bodyAttr": "data-dsh-game-cyberpunk2077",
+      "author": "aionui-themes",
+      "tagline": "白昼夜之城，黄黑警示与残存霓虹",
+      "order": 22,
+      "thumb": {
+        "light": "thumbs/game-cyberpunk2077.light.webp",
+        "dark": "thumbs/game-cyberpunk2077.dark.webp"
+      }
+    },
+    {
+      "id": "game-eldenring",
+      "name": "艾尔登法环",
+      "nameEn": "Elden Ring",
+      "group": "艾尔登法环",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "艾尔登法环"
+      ],
+      "accent": "#a07c2a",
+      "bodyAttr": "data-dsh-game-eldenring",
+      "author": "aionui-themes",
+      "tagline": "黄金树晨光下的赐福指引",
+      "order": 23,
+      "thumb": {
+        "light": "thumbs/game-eldenring.light.webp",
+        "dark": "thumbs/game-eldenring.dark.webp"
+      }
+    },
+    {
+      "id": "game-hollowknight",
+      "name": "空洞骑士",
+      "nameEn": "Hollow Knight ·",
+      "group": "空洞骑士",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "空洞骑士"
+      ],
+      "accent": "#35608f",
+      "bodyAttr": "data-dsh-game-hollowknight",
+      "author": "aionui-themes",
+      "tagline": "圣巢晨雾中的小骑士面具",
+      "order": 24,
+      "thumb": {
+        "light": "thumbs/game-hollowknight.light.webp",
+        "dark": "thumbs/game-hollowknight.dark.webp"
+      }
+    },
+    {
+      "id": "game-kirby",
+      "name": "星之卡比",
+      "nameEn": "Kirby",
+      "group": "星之卡比",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "星之卡比"
+      ],
+      "accent": "#e2447f",
+      "bodyAttr": "data-dsh-game-kirby",
+      "author": "aionui-themes",
+      "tagline": "粉红圆球与星星棒的软萌白昼",
+      "order": 25,
+      "thumb": {
+        "light": "thumbs/game-kirby.light.webp",
+        "dark": "thumbs/game-kirby.dark.webp"
+      }
+    },
+    {
+      "id": "game-minecraft",
+      "name": "我的世界 · 苦力怕",
+      "nameEn": "Minecraft Creeper",
+      "group": "Minecraft",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "Minecraft"
+      ],
+      "accent": "#43a047",
+      "bodyAttr": "data-dsh-game-minecraft",
+      "author": "aionui-themes",
+      "tagline": "苦力怕绿的像素方块世界",
+      "order": 26,
+      "thumb": {
+        "light": "thumbs/game-minecraft.light.webp",
+        "dark": "thumbs/game-minecraft.dark.webp"
+      }
+    },
+    {
+      "id": "game-portal",
+      "name": "传送门",
+      "nameEn": "Portal",
+      "group": "Portal",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "Portal"
+      ],
+      "accent": "#e07800",
+      "bodyAttr": "data-dsh-game-portal",
+      "author": "aionui-themes",
+      "tagline": "光圈科技白舱与橙蓝双传送门",
+      "order": 27,
+      "thumb": {
+        "light": "thumbs/game-portal.light.webp",
+        "dark": "thumbs/game-portal.dark.webp"
+      }
+    },
+    {
+      "id": "game-stardew",
+      "name": "星露谷物语",
+      "nameEn": "Stardew Valley",
+      "group": "星露谷物语",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "星露谷物语"
+      ],
+      "accent": "#2d7dbd",
+      "bodyAttr": "data-dsh-game-stardew",
+      "author": "aionui-themes",
+      "tagline": "田园像素农场，蓝鸡与四季作物",
+      "order": 28,
+      "thumb": {
+        "light": "thumbs/game-stardew.light.webp",
+        "dark": "thumbs/game-stardew.dark.webp"
+      }
+    },
+    {
+      "id": "game-tetris",
+      "name": "俄罗斯方块",
+      "nameEn": "Tetris",
+      "group": "俄罗斯方块",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "俄罗斯方块"
+      ],
+      "accent": "#1488c0",
+      "bodyAttr": "data-dsh-game-tetris",
+      "author": "aionui-themes",
+      "tagline": "白昼竞技场上的七彩像素方块",
+      "order": 29,
+      "thumb": {
+        "light": "thumbs/game-tetris.light.webp",
+        "dark": "thumbs/game-tetris.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-ayaka",
+      "name": "原神 · 神里绫华",
+      "nameEn": "Genshin Impact Kamisato Ayaka",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#3d7ea8",
+      "bodyAttr": "data-dsh-genshin-ayaka",
+      "author": "aionui-themes",
+      "tagline": "白鹭公主的冰蓝折扇与椿花",
+      "order": 30,
+      "thumb": {
+        "light": "thumbs/genshin-ayaka.light.webp",
+        "dark": "thumbs/genshin-ayaka.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-furina",
+      "name": "原神 · 芙宁娜",
+      "nameEn": "Genshin Furina",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#3585c8",
+      "bodyAttr": "data-dsh-genshin-furina",
+      "author": "aionui-themes",
+      "tagline": "水神的歌剧舞台，聚光灯与泡泡",
+      "order": 31,
+      "thumb": {
+        "light": "thumbs/genshin-furina.light.webp",
+        "dark": "thumbs/genshin-furina.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-ganyu",
+      "name": "原神 · 甘雨",
+      "nameEn": "Genshin Ganyu",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#3e7cb0",
+      "bodyAttr": "data-dsh-genshin-ganyu",
+      "author": "aionui-themes",
+      "tagline": "冰蓝麒麟的云海与清心",
+      "order": 32,
+      "thumb": {
+        "light": "thumbs/genshin-ganyu.light.webp",
+        "dark": "thumbs/genshin-ganyu.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-hutao",
+      "name": "原神 · 胡桃",
+      "nameEn": "Genshin Impact Hu Tao",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#c42331",
+      "bodyAttr": "data-dsh-genshin-hutao",
+      "author": "aionui-themes",
+      "tagline": "白梅映雪的火红昼行",
+      "order": 33,
+      "thumb": {
+        "light": "thumbs/genshin-hutao.light.webp",
+        "dark": "thumbs/genshin-hutao.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-klee",
+      "name": "原神 · 可莉",
+      "nameEn": "Genshin Impact Klee",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#e0352b",
+      "bodyAttr": "data-dsh-genshin-klee",
+      "author": "aionui-themes",
+      "tagline": "蹦蹦炸弹与火花四叶草的童趣涂鸦",
+      "order": 34,
+      "thumb": {
+        "light": "thumbs/genshin-klee.light.webp",
+        "dark": "thumbs/genshin-klee.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-nahida",
+      "name": "原神 · 纳西妲",
+      "nameEn": "Genshin Nahida",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#3d9a52",
+      "bodyAttr": "data-dsh-genshin-nahida",
+      "author": "aionui-themes",
+      "tagline": "草绿梦境与四叶草的净善宫晨光",
+      "order": 35,
+      "thumb": {
+        "light": "thumbs/genshin-nahida.light.webp",
+        "dark": "thumbs/genshin-nahida.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-raiden",
+      "name": "原神 · 雷电将军",
+      "nameEn": "Genshin Raiden Shogun",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#7a4fc4",
+      "bodyAttr": "data-dsh-genshin-raiden",
+      "author": "aionui-themes",
+      "tagline": "白无垢上的紫电金纹",
+      "order": 36,
+      "thumb": {
+        "light": "thumbs/genshin-raiden.light.webp",
+        "dark": "thumbs/genshin-raiden.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-wanderer",
+      "name": "原神 · 散兵",
+      "nameEn": "Genshin Wanderer",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#5748c8",
+      "bodyAttr": "data-dsh-genshin-wanderer",
+      "author": "aionui-themes",
+      "tagline": "白昼风起，斗笠下的旅人",
+      "order": 37,
+      "thumb": {
+        "light": "thumbs/genshin-wanderer.light.webp",
+        "dark": "thumbs/genshin-wanderer.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-xiao",
+      "name": "原神 · 魈",
+      "nameEn": "Genshin Xiao",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#1a9c7d",
+      "bodyAttr": "data-dsh-genshin-xiao",
+      "author": "aionui-themes",
+      "tagline": "傩面夜叉昼行，青绿风息拂过璃月山野",
+      "order": 38,
+      "thumb": {
+        "light": "thumbs/genshin-xiao.light.webp",
+        "dark": "thumbs/genshin-xiao.dark.webp"
+      }
+    },
+    {
+      "id": "genshin-zhongli",
+      "name": "原神 · 钟离",
+      "nameEn": "Genshin Zhongli",
+      "group": "原神",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "原神"
+      ],
+      "accent": "#9a6b1e",
+      "bodyAttr": "data-dsh-genshin-zhongli",
+      "author": "aionui-themes",
+      "tagline": "岩王帝君的宣纸金纹与茶烟",
+      "order": 39,
+      "thumb": {
+        "light": "thumbs/genshin-zhongli.light.webp",
+        "dark": "thumbs/genshin-zhongli.dark.webp"
+      }
+    },
+    {
+      "id": "github",
+      "name": "GitHub Light",
+      "nameEn": "GitHub",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "GitHub"
+      ],
+      "accent": "#0969da",
+      "bodyAttr": "data-dsh-github",
+      "author": "aionui-themes",
+      "tagline": "GitHub 官方浅色，白底蓝链与贡献格绿",
+      "order": 40,
+      "thumb": {
+        "light": "thumbs/github.light.webp",
+        "dark": "thumbs/github.dark.webp"
+      }
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "nameEn": "Gruvbox",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Gruvbox"
+      ],
+      "accent": "#b57614",
+      "bodyAttr": "data-dsh-gruvbox",
+      "author": "aionui-themes",
+      "tagline": "复古暖黄做旧纸底的日光模式",
+      "order": 41,
+      "thumb": {
+        "light": "thumbs/gruvbox.light.webp",
+        "dark": "thumbs/gruvbox.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-acheron",
+      "name": "崩坏星穹铁道 · 黄泉",
+      "nameEn": "HSR Acheron",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#7b3fc4",
+      "bodyAttr": "data-dsh-hsr-acheron",
+      "author": "aionui-themes",
+      "tagline": "雾紫晨空下的血刃与彼岸花",
+      "order": 42,
+      "thumb": {
+        "light": "thumbs/hsr-acheron.light.webp",
+        "dark": "thumbs/hsr-acheron.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-danheng",
+      "name": "崩坏星穹铁道 · 丹恒",
+      "nameEn": "HSR Dan Heng (Light)",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#1f8a99",
+      "bodyAttr": "data-dsh-hsr-danheng",
+      "author": "aionui-themes",
+      "tagline": "青龙水纹与长枪寒光的清晓",
+      "order": 43,
+      "thumb": {
+        "light": "thumbs/hsr-danheng.light.webp",
+        "dark": "thumbs/hsr-danheng.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-firefly",
+      "name": "崩坏星穹铁道 · 流萤",
+      "nameEn": "HSR Firefly",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#12835c",
+      "bodyAttr": "data-dsh-hsr-firefly",
+      "author": "aionui-themes",
+      "tagline": "白昼薄暮下的萤火绿与银白装甲",
+      "order": 44,
+      "thumb": {
+        "light": "thumbs/hsr-firefly.light.webp",
+        "dark": "thumbs/hsr-firefly.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-jingyuan",
+      "name": "崩坏星穹铁道 · 景元",
+      "nameEn": "HSR Jing Yuan",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#9c7408",
+      "bodyAttr": "data-dsh-hsr-jingyuan",
+      "author": "aionui-themes",
+      "tagline": "白金神君的雷霆棋局",
+      "order": 45,
+      "thumb": {
+        "light": "thumbs/hsr-jingyuan.light.webp",
+        "dark": "thumbs/hsr-jingyuan.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-kafka",
+      "name": "崩坏星穹铁道 · 卡芙卡",
+      "nameEn": "HSR Kafka",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#a82f74",
+      "bodyAttr": "data-dsh-hsr-kafka",
+      "author": "aionui-themes",
+      "tagline": "白昼酒杯里游走的紫红蛛丝",
+      "order": 46,
+      "thumb": {
+        "light": "thumbs/hsr-kafka.light.webp",
+        "dark": "thumbs/hsr-kafka.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-march7",
+      "name": "崩坏星穹铁道 · 三月七",
+      "nameEn": "HSR March 7th",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#d0448c",
+      "bodyAttr": "data-dsh-hsr-march7",
+      "author": "aionui-themes",
+      "tagline": "粉蓝相机与冰晶的元气少女",
+      "order": 47,
+      "thumb": {
+        "light": "thumbs/hsr-march7.light.webp",
+        "dark": "thumbs/hsr-march7.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-silverwolf",
+      "name": "崩坏星穹铁道 · 银狼",
+      "nameEn": "HSR Silver Wolf",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#6d3fd8",
+      "bodyAttr": "data-dsh-hsr-silverwolf",
+      "author": "aionui-themes",
+      "tagline": "银白浅紫的像素故障网吧白昼",
+      "order": 48,
+      "thumb": {
+        "light": "thumbs/hsr-silverwolf.light.webp",
+        "dark": "thumbs/hsr-silverwolf.dark.webp"
+      }
+    },
+    {
+      "id": "hsr-sparkle",
+      "name": "崩坏星穹铁道 · 花火",
+      "nameEn": "HSR Sparkle",
+      "group": "崩坏星穹铁道",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "崩坏星穹铁道"
+      ],
+      "accent": "#cf1f3a",
+      "bodyAttr": "data-dsh-hsr-sparkle",
+      "author": "aionui-themes",
+      "tagline": "红金狐面昼场，烟花落入白昼",
+      "order": 49,
+      "thumb": {
+        "light": "thumbs/hsr-sparkle.light.webp",
+        "dark": "thumbs/hsr-sparkle.dark.webp"
+      }
+    },
+    {
+      "id": "kanagawa",
+      "name": "Kanagawa Lotus",
+      "nameEn": "Kanagawa Lotus",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "莲米纸"
+      ],
+      "accent": "#4d699b",
+      "bodyAttr": "data-dsh-kanagawa",
+      "author": "aionui-themes",
+      "tagline": "葛饰北斋浮世绘，米纸白莲昼卷",
+      "order": 50,
+      "thumb": {
+        "light": "thumbs/kanagawa.light.webp",
+        "dark": "thumbs/kanagawa.dark.webp"
+      }
+    },
+    {
+      "id": "mario",
+      "name": "超级马里奥",
+      "nameEn": "Super Mario",
+      "group": "任天堂",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "任天堂"
+      ],
+      "accent": "#e52521",
+      "bodyAttr": "data-dsh-mario",
+      "author": "aionui-themes",
+      "tagline": "帽衫红、工装蓝与金币黄的蘑菇王国",
+      "order": 51,
+      "thumb": {
+        "light": "thumbs/mario.light.webp",
+        "dark": "thumbs/mario.dark.webp"
+      }
+    },
+    {
+      "id": "mario-bowser",
+      "name": "超级马里奥 · 库巴",
+      "nameEn": "Super Mario Bowser",
+      "group": "超级马里奥",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "超级马里奥"
+      ],
+      "accent": "#d95f0e",
+      "bodyAttr": "data-dsh-mario-bowser",
+      "author": "aionui-themes",
+      "tagline": "日光下的橙黄刺壳与绿壳城堡",
+      "order": 52,
+      "thumb": {
+        "light": "thumbs/mario-bowser.light.webp",
+        "dark": "thumbs/mario-bowser.dark.webp"
+      }
+    },
+    {
+      "id": "mario-luigi",
+      "name": "超级马里奥 · 路易吉",
+      "nameEn": "Super Mario Luigi",
+      "group": "超级马里奥",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "超级马里奥"
+      ],
+      "accent": "#159a3c",
+      "bodyAttr": "data-dsh-mario-luigi",
+      "author": "aionui-themes",
+      "tagline": "绿帽L与幽灵吸尘器的白昼冒险",
+      "order": 53,
+      "thumb": {
+        "light": "thumbs/mario-luigi.light.webp",
+        "dark": "thumbs/mario-luigi.dark.webp"
+      }
+    },
+    {
+      "id": "mario-peach",
+      "name": "超级马里奥 · 桃花公主",
+      "nameEn": "Super Mario Princess Peach",
+      "group": "超级马里奥",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "超级马里奥"
+      ],
+      "accent": "#d6378b",
+      "bodyAttr": "data-dsh-mario-peach",
+      "author": "aionui-themes",
+      "tagline": "粉色城堡与皇冠的甜心主题",
+      "order": 54,
+      "thumb": {
+        "light": "thumbs/mario-peach.light.webp",
+        "dark": "thumbs/mario-peach.dark.webp"
+      }
+    },
+    {
+      "id": "mario-toad",
+      "name": "超级马里奥 · 奇诺比奥",
+      "nameEn": "Super Mario Toad",
+      "group": "超级马里奥",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "超级马里奥"
+      ],
+      "accent": "#e52521",
+      "bodyAttr": "data-dsh-mario-toad",
+      "author": "aionui-themes",
+      "tagline": "白底红点蘑菇头与蓝马甲的寻宝之旅",
+      "order": 55,
+      "thumb": {
+        "light": "thumbs/mario-toad.light.webp",
+        "dark": "thumbs/mario-toad.dark.webp"
+      }
+    },
+    {
+      "id": "mario-yoshi",
+      "name": "超级马里奥 · 耀西",
+      "nameEn": "Super Mario Yoshi",
+      "group": "超级马里奥",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "超级马里奥"
+      ],
+      "accent": "#1e8a34",
+      "bodyAttr": "data-dsh-mario-yoshi",
+      "author": "aionui-themes",
+      "tagline": "耀西绿蛋壳白，斑点蛋童话手绘",
+      "order": 56,
+      "thumb": {
+        "light": "thumbs/mario-yoshi.light.webp",
+        "dark": "thumbs/mario-yoshi.dark.webp"
+      }
+    },
+    {
+      "id": "mickey-mouse",
+      "name": "米老鼠",
+      "nameEn": "Mickey Mouse",
+      "group": "动画",
+      "collection": "动画",
+      "tags": [
+        "动画",
+        "迪士尼"
+      ],
+      "accent": "#d92323",
+      "bodyAttr": "data-dsh-mickey-mouse",
+      "author": "aionui-themes",
+      "tagline": "红短裤黑圆耳黄鞋的复古胶片",
+      "order": 57,
+      "thumb": {
+        "light": "thumbs/mickey-mouse.light.webp",
+        "dark": "thumbs/mickey-mouse.dark.webp"
+      }
+    },
+    {
+      "id": "monokai",
+      "name": "Monokai",
+      "nameEn": "Monokai",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Monokai"
+      ],
+      "accent": "#f92672",
+      "bodyAttr": "data-dsh-monokai",
+      "author": "aionui-themes",
+      "tagline": "Monokai 语法色的纸面浅色演绎",
+      "order": 58,
+      "thumb": {
+        "light": "thumbs/monokai.light.webp",
+        "dark": "thumbs/monokai.dark.webp"
+      }
+    },
+    {
+      "id": "night-owl",
+      "name": "Night Owl Light",
+      "nameEn": "Night Owl",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Night Owl"
+      ],
+      "accent": "#2AA298",
+      "bodyAttr": "data-dsh-night-owl",
+      "author": "aionui-themes",
+      "tagline": "Light Owl 白日版，清爽蓝青",
+      "order": 59,
+      "thumb": {
+        "light": "thumbs/night-owl.light.webp",
+        "dark": "thumbs/night-owl.dark.webp"
+      }
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "nameEn": "Nord",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Nord"
+      ],
+      "accent": "#5e81ac",
+      "bodyAttr": "data-dsh-nord",
+      "author": "aionui-themes",
+      "tagline": "Snow Storm 雪原昼色，Frost 冰蓝点缀",
+      "order": 60,
+      "thumb": {
+        "light": "thumbs/nord.light.webp",
+        "dark": "thumbs/nord.dark.webp"
+      }
+    },
+    {
+      "id": "one",
+      "name": "One Light",
+      "nameEn": "One",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Atom"
+      ],
+      "accent": "#4078f2",
+      "bodyAttr": "data-dsh-one",
+      "author": "aionui-themes",
+      "tagline": "Atom 经典浅色，清爽日间语法色",
+      "order": 61,
+      "thumb": {
+        "light": "thumbs/one.light.webp",
+        "dark": "thumbs/one.dark.webp"
+      }
+    },
+    {
+      "id": "os-aero",
+      "name": "Windows Vista Aero",
+      "nameEn": "Windows Vista Aero Daylight",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Windows"
+      ],
+      "accent": "#2e7d38",
+      "bodyAttr": "data-dsh-os-aero",
+      "author": "aionui-themes",
+      "tagline": "白昼毛玻璃里的极光缎带",
+      "order": 62,
+      "thumb": {
+        "light": "thumbs/os-aero.light.webp",
+        "dark": "thumbs/os-aero.dark.webp"
+      }
+    },
+    {
+      "id": "os-bliss",
+      "name": "Windows XP Bliss",
+      "nameEn": "Windows XP Bliss",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Windows XP"
+      ],
+      "accent": "#0058e0",
+      "bodyAttr": "data-dsh-os-bliss",
+      "author": "aionui-themes",
+      "tagline": "蓝天白云绿地与 Luna 蓝主题",
+      "order": 63,
+      "thumb": {
+        "light": "thumbs/os-bliss.light.webp",
+        "dark": "thumbs/os-bliss.dark.webp"
+      }
+    },
+    {
+      "id": "os-fc",
+      "name": "红白机 FC",
+      "nameEn": "Famicom FC",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "红白机",
+        "FC",
+        "8bit"
+      ],
+      "accent": "#d10f1c",
+      "bodyAttr": "data-dsh-os-fc",
+      "author": "aionui-themes",
+      "tagline": "红白机身配卡带金手指，像素硬边",
+      "order": 64,
+      "thumb": {
+        "light": "thumbs/os-fc.light.webp",
+        "dark": "thumbs/os-fc.dark.webp"
+      }
+    },
+    {
+      "id": "os-gameboy",
+      "name": "Game Boy",
+      "nameEn": "Game Boy",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Game Boy",
+        "像素"
+      ],
+      "accent": "#306230",
+      "bodyAttr": "data-dsh-os-gameboy",
+      "author": "aionui-themes",
+      "tagline": "四阶绿灰点阵屏与轻微扫描线",
+      "order": 65,
+      "thumb": {
+        "light": "thumbs/os-gameboy.light.webp",
+        "dark": "thumbs/os-gameboy.dark.webp"
+      }
+    },
+    {
+      "id": "os-ios",
+      "name": "iOS",
+      "nameEn": "iOS",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "iOS"
+      ],
+      "accent": "#007aff",
+      "bodyAttr": "data-dsh-os-ios",
+      "author": "aionui-themes",
+      "tagline": "系统蓝毛玻璃与灵动岛",
+      "order": 66,
+      "thumb": {
+        "light": "thumbs/os-ios.light.webp",
+        "dark": "thumbs/os-ios.dark.webp"
+      }
+    },
+    {
+      "id": "os-luna",
+      "name": "Windows XP Luna",
+      "nameEn": "Windows XP Luna",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Windows XP"
+      ],
+      "accent": "#245edb",
+      "bodyAttr": "data-dsh-os-luna",
+      "author": "aionui-themes",
+      "tagline": "蓝天草地与绿色开始按钮",
+      "order": 67,
+      "thumb": {
+        "light": "thumbs/os-luna.light.webp",
+        "dark": "thumbs/os-luna.dark.webp"
+      }
+    },
+    {
+      "id": "os-macos-aqua",
+      "name": "macOS Aqua",
+      "nameEn": "macOS Aqua",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "macOS"
+      ],
+      "accent": "#0a7edb",
+      "bodyAttr": "data-dsh-os-macos-aqua",
+      "author": "aionui-themes",
+      "tagline": "千禧年水蓝凝胶与拉丝金属",
+      "order": 68,
+      "thumb": {
+        "light": "thumbs/os-macos-aqua.light.webp",
+        "dark": "thumbs/os-macos-aqua.dark.webp"
+      }
+    },
+    {
+      "id": "os-msdos",
+      "name": "MS-DOS",
+      "nameEn": "MS-DOS Daylight",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "MS-DOS"
+      ],
+      "accent": "#0000aa",
+      "bodyAttr": "data-dsh-os-msdos",
+      "author": "aionui-themes",
+      "tagline": "假如 DOS 有白昼纸白屏",
+      "order": 69,
+      "thumb": {
+        "light": "thumbs/os-msdos.light.webp",
+        "dark": "thumbs/os-msdos.dark.webp"
+      }
+    },
+    {
+      "id": "os-win95",
+      "name": "Windows 95",
+      "nameEn": "Windows 95",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Windows 95"
+      ],
+      "accent": "#000080",
+      "bodyAttr": "data-dsh-os-win95",
+      "author": "aionui-themes",
+      "tagline": "浮雕灰窗口与蓝色标题栏的 95 记忆",
+      "order": 70,
+      "thumb": {
+        "light": "thumbs/os-win95.light.webp",
+        "dark": "thumbs/os-win95.dark.webp"
+      }
+    },
+    {
+      "id": "os-winamp",
+      "name": "Winamp",
+      "nameEn": "Winamp Daylight",
+      "group": "系统复古",
+      "collection": "系统复古",
+      "tags": [
+        "系统复古",
+        "Winamp"
+      ],
+      "accent": "#0a8a34",
+      "bodyAttr": "data-dsh-os-winamp",
+      "author": "aionui-themes",
+      "tagline": "假如 Winamp 有昼间银色皮肤",
+      "order": 71,
+      "thumb": {
+        "light": "thumbs/os-winamp.light.webp",
+        "dark": "thumbs/os-winamp.dark.webp"
+      }
+    },
+    {
+      "id": "palenight",
+      "name": "Material Theme Lighter",
+      "nameEn": "Material Theme Lighter",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Material Theme"
+      ],
+      "accent": "#9c3eda",
+      "bodyAttr": "data-dsh-palenight",
+      "author": "aionui-themes",
+      "tagline": "紫调浅昼，Lighter 官方色板",
+      "order": 72,
+      "thumb": {
+        "light": "thumbs/palenight.light.webp",
+        "dark": "thumbs/palenight.dark.webp"
+      }
+    },
+    {
+      "id": "pikachu",
+      "name": "宝可梦 · 皮卡丘",
+      "nameEn": "Pokemon Pikachu",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#f0b90b",
+      "bodyAttr": "data-dsh-pikachu",
+      "author": "aionui-themes",
+      "tagline": "电气黄配脸颊红的十万伏特",
+      "order": 73,
+      "thumb": {
+        "light": "thumbs/pikachu.light.webp",
+        "dark": "thumbs/pikachu.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-charizard",
+      "name": "宝可梦 · 喷火龙",
+      "nameEn": "Pokémon Charizard",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#e87722",
+      "bodyAttr": "data-dsh-pokemon-charizard",
+      "author": "aionui-themes",
+      "tagline": "橙色天空下喷火龙展开龙翼，尾焰不熄",
+      "order": 74,
+      "thumb": {
+        "light": "thumbs/pokemon-charizard.light.webp",
+        "dark": "thumbs/pokemon-charizard.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-eevee",
+      "name": "宝可梦 · 伊布",
+      "nameEn": "Pokémon Eevee",
+      "group": "动漫",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "动漫",
+        "宝可梦"
+      ],
+      "accent": "#9a6230",
+      "bodyAttr": "data-dsh-pokemon-eevee",
+      "author": "aionui-themes",
+      "tagline": "棕绒奶油领结，进化之光",
+      "order": 75,
+      "thumb": {
+        "light": "thumbs/pokemon-eevee.light.webp",
+        "dark": "thumbs/pokemon-eevee.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-gengar",
+      "name": "宝可梦 · 耿鬼",
+      "nameEn": "Pokémon Gengar",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#7c3aed",
+      "bodyAttr": "data-dsh-pokemon-gengar",
+      "author": "aionui-themes",
+      "tagline": "薄雾薰衣草色里的紫影坏笑",
+      "order": 76,
+      "thumb": {
+        "light": "thumbs/pokemon-gengar.light.webp",
+        "dark": "thumbs/pokemon-gengar.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-mewtwo",
+      "name": "宝可梦 · 超梦",
+      "nameEn": "Pokémon Mewtwo",
+      "group": "动漫",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "动漫",
+        "宝可梦"
+      ],
+      "accent": "#7a4ac0",
+      "bodyAttr": "data-dsh-pokemon-mewtwo",
+      "author": "aionui-themes",
+      "tagline": "白昼实验室里的紫白超能力波",
+      "order": 77,
+      "thumb": {
+        "light": "thumbs/pokemon-mewtwo.light.webp",
+        "dark": "thumbs/pokemon-mewtwo.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-mimikyu",
+      "name": "宝可梦 · 谜拟丘",
+      "nameEn": "Pokémon Mimikyu Daylight",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#6f4fb3",
+      "bodyAttr": "data-dsh-pokemon-mimikyu",
+      "author": "aionui-themes",
+      "tagline": "破布涂鸦在日光下晾着暗影",
+      "order": 78,
+      "thumb": {
+        "light": "thumbs/pokemon-mimikyu.light.webp",
+        "dark": "thumbs/pokemon-mimikyu.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-snorlax",
+      "name": "宝可梦 · 卡比兽",
+      "nameEn": "Pokémon Snorlax",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#2e6e64",
+      "bodyAttr": "data-dsh-pokemon-snorlax",
+      "author": "aionui-themes",
+      "tagline": "树荫下午睡的蓝绿大肚与奶油肚皮",
+      "order": 79,
+      "thumb": {
+        "light": "thumbs/pokemon-snorlax.light.webp",
+        "dark": "thumbs/pokemon-snorlax.dark.webp"
+      }
+    },
+    {
+      "id": "pokemon-umbreon",
+      "name": "宝可梦 · 月亮伊布",
+      "nameEn": "Pokémon Umbreon",
+      "group": "宝可梦",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "宝可梦"
+      ],
+      "accent": "#a17707",
+      "bodyAttr": "data-dsh-pokemon-umbreon",
+      "author": "aionui-themes",
+      "tagline": "月光晒成的暖金清晨",
+      "order": 80,
+      "thumb": {
+        "light": "thumbs/pokemon-umbreon.light.webp",
+        "dark": "thumbs/pokemon-umbreon.dark.webp"
+      }
+    },
+    {
+      "id": "retro-terminal",
+      "name": "Retro Terminal Amber",
+      "nameEn": "Retro Terminal Amber Phosphor",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "CRT"
+      ],
+      "accent": "#b26a00",
+      "bodyAttr": "data-dsh-retro-terminal",
+      "author": "aionui-themes",
+      "tagline": "P3 琥珀磷光终端的亮屏",
+      "order": 81,
+      "thumb": {
+        "light": "thumbs/retro-terminal.light.webp",
+        "dark": "thumbs/retro-terminal.dark.webp"
+      }
+    },
+    {
+      "id": "rose-pine",
+      "name": "Rosé Pine Dawn",
+      "nameEn": "Rosé Pine Dawn",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Rosé Pine"
+      ],
+      "accent": "#b4637a",
+      "bodyAttr": "data-dsh-rose-pine",
+      "author": "aionui-themes",
+      "tagline": "晨光里的玫瑰金与松木绿",
+      "order": 82,
+      "thumb": {
+        "light": "thumbs/rose-pine.light.webp",
+        "dark": "thumbs/rose-pine.dark.webp"
+      }
+    },
+    {
+      "id": "solarized",
+      "name": "Solarized Light",
+      "nameEn": "Solarized",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Solarized"
+      ],
+      "accent": "#268bd2",
+      "bodyAttr": "data-dsh-solarized",
+      "author": "aionui-themes",
+      "tagline": "米色纸底与精确Lab对比度的经典配色",
+      "order": 83,
+      "thumb": {
+        "light": "thumbs/solarized.light.webp",
+        "dark": "thumbs/solarized.dark.webp"
+      }
+    },
+    {
+      "id": "street-fighter",
+      "name": "街头霸王",
+      "nameEn": "Street Fighter",
+      "group": "格斗",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "格斗"
+      ],
+      "accent": "#d8262e",
+      "bodyAttr": "data-dsh-street-fighter",
+      "author": "aionui-themes",
+      "tagline": "阳光道场里的红头带与波动拳蓝焰",
+      "order": 84,
+      "thumb": {
+        "light": "thumbs/street-fighter.light.webp",
+        "dark": "thumbs/street-fighter.dark.webp"
+      }
+    },
+    {
+      "id": "style-art-deco",
+      "name": "Art Deco 装饰艺术",
+      "nameEn": "Art Deco",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "Art Deco"
+      ],
+      "accent": "#8f6f1d",
+      "bodyAttr": "data-dsh-style-art-deco",
+      "author": "aionui-themes",
+      "tagline": "象牙纸面上的金墨几何与太阳放射线",
+      "order": 85,
+      "thumb": {
+        "light": "thumbs/style-art-deco.light.webp",
+        "dark": "thumbs/style-art-deco.dark.webp"
+      }
+    },
+    {
+      "id": "style-bauhaus",
+      "name": "包豪斯 Bauhaus",
+      "nameEn": "Bauhaus",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "包豪斯",
+        "几何"
+      ],
+      "accent": "#d22630",
+      "bodyAttr": "data-dsh-style-bauhaus",
+      "author": "aionui-themes",
+      "tagline": "红黄蓝三原色，圆方三角的理性构成",
+      "order": 86,
+      "thumb": {
+        "light": "thumbs/style-bauhaus.light.webp",
+        "dark": "thumbs/style-bauhaus.dark.webp"
+      }
+    },
+    {
+      "id": "style-cottagecore",
+      "name": "田园 Cottagecore",
+      "nameEn": "Cottagecore",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "田园"
+      ],
+      "accent": "#5c744a",
+      "bodyAttr": "data-dsh-style-cottagecore",
+      "author": "aionui-themes",
+      "tagline": "奶油亚麻、小碎花与午后阳光",
+      "order": 87,
+      "thumb": {
+        "light": "thumbs/style-cottagecore.light.webp",
+        "dark": "thumbs/style-cottagecore.dark.webp"
+      }
+    },
+    {
+      "id": "style-dark-academia",
+      "name": "暗黑学术",
+      "nameEn": "Dark Academia",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "Dark Academia"
+      ],
+      "accent": "#8a6d2f",
+      "bodyAttr": "data-dsh-style-dark-academia",
+      "author": "aionui-themes",
+      "tagline": "羊皮纸晨光里的黄铜与旧皮革",
+      "order": 88,
+      "thumb": {
+        "light": "thumbs/style-dark-academia.light.webp",
+        "dark": "thumbs/style-dark-academia.dark.webp"
+      }
+    },
+    {
+      "id": "style-doodle",
+      "name": "手绘涂鸦 Doodle",
+      "nameEn": "Hand-drawn Doodle",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "手绘"
+      ],
+      "accent": "#3563e9",
+      "bodyAttr": "data-dsh-style-doodle",
+      "author": "aionui-themes",
+      "tagline": "马克笔涂鸦手账，格纹贴纸与手绘星星",
+      "order": 89,
+      "thumb": {
+        "light": "thumbs/style-doodle.light.webp",
+        "dark": "thumbs/style-doodle.dark.webp"
+      }
+    },
+    {
+      "id": "style-dunhuang",
+      "name": "敦煌壁画",
+      "nameEn": "Dunhuang Murals Daylight",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "敦煌"
+      ],
+      "accent": "#a85e1f",
+      "bodyAttr": "data-dsh-style-dunhuang",
+      "author": "aionui-themes",
+      "tagline": "赭石石绿石青，飞天藻井千年壁色",
+      "order": 90,
+      "thumb": {
+        "light": "thumbs/style-dunhuang.light.webp",
+        "dark": "thumbs/style-dunhuang.dark.webp"
+      }
+    },
+    {
+      "id": "style-galaxy",
+      "name": "星云 Galaxy",
+      "nameEn": "Galaxy Nebula",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格"
+      ],
+      "accent": "#5b45b8",
+      "bodyAttr": "data-dsh-style-galaxy",
+      "author": "aionui-themes",
+      "tagline": "白昼星云，淡紫天光里的星尘",
+      "order": 91,
+      "thumb": {
+        "light": "thumbs/style-galaxy.light.webp",
+        "dark": "thumbs/style-galaxy.dark.webp"
+      }
+    },
+    {
+      "id": "style-glassmorphism",
+      "name": "玻璃拟态 Glassmorphism",
+      "nameEn": "Glassmorphism",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格"
+      ],
+      "accent": "#5b5bd6",
+      "bodyAttr": "data-dsh-style-glassmorphism",
+      "author": "aionui-themes",
+      "tagline": "毛玻璃悬浮卡片与柔光渐变",
+      "order": 92,
+      "thumb": {
+        "light": "thumbs/style-glassmorphism.light.webp",
+        "dark": "thumbs/style-glassmorphism.dark.webp"
+      }
+    },
+    {
+      "id": "style-glitch",
+      "name": "故障艺术 Glitch",
+      "nameEn": "Glitch Art",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "故障艺术"
+      ],
+      "accent": "#c4005a",
+      "bodyAttr": "data-dsh-style-glitch",
+      "author": "aionui-themes",
+      "tagline": "白昼信号干扰下的色散崩坏",
+      "order": 93,
+      "thumb": {
+        "light": "thumbs/style-glitch.light.webp",
+        "dark": "thumbs/style-glitch.dark.webp"
+      }
+    },
+    {
+      "id": "style-ink-wash",
+      "name": "水墨 Ink Wash",
+      "nameEn": "Ink Wash",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "水墨"
+      ],
+      "accent": "#b23a28",
+      "bodyAttr": "data-dsh-style-ink-wash",
+      "author": "aionui-themes",
+      "tagline": "宣纸米白上墨色晕染与朱砂印章",
+      "order": 94,
+      "thumb": {
+        "light": "thumbs/style-ink-wash.light.webp",
+        "dark": "thumbs/style-ink-wash.dark.webp"
+      }
+    },
+    {
+      "id": "style-macaron",
+      "name": "马卡龙 Macaron",
+      "nameEn": "Macaron Pastel",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "马卡龙"
+      ],
+      "accent": "#d75a8a",
+      "bodyAttr": "data-dsh-style-macaron",
+      "author": "aionui-themes",
+      "tagline": "法式甜点粉彩，薄荷粉蓝柠檬",
+      "order": 95,
+      "thumb": {
+        "light": "thumbs/style-macaron.light.webp",
+        "dark": "thumbs/style-macaron.dark.webp"
+      }
+    },
+    {
+      "id": "style-memphis",
+      "name": "孟菲斯 Memphis",
+      "nameEn": "Memphis Design",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "孟菲斯"
+      ],
+      "accent": "#e6007e",
+      "bodyAttr": "data-dsh-style-memphis",
+      "author": "aionui-themes",
+      "tagline": "80年代撞色几何与波浪锯齿",
+      "order": 96,
+      "thumb": {
+        "light": "thumbs/style-memphis.light.webp",
+        "dark": "thumbs/style-memphis.dark.webp"
+      }
+    },
+    {
+      "id": "style-morandi",
+      "name": "莫兰迪 Morandi",
+      "nameEn": "Morandi",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "莫兰迪"
+      ],
+      "accent": "#9C7A72",
+      "bodyAttr": "data-dsh-style-morandi",
+      "author": "aionui-themes",
+      "tagline": "高级灰静物，雾粉燕麦柔光",
+      "order": 97,
+      "thumb": {
+        "light": "thumbs/style-morandi.light.webp",
+        "dark": "thumbs/style-morandi.dark.webp"
+      }
+    },
+    {
+      "id": "style-neo-chinese",
+      "name": "新中式 Neo-Chinese",
+      "nameEn": "Neo-Chinese",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "新中式"
+      ],
+      "accent": "#2e4f63",
+      "bodyAttr": "data-dsh-style-neo-chinese",
+      "author": "aionui-themes",
+      "tagline": "月白黛蓝，窗棂祥云飞白",
+      "order": 98,
+      "thumb": {
+        "light": "thumbs/style-neo-chinese.light.webp",
+        "dark": "thumbs/style-neo-chinese.dark.webp"
+      }
+    },
+    {
+      "id": "style-paper-minimal",
+      "name": "极简纸 Paper Minimal",
+      "nameEn": "Paper Minimal",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "极简"
+      ],
+      "accent": "#c92a2a",
+      "bodyAttr": "data-dsh-style-paper-minimal",
+      "author": "aionui-themes",
+      "tagline": "大量留白与一根红线的印刷排版",
+      "order": 99,
+      "thumb": {
+        "light": "thumbs/style-paper-minimal.light.webp",
+        "dark": "thumbs/style-paper-minimal.dark.webp"
+      }
+    },
+    {
+      "id": "style-pixel-art",
+      "name": "像素艺术",
+      "nameEn": "Pixel Art",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "像素",
+        "8bit"
+      ],
+      "accent": "#1d5cd6",
+      "bodyAttr": "data-dsh-style-pixel-art",
+      "author": "aionui-themes",
+      "tagline": "卡带纸色的8bit硬边像素风",
+      "order": 100,
+      "thumb": {
+        "light": "thumbs/style-pixel-art.light.webp",
+        "dark": "thumbs/style-pixel-art.dark.webp"
+      }
+    },
+    {
+      "id": "style-rococo",
+      "name": "洛可可 Rococo",
+      "nameEn": "Rococo",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "洛可可"
+      ],
+      "accent": "#b85c7e",
+      "bodyAttr": "data-dsh-style-rococo",
+      "author": "aionui-themes",
+      "tagline": "粉金卷草纹的法式宫廷昼宴",
+      "order": 101,
+      "thumb": {
+        "light": "thumbs/style-rococo.light.webp",
+        "dark": "thumbs/style-rococo.dark.webp"
+      }
+    },
+    {
+      "id": "style-steampunk",
+      "name": "蒸汽朋克 Steampunk",
+      "nameEn": "Steampunk Daylight",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "蒸汽朋克"
+      ],
+      "accent": "#8f6b12",
+      "bodyAttr": "data-dsh-style-steampunk",
+      "author": "aionui-themes",
+      "tagline": "羊皮纸上的黄铜齿轮与铜管",
+      "order": 102,
+      "thumb": {
+        "light": "thumbs/style-steampunk.light.webp",
+        "dark": "thumbs/style-steampunk.dark.webp"
+      }
+    },
+    {
+      "id": "style-vaporwave",
+      "name": "蒸汽波 Vaporwave",
+      "nameEn": "Vaporwave Aesthetic",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "蒸汽波"
+      ],
+      "accent": "#e055b8",
+      "bodyAttr": "data-dsh-style-vaporwave",
+      "author": "aionui-themes",
+      "tagline": "白昼大理石广场上的粉青霓虹落日",
+      "order": 103,
+      "thumb": {
+        "light": "thumbs/style-vaporwave.light.webp",
+        "dark": "thumbs/style-vaporwave.dark.webp"
+      }
+    },
+    {
+      "id": "style-y2k",
+      "name": "Y2K 千禧",
+      "nameEn": "Y2K Millennium",
+      "group": "美学风格",
+      "collection": "美学风格",
+      "tags": [
+        "美学风格",
+        "Y2K"
+      ],
+      "accent": "#d02f96",
+      "bodyAttr": "data-dsh-style-y2k",
+      "author": "aionui-themes",
+      "tagline": "金属银与泡泡糖粉的千禧光泽",
+      "order": 104,
+      "thumb": {
+        "light": "thumbs/style-y2k.light.webp",
+        "dark": "thumbs/style-y2k.dark.webp"
+      }
+    },
+    {
+      "id": "synthwave84",
+      "name": "Synthwave '84",
+      "nameEn": "Synthwave '84",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "Synthwave"
+      ],
+      "accent": "#c22c9e",
+      "bodyAttr": "data-dsh-synthwave84",
+      "author": "aionui-themes",
+      "tagline": "落日余晖下的霓虹粉紫白夜",
+      "order": 1,
+      "thumb": {
+        "light": "thumbs/synthwave84.light.webp",
+        "dark": "thumbs/synthwave84.dark.webp"
+      }
+    },
+    {
+      "id": "tokyo-night",
+      "name": "Tokyo Night Day",
+      "nameEn": "Tokyo Night",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色"
+      ],
+      "accent": "#2e7de9",
+      "bodyAttr": "data-dsh-tokyo-night",
+      "author": "aionui-themes",
+      "tagline": "白昼东京的清爽蓝调",
+      "order": 106,
+      "thumb": {
+        "light": "thumbs/tokyo-night.light.webp",
+        "dark": "thumbs/tokyo-night.dark.webp"
+      }
+    },
+    {
+      "id": "vscode-plus",
+      "name": "Light+",
+      "nameEn": "VS Code Light+",
+      "group": "经典配色",
+      "collection": "经典配色",
+      "tags": [
+        "经典配色",
+        "VS Code"
+      ],
+      "accent": "#007acc",
+      "bodyAttr": "data-dsh-vscode-plus",
+      "author": "aionui-themes",
+      "tagline": "Light+ 白底编辑器与经典蓝调",
+      "order": 107,
+      "thumb": {
+        "light": "thumbs/vscode-plus.light.webp",
+        "dark": "thumbs/vscode-plus.dark.webp"
+      }
+    },
+    {
+      "id": "zelda-link",
+      "name": "塞尔达传说 · 林克",
+      "nameEn": "Zelda Link",
+      "group": "任天堂",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "任天堂",
+        "塞尔达传说"
+      ],
+      "accent": "#3d8a3f",
+      "bodyAttr": "data-dsh-zelda-link",
+      "author": "aionui-themes",
+      "tagline": "海利亚绿、大师剑蓝与三角力量金",
+      "order": 108,
+      "thumb": {
+        "light": "thumbs/zelda-link.light.webp",
+        "dark": "thumbs/zelda-link.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-alice",
+      "name": "绝区零 · 爱丽丝",
+      "nameEn": "ZZZ Alice Thymefield",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d93a5e",
+      "bodyAttr": "data-dsh-zzz-alice",
+      "author": "aionui-themes",
+      "tagline": "金发异色瞳的怪啖屋大小姐",
+      "order": 109,
+      "thumb": {
+        "light": "thumbs/zzz-alice.light.webp",
+        "dark": "thumbs/zzz-alice.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-anby",
+      "name": "绝区零 · 安比",
+      "nameEn": "ZZZ Anby Demara",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#3f8f68",
+      "bodyAttr": "data-dsh-zzz-anby",
+      "author": "aionui-themes",
+      "tagline": "银白浅绿，狡兔屋的清冷刀手",
+      "order": 110,
+      "thumb": {
+        "light": "thumbs/zzz-anby.light.webp",
+        "dark": "thumbs/zzz-anby.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-anton",
+      "name": "绝区零 · 安东",
+      "nameEn": "ZZZ Anton Ivanov",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "热血"
+      ],
+      "accent": "#2456d6",
+      "bodyAttr": "data-dsh-zzz-anton",
+      "author": "aionui-themes",
+      "tagline": "白祇重工蓝白工装，钻头兄弟热血轰鸣",
+      "order": 111,
+      "thumb": {
+        "light": "thumbs/zzz-anton.light.webp",
+        "dark": "thumbs/zzz-anton.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-astra",
+      "name": "绝区零 · 耀嘉音",
+      "nameEn": "ZZZ Astra Yao",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "偶像"
+      ],
+      "accent": "#8f4ad8",
+      "bodyAttr": "data-dsh-zzz-astra",
+      "author": "aionui-themes",
+      "tagline": "丽都歌后的白昼应援舞台与紫金晴光",
+      "order": 112,
+      "thumb": {
+        "light": "thumbs/zzz-astra.light.webp",
+        "dark": "thumbs/zzz-astra.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-banyue",
+      "name": "绝区零 · 般岳",
+      "nameEn": "ZZZ Banyue",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#e06412",
+      "bodyAttr": "data-dsh-zzz-banyue",
+      "author": "aionui-themes",
+      "tagline": "云岿山晨光里的命破烈焰",
+      "order": 113,
+      "thumb": {
+        "light": "thumbs/zzz-banyue.light.webp",
+        "dark": "thumbs/zzz-banyue.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-ben",
+      "name": "绝区零 · 本",
+      "nameEn": "ZZZ Ben Bigger",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#bc7a06",
+      "bodyAttr": "data-dsh-zzz-ben",
+      "author": "aionui-themes",
+      "tagline": "棕熊与安全帽的黄黑工地安全色",
+      "order": 114,
+      "thumb": {
+        "light": "thumbs/zzz-ben.light.webp",
+        "dark": "thumbs/zzz-ben.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-billy",
+      "name": "绝区零 · 比利",
+      "nameEn": "ZZZ Billy Kid",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "热血"
+      ],
+      "accent": "#d91f26",
+      "bodyAttr": "data-dsh-zzz-billy",
+      "author": "aionui-themes",
+      "tagline": "红铬骑士与银色盔甲的星徽枪手",
+      "order": 115,
+      "thumb": {
+        "light": "thumbs/zzz-billy.light.webp",
+        "dark": "thumbs/zzz-billy.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-burnice",
+      "name": "绝区零 · 柏妮思",
+      "nameEn": "ZZZ Burnice White",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "火焰"
+      ],
+      "accent": "#e0631a",
+      "bodyAttr": "data-dsh-zzz-burnice",
+      "author": "aionui-themes",
+      "tagline": "日光吧台与燃油火焰的午后狂欢",
+      "order": 116,
+      "thumb": {
+        "light": "thumbs/zzz-burnice.light.webp",
+        "dark": "thumbs/zzz-burnice.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-caesar",
+      "name": "绝区零 · 凯撒",
+      "nameEn": "ZZZ Caesar King",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#c2241a",
+      "bodyAttr": "data-dsh-zzz-caesar",
+      "author": "aionui-themes",
+      "tagline": "红黑机车霸主，披风燃于正午荒原",
+      "order": 117,
+      "thumb": {
+        "light": "thumbs/zzz-caesar.light.webp",
+        "dark": "thumbs/zzz-caesar.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-corin",
+      "name": "绝区零 · 可琳",
+      "nameEn": "ZZZ Corin Wickes",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "女仆"
+      ],
+      "accent": "#58a05a",
+      "bodyAttr": "data-dsh-zzz-corin",
+      "author": "aionui-themes",
+      "tagline": "抹茶绿小女仆，白围裙藏着电锯",
+      "order": 118,
+      "thumb": {
+        "light": "thumbs/zzz-corin.light.webp",
+        "dark": "thumbs/zzz-corin.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-ellen",
+      "name": "绝区零 · 艾莲",
+      "nameEn": "ZZZ Ellen Joe",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d21f2f",
+      "bodyAttr": "data-dsh-zzz-ellen",
+      "author": "aionui-themes",
+      "tagline": "鲨鱼女仆的白围裙与晨光红丝带",
+      "order": 119,
+      "thumb": {
+        "light": "thumbs/zzz-ellen.light.webp",
+        "dark": "thumbs/zzz-ellen.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-evelyn",
+      "name": "绝区零 · 伊芙琳",
+      "nameEn": "ZZZ Evelyn Chevalier",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d92638",
+      "bodyAttr": "data-dsh-zzz-evelyn",
+      "author": "aionui-themes",
+      "tagline": "白昼纸面上的炽红特工密令",
+      "order": 120,
+      "thumb": {
+        "light": "thumbs/zzz-evelyn.light.webp",
+        "dark": "thumbs/zzz-evelyn.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-grace",
+      "name": "绝区零 · 格莉丝",
+      "nameEn": "ZZZ Grace Howard",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "机械"
+      ],
+      "accent": "#e8700f",
+      "bodyAttr": "data-dsh-zzz-grace",
+      "author": "aionui-themes",
+      "tagline": "白祇重工橙白工装与蓝屏仪光",
+      "order": 121,
+      "thumb": {
+        "light": "thumbs/zzz-grace.light.webp",
+        "dark": "thumbs/zzz-grace.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-harumasa",
+      "name": "绝区零 · 悠真",
+      "nameEn": "ZZZ Harumasa",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#1ea88c",
+      "bodyAttr": "data-dsh-zzz-harumasa",
+      "author": "aionui-themes",
+      "tagline": "白金弓手，薄荷清风",
+      "order": 122,
+      "thumb": {
+        "light": "thumbs/zzz-harumasa.light.webp",
+        "dark": "thumbs/zzz-harumasa.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-hugo",
+      "name": "绝区零 · 雨果",
+      "nameEn": "ZZZ Hugo Vlad",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#3f63c6",
+      "bodyAttr": "data-dsh-zzz-hugo",
+      "author": "aionui-themes",
+      "tagline": "白昼怪盗的冰蓝信笺与扑克绯红",
+      "order": 123,
+      "thumb": {
+        "light": "thumbs/zzz-hugo.light.webp",
+        "dark": "thumbs/zzz-hugo.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-jane",
+      "name": "绝区零 · 简",
+      "nameEn": "ZZZ Jane Doe",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#c25d7e",
+      "bodyAttr": "data-dsh-zzz-jane",
+      "author": "aionui-themes",
+      "tagline": "鼠希人灰粉与白昼刑侦暖灰调",
+      "order": 124,
+      "thumb": {
+        "light": "thumbs/zzz-jane.light.webp",
+        "dark": "thumbs/zzz-jane.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-jufufu",
+      "name": "绝区零 · 橘福福",
+      "nameEn": "ZZZ Ju Fufu",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "可爱"
+      ],
+      "accent": "#f0831e",
+      "bodyAttr": "data-dsh-zzz-jufufu",
+      "author": "aionui-themes",
+      "tagline": "云岿山小猛虎的橘色火锅蒸汽",
+      "order": 125,
+      "thumb": {
+        "light": "thumbs/zzz-jufufu.light.webp",
+        "dark": "thumbs/zzz-jufufu.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-koleda",
+      "name": "绝区零 · 珂蕾妲",
+      "nameEn": "ZZZ Koleda Belobog",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d43a33",
+      "bodyAttr": "data-dsh-zzz-koleda",
+      "author": "aionui-themes",
+      "tagline": "白祇重工社长，白红战衣配警示条纹",
+      "order": 126,
+      "thumb": {
+        "light": "thumbs/zzz-koleda.light.webp",
+        "dark": "thumbs/zzz-koleda.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-lighter",
+      "name": "绝区零 · 莱特",
+      "nameEn": "ZZZ Lighter",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d62e20",
+      "bodyAttr": "data-dsh-zzz-lighter",
+      "author": "aionui-themes",
+      "tagline": "白昼擂台上的赤红金拳冠军",
+      "order": 127,
+      "thumb": {
+        "light": "thumbs/zzz-lighter.light.webp",
+        "dark": "thumbs/zzz-lighter.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-lucy",
+      "name": "绝区零 · 露西",
+      "nameEn": "ZZZ Lucy",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d42c34",
+      "bodyAttr": "data-dsh-zzz-lucy",
+      "author": "aionui-themes",
+      "tagline": "粉金不良少女与野猪暴走族",
+      "order": 128,
+      "thumb": {
+        "light": "thumbs/zzz-lucy.light.webp",
+        "dark": "thumbs/zzz-lucy.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-lycaon",
+      "name": "绝区零 · 莱卡恩",
+      "nameEn": "ZZZ Von Lycaon",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#2b7dad",
+      "bodyAttr": "data-dsh-zzz-lycaon",
+      "author": "aionui-themes",
+      "tagline": "白昼执事：霜白礼服上的冰蓝银辉",
+      "order": 129,
+      "thumb": {
+        "light": "thumbs/zzz-lycaon.light.webp",
+        "dark": "thumbs/zzz-lycaon.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-miyabi",
+      "name": "绝区零 · 星见雅",
+      "nameEn": "ZZZ Hoshimi Miyabi",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#2f9fd8",
+      "bodyAttr": "data-dsh-zzz-miyabi",
+      "author": "aionui-themes",
+      "tagline": "白昼雪原上的冰蓝太刀寒光",
+      "order": 130,
+      "thumb": {
+        "light": "thumbs/zzz-miyabi.light.webp",
+        "dark": "thumbs/zzz-miyabi.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-nekomata",
+      "name": "绝区零 · 猫又",
+      "nameEn": "ZZZ Nekomata",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#e02b2b",
+      "bodyAttr": "data-dsh-zzz-nekomata",
+      "author": "aionui-themes",
+      "tagline": "白昼黑猫，赤红围巾与暖阳金币",
+      "order": 131,
+      "thumb": {
+        "light": "thumbs/zzz-nekomata.light.webp",
+        "dark": "thumbs/zzz-nekomata.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-nicole",
+      "name": "绝区零 · 妮可",
+      "nameEn": "ZZZ Nicole Demara",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "粉色"
+      ],
+      "accent": "#f0338a",
+      "bodyAttr": "data-dsh-zzz-nicole",
+      "author": "aionui-themes",
+      "tagline": "粉发双马尾的狡兔屋甜辣老大",
+      "order": 132,
+      "thumb": {
+        "light": "thumbs/zzz-nicole.light.webp",
+        "dark": "thumbs/zzz-nicole.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-orphie",
+      "name": "绝区零 · 奥菲丝",
+      "nameEn": "ZZZ Orphie & Magus",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#d95410",
+      "bodyAttr": "data-dsh-zzz-orphie",
+      "author": "aionui-themes",
+      "tagline": "白昼军服上的焰橙与晴空磷火",
+      "order": 133,
+      "thumb": {
+        "light": "thumbs/zzz-orphie.light.webp",
+        "dark": "thumbs/zzz-orphie.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-panyinhu",
+      "name": "绝区零 · 潘引壶",
+      "nameEn": "ZZZ Pan Yinhu",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "熊猫"
+      ],
+      "accent": "#2e7d46",
+      "bodyAttr": "data-dsh-zzz-panyinhu",
+      "author": "aionui-themes",
+      "tagline": "熊猫大侠的竹绿茶馆闲趣",
+      "order": 134,
+      "thumb": {
+        "light": "thumbs/zzz-panyinhu.light.webp",
+        "dark": "thumbs/zzz-panyinhu.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-piper",
+      "name": "绝区零 · 派派",
+      "nameEn": "ZZZ Piper Wheel",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "公路"
+      ],
+      "accent": "#e09a2a",
+      "bodyAttr": "data-dsh-zzz-piper",
+      "author": "aionui-themes",
+      "tagline": "沙漠黄昏黄与卡车工装的慵懒公路",
+      "order": 135,
+      "thumb": {
+        "light": "thumbs/zzz-piper.light.webp",
+        "dark": "thumbs/zzz-piper.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-pulchra",
+      "name": "绝区零 · 波可娜",
+      "nameEn": "ZZZ Pulchra",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#f0a500",
+      "bodyAttr": "data-dsh-zzz-pulchra",
+      "author": "aionui-themes",
+      "tagline": "黄黑虎纹的元气佣兵大猫",
+      "order": 136,
+      "thumb": {
+        "light": "thumbs/zzz-pulchra.light.webp",
+        "dark": "thumbs/zzz-pulchra.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-qingyi",
+      "name": "绝区零 · 青衣",
+      "nameEn": "ZZZ Qingyi",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "新中式"
+      ],
+      "accent": "#0e8a76",
+      "bodyAttr": "data-dsh-zzz-qingyi",
+      "author": "aionui-themes",
+      "tagline": "青花瓷白底，青绿纹路绕机娘关节",
+      "order": 137,
+      "thumb": {
+        "light": "thumbs/zzz-qingyi.light.webp",
+        "dark": "thumbs/zzz-qingyi.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-rina",
+      "name": "绝区零 · 丽娜",
+      "nameEn": "ZZZ Alexandrina",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "女仆"
+      ],
+      "accent": "#7a4fd0",
+      "bodyAttr": "data-dsh-zzz-rina",
+      "author": "aionui-themes",
+      "tagline": "幽灵女仆的午后茶会与淡紫微光",
+      "order": 138,
+      "thumb": {
+        "light": "thumbs/zzz-rina.light.webp",
+        "dark": "thumbs/zzz-rina.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-seed",
+      "name": "绝区零 · 席德",
+      "nameEn": "ZZZ Seed",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "机甲"
+      ],
+      "accent": "#ffd21f",
+      "bodyAttr": "data-dsh-zzz-seed",
+      "author": "aionui-themes",
+      "tagline": "白昼钢甲与电弧黄的白色恶魔",
+      "order": 139,
+      "thumb": {
+        "light": "thumbs/zzz-seed.light.webp",
+        "dark": "thumbs/zzz-seed.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-seth",
+      "name": "绝区零 · 赛斯",
+      "nameEn": "ZZZ Seth Lowell",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "清爽"
+      ],
+      "accent": "#2f6fe4",
+      "bodyAttr": "data-dsh-zzz-seth",
+      "author": "aionui-themes",
+      "tagline": "白蓝猫警官的治安局制式清爽风",
+      "order": 140,
+      "thumb": {
+        "light": "thumbs/zzz-seth.light.webp",
+        "dark": "thumbs/zzz-seth.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-soldier11",
+      "name": "绝区零 · 11号",
+      "nameEn": "ZZZ Soldier 11",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "军武"
+      ],
+      "accent": "#d92f2f",
+      "bodyAttr": "data-dsh-zzz-soldier11",
+      "author": "aionui-themes",
+      "tagline": "白昼阅兵场的白红信号旗",
+      "order": 141,
+      "thumb": {
+        "light": "thumbs/zzz-soldier11.light.webp",
+        "dark": "thumbs/zzz-soldier11.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-soukaku",
+      "name": "绝区零 · 苍角",
+      "nameEn": "ZZZ Soukaku",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#2f86c0",
+      "bodyAttr": "data-dsh-zzz-soukaku",
+      "author": "aionui-themes",
+      "tagline": "蓝肤鬼族的雪原白昼冰蓝幻想",
+      "order": 142,
+      "thumb": {
+        "light": "thumbs/zzz-soukaku.light.webp",
+        "dark": "thumbs/zzz-soukaku.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-trigger",
+      "name": "绝区零 · 扳机",
+      "nameEn": "ZZZ Trigger",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "军绿"
+      ],
+      "accent": "#667d2a",
+      "bodyAttr": "data-dsh-zzz-trigger",
+      "author": "aionui-themes",
+      "tagline": "军绿狙击与白昼战术目镜的清晰锁定",
+      "order": 143,
+      "thumb": {
+        "light": "thumbs/zzz-trigger.light.webp",
+        "dark": "thumbs/zzz-trigger.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-vivian",
+      "name": "绝区零 · 薇薇安",
+      "nameEn": "ZZZ Vivian Banshee",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "哥特"
+      ],
+      "accent": "#7e4ec2",
+      "bodyAttr": "data-dsh-zzz-vivian",
+      "author": "aionui-themes",
+      "tagline": "晨光下的紫罗兰花园",
+      "order": 144,
+      "thumb": {
+        "light": "thumbs/zzz-vivian.light.webp",
+        "dark": "thumbs/zzz-vivian.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-yanagi",
+      "name": "绝区零 · 月城柳",
+      "nameEn": "ZZZ Tsukishiro Yanagi",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "粉紫"
+      ],
+      "accent": "#c26ba8",
+      "bodyAttr": "data-dsh-zzz-yanagi",
+      "author": "aionui-themes",
+      "tagline": "粉紫发丝与紫瞳的六课副课长",
+      "order": 145,
+      "thumb": {
+        "light": "thumbs/zzz-yanagi.light.webp",
+        "dark": "thumbs/zzz-yanagi.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-yeshunguang",
+      "name": "绝区零 · 叶瞬光",
+      "nameEn": "ZZZ Ye Shunguang",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "虚狩"
+      ],
+      "accent": "#c22f34",
+      "bodyAttr": "data-dsh-zzz-yeshunguang",
+      "author": "aionui-themes",
+      "tagline": "白昼楼群间的红绫与银青剑光",
+      "order": 146,
+      "thumb": {
+        "light": "thumbs/zzz-yeshunguang.light.webp",
+        "dark": "thumbs/zzz-yeshunguang.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-yidhari",
+      "name": "绝区零 · 伊德海莉",
+      "nameEn": "ZZZ Yidhari",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "克系"
+      ],
+      "accent": "#7e4ec0",
+      "bodyAttr": "data-dsh-zzz-yidhari",
+      "author": "aionui-themes",
+      "tagline": "触手紫与冰青的白昼浅海",
+      "order": 147,
+      "thumb": {
+        "light": "thumbs/zzz-yidhari.light.webp",
+        "dark": "thumbs/zzz-yidhari.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-yixuan",
+      "name": "绝区零 · 仪玄",
+      "nameEn": "ZZZ Yixuan",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#a87f2a",
+      "bodyAttr": "data-dsh-zzz-yixuan",
+      "author": "aionui-themes",
+      "tagline": "宣纸云白，鎏金朱砂的虚狩宗师",
+      "order": 148,
+      "thumb": {
+        "light": "thumbs/zzz-yixuan.light.webp",
+        "dark": "thumbs/zzz-yixuan.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-yuzuha",
+      "name": "绝区零 · 浮波柚叶",
+      "nameEn": "ZZZ Ukinami Yuzuha",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零",
+        "怪啖屋"
+      ],
+      "accent": "#3b9d63",
+      "bodyAttr": "data-dsh-zzz-yuzuha",
+      "author": "aionui-themes",
+      "tagline": "狸猫绿棕的夏夜怪谈收藏屋",
+      "order": 149,
+      "thumb": {
+        "light": "thumbs/zzz-yuzuha.light.webp",
+        "dark": "thumbs/zzz-yuzuha.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-zhao",
+      "name": "绝区零 · 照",
+      "nameEn": "ZZZ Zhao",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#e05a7d",
+      "bodyAttr": "data-dsh-zzz-zhao",
+      "author": "aionui-themes",
+      "tagline": "粉发兔耳裁决官的糖果审判",
+      "order": 150,
+      "thumb": {
+        "light": "thumbs/zzz-zhao.light.webp",
+        "dark": "thumbs/zzz-zhao.dark.webp"
+      }
+    },
+    {
+      "id": "zzz-zhuyuan",
+      "name": "绝区零 · 朱鸢",
+      "nameEn": "ZZZ Zhu Yuan",
+      "group": "绝区零",
+      "collection": "游戏",
+      "tags": [
+        "游戏",
+        "绝区零"
+      ],
+      "accent": "#c93b39",
+      "bodyAttr": "data-dsh-zzz-zhuyuan",
+      "author": "aionui-themes",
+      "tagline": "晨光卷宗上的藏青墨与朱红绳结",
+      "order": 151,
+      "thumb": {
+        "light": "thumbs/zzz-zhuyuan.light.webp",
+        "dark": "thumbs/zzz-zhuyuan.dark.webp"
+      }
+    }
+  ]
+}

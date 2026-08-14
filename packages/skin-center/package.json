@@ -1,0 +1,47 @@
+{
+  "name": "@dsh-suite/themes",
+  "version": "0.1.0",
+  "description": "151 款 AionUi 皮肤聚合 + 皮肤中心试穿面板 / A 151-skin pack with a try-on panel for DSH Web UI.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.mjs"
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "themes",
+    "skin",
+    "aionui",
+    "skin-center"
+  ]
+}
