@@ -104,6 +104,12 @@ const html = `<!doctype html>
             <span class="hbadge">${stats.groups} 个分组</span>
             <span class="hbadge">${stats.previews} 张预览</span>
             <span class="hbadge hbadge-ok" title="自动化验证：装上再卸载后界面完全复原（EN: auto-verified, uninstall restores UI fully）">✅ 100% 热插拔测试</span>
+            <span class="hbadge hbadge-live">🆕 一键试穿已上线</span>
+          </div>
+          <div class="hero-tryon">
+            <span class="tryon-label">安装试穿面板：</span>
+            <code class="tryon-cmd">dsh plugin --profile web add @dsh-suite/themes</code>
+            <button class="copy-btn" type="button" data-cmd="dsh plugin --profile web add @dsh-suite/themes">复制</button>
           </div>
         </div>
         <figure class="mascot-card">
@@ -125,6 +131,16 @@ const html = `<!doctype html>
       <h2 class="section-title">编辑精选 · Editor's Picks</h2>
       <p class="section-hint">最经典耐看的一批——不知道从哪开始，就从上往下逛</p>
       <div class="grid">${featuredHtml}</div>
+      <div class="tryon-shots">
+        <figure class="shot">
+          <img src="assets/themes/tryon-panel.png" alt="Skin Center 试穿面板" loading="lazy">
+          <figcaption>Skin Center 试穿面板——搜到马里奥</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="assets/themes/tryon-mario.png" alt="应用马里奥皮肤后界面变色" loading="lazy">
+          <figcaption>应用马里奥皮肤：界面即时变色 ✨</figcaption>
+        </figure>
+      </div>
     </section>
 
     <section class="community" id="community">

@@ -219,3 +219,14 @@ main { max-width: 1180px; margin: 0 auto; padding: 28px 24px 40px; }
 .section-title-community { color: var(--brand-bright); }
 .community { margin-bottom: 20px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-soft); }
 .com-badge { color: var(--violet); background: rgba(167, 139, 250, .16); }
+
+/* 试穿面板已上线（hero 安装条 + 实拍展示） */
+.hbadge-live { color: var(--green); border-color: rgba(52, 211, 153, .45); background: rgba(52, 211, 153, .1); }
+.hero-tryon { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 14px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); max-width: 620px; }
+.tryon-label { font-size: 13px; font-weight: 700; color: var(--muted); }
+.tryon-cmd { flex: 1; min-width: 260px; padding: 8px 12px; font-size: 12.5px; color: var(--brand-bright); background: var(--bg-soft); border: 1px solid var(--border-soft); border-radius: var(--radius-badge); font-family: var(--font-mono); }
+.tryon-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+@media (max-width: 760px) { .tryon-shots { grid-template-columns: 1fr; } }
+.shot { margin: 0; }
+.shot img { width: 100%; border-radius: var(--radius-sm); border: 1px solid var(--border-soft); display: block; }
+.shot figcaption { margin-top: 6px; color: var(--faint); font-size: 12px; text-align: center; }
