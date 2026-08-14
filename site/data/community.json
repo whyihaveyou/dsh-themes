@@ -1,0 +1,114 @@
+{
+ "generated": "2026-08-14",
+ "count": 12,
+ "entries": [
+  {
+   "id": "dsh-deep-whale",
+   "name": "dsh-deep-whale",
+   "repo": "Small-tailqwq/dsh-deep-whale",
+   "author": "Small-tailqwq",
+   "stars": 549,
+   "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+   "installCmd": "dsh plugin add git+https://github.com/Small-tailqwq/dsh-deep-whale"
+  },
+  {
+   "id": "dsh-ui-whale",
+   "name": "dsh-ui-whale",
+   "repo": "lhh010/dsh-ui-whale",
+   "author": "lhh010",
+   "stars": 27,
+   "url": "https://github.com/lhh010/dsh-ui-whale",
+   "installCmd": "dsh plugin add git+https://github.com/lhh010/dsh-ui-whale"
+  },
+  {
+   "id": "deepseek-harness-skin",
+   "name": "deepseek-harness-skin",
+   "repo": "HeiGeAi/deepseek-harness-skin",
+   "author": "HeiGeAi",
+   "stars": 22,
+   "url": "https://github.com/HeiGeAi/deepseek-harness-skin",
+   "installCmd": "dsh plugin add git+https://github.com/HeiGeAi/deepseek-harness-skin"
+  },
+  {
+   "id": "dskin",
+   "name": "dskin",
+   "repo": "dancingmemory/dskin",
+   "author": "dancingmemory",
+   "stars": 22,
+   "url": "https://github.com/dancingmemory/dskin",
+   "installCmd": "dsh plugin add git+https://github.com/dancingmemory/dskin"
+  },
+  {
+   "id": "dsh-xiaoyao-skins",
+   "name": "dsh-xiaoyao-skins",
+   "repo": "147228/dsh-xiaoyao-skins",
+   "author": "147228",
+   "stars": 16,
+   "url": "https://github.com/147228/dsh-xiaoyao-skins",
+   "installCmd": "dsh plugin add git+https://github.com/147228/dsh-xiaoyao-skins"
+  },
+  {
+   "id": "freestyle-dsh-theme",
+   "name": "freestyle-dsh-theme",
+   "repo": "suzike/freestyle-dsh-theme",
+   "author": "suzike",
+   "stars": 10,
+   "url": "https://github.com/suzike/freestyle-dsh-theme",
+   "installCmd": "dsh plugin add git+https://github.com/suzike/freestyle-dsh-theme"
+  },
+  {
+   "id": "dsh-qq2006",
+   "name": "dsh-qq2006",
+   "repo": "LaplaceYoung/dsh-qq2006",
+   "author": "LaplaceYoung",
+   "stars": 8,
+   "url": "https://github.com/LaplaceYoung/dsh-qq2006",
+   "installCmd": "dsh plugin add git+https://github.com/LaplaceYoung/dsh-qq2006"
+  },
+  {
+   "id": "dsh-skin",
+   "name": "dsh-skin",
+   "repo": "KinGao294/dsh-skin",
+   "author": "KinGao294",
+   "stars": 6,
+   "url": "https://github.com/KinGao294/dsh-skin",
+   "installCmd": "dsh plugin add git+https://github.com/KinGao294/dsh-skin"
+  },
+  {
+   "id": "deepseek-harness-themes",
+   "name": "deepseek-harness-themes",
+   "repo": "orxz/deepseek-harness-themes",
+   "author": "orxz",
+   "stars": 4,
+   "url": "https://github.com/orxz/deepseek-harness-themes",
+   "installCmd": "dsh plugin add git+https://github.com/orxz/deepseek-harness-themes"
+  },
+  {
+   "id": "dsh-theme-neko",
+   "name": "dsh-theme-neko",
+   "repo": "drfccv/dsh-theme-neko",
+   "author": "drfccv",
+   "stars": 3,
+   "url": "https://github.com/drfccv/dsh-theme-neko",
+   "installCmd": "dsh plugin add git+https://github.com/drfccv/dsh-theme-neko"
+  },
+  {
+   "id": "dsh-miku-skin",
+   "name": "dsh-miku-skin",
+   "repo": "stushansusu/dsh-miku-skin",
+   "author": "stushansusu",
+   "stars": 2,
+   "url": "https://github.com/stushansusu/dsh-miku-skin",
+   "installCmd": "dsh plugin add git+https://github.com/stushansusu/dsh-miku-skin"
+  },
+  {
+   "id": "dsh-naiwa-theme",
+   "name": "dsh-naiwa-theme",
+   "repo": "DevourerM/dsh-naiwa-theme",
+   "author": "DevourerM",
+   "stars": 2,
+   "url": "https://github.com/DevourerM/dsh-naiwa-theme",
+   "installCmd": "dsh plugin add git+https://github.com/DevourerM/dsh-naiwa-theme"
+  }
+ ]
+}
