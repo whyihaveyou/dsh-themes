@@ -7,7 +7,7 @@
    "name": "dsh-deep-whale",
    "repo": "Small-tailqwq/dsh-deep-whale",
    "author": "Small-tailqwq",
-   "stars": 549,
+   "stars": 567,
    "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
    "installCmd": "dsh plugin add git+https://github.com/Small-tailqwq/dsh-deep-whale"
   },
@@ -25,7 +25,7 @@
    "name": "deepseek-harness-skin",
    "repo": "HeiGeAi/deepseek-harness-skin",
    "author": "HeiGeAi",
-   "stars": 22,
+   "stars": 24,
    "url": "https://github.com/HeiGeAi/deepseek-harness-skin",
    "installCmd": "dsh plugin add git+https://github.com/HeiGeAi/deepseek-harness-skin"
   },
@@ -61,7 +61,7 @@
    "name": "dsh-qq2006",
    "repo": "LaplaceYoung/dsh-qq2006",
    "author": "LaplaceYoung",
-   "stars": 8,
+   "stars": 9,
    "url": "https://github.com/LaplaceYoung/dsh-qq2006",
    "installCmd": "dsh plugin add git+https://github.com/LaplaceYoung/dsh-qq2006"
   },
@@ -70,7 +70,7 @@
    "name": "dsh-skin",
    "repo": "KinGao294/dsh-skin",
    "author": "KinGao294",
-   "stars": 6,
+   "stars": 9,
    "url": "https://github.com/KinGao294/dsh-skin",
    "installCmd": "dsh plugin add git+https://github.com/KinGao294/dsh-skin"
   },

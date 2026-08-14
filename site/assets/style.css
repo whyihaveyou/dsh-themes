@@ -199,3 +199,23 @@ main { max-width: 1180px; margin: 0 auto; padding: 28px 24px 40px; }
 .foot-links { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; font-size: 13.5px; }
 .foot-links a { color: var(--muted); }
 .foot-links a:hover { color: var(--brand-bright); }
+
+
+/* UX 反馈包：sticky 搜索栏 + 随机按钮 + 精选区 + 社区醒目化 */
+.controls { position: sticky; top: 60px; z-index: 40; background: var(--bg); padding: 8px 0 14px; margin-bottom: 10px; }
+.controls-row { display: flex; gap: 10px; }
+.controls-row input { flex: 1; }
+.random-btn {
+  flex: none; padding: 12px 18px; font-size: 14px; font-weight: 800; cursor: pointer;
+  color: #fff; background: linear-gradient(135deg, var(--brand), var(--brand-deep));
+  border: none; border-radius: var(--radius-sm);
+  transition: filter .15s, transform .15s; white-space: nowrap;
+}
+.random-btn:hover { filter: brightness(1.12); transform: translateY(-1px); }
+
+.featured { margin-bottom: 28px; padding: 18px; border: 1px solid rgba(77, 107, 254, .35); border-radius: var(--radius); background: linear-gradient(135deg, rgba(77, 107, 254, .08), rgba(52, 211, 153, .04)), var(--bg-soft); }
+.featured .section-title::before { content: "⭐ "; }
+
+.section-title-community { color: var(--brand-bright); }
+.community { margin-bottom: 20px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-soft); }
+.com-badge { color: var(--violet); background: rgba(167, 139, 250, .16); }

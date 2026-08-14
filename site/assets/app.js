@@ -83,6 +83,14 @@
     $preview.src = '../' + (dark ? cur.previewDark : cur.previewLight);
     toggleLabel();
   });
+  /* 随机试穿 */
+  var $random = document.getElementById('random-btn');
+  if ($random) {
+    $random.addEventListener('click', function () {
+      openModal(skins[Math.floor(Math.random() * skins.length)].id);
+    });
+  }
+
   document.addEventListener('click', function (e) {
     if (e.target.closest('[data-close]')) { closeModal(); return; }
     var card = e.target.closest('.skin-card');

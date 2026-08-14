@@ -58,6 +58,9 @@ const groupsHtml = data.groups.map(g => {
 }).join('\n');
 
 const communityHtml = community.entries.map(comCard).join('\n');
+const featuredList = (data.featured || []).map(id => data.skins.find(x => x.id === id)).filter(Boolean);
+const featuredHtml = featuredList.map(card).join('\n');
+const randomBtn = '<button class="random-btn" id="random-btn" type="button">🎲 随机试穿</button>';
 
 const stats = {
   skins: data.count,
@@ -100,7 +103,7 @@ const html = `<!doctype html>
             <span class="hbadge">${stats.skins} 款皮肤</span>
             <span class="hbadge">${stats.groups} 个分组</span>
             <span class="hbadge">${stats.previews} 张预览</span>
-            <span class="hbadge hbadge-ok">✅ 100% 契约测试</span>
+            <span class="hbadge hbadge-ok" title="自动化验证：装上再卸载后界面完全复原（EN: auto-verified, uninstall restores UI fully）">✅ 100% 热插拔测试</span>
           </div>
         </div>
         <figure class="mascot-card">
@@ -111,18 +114,27 @@ const html = `<!doctype html>
     </section>
 
     <section class="controls" aria-label="搜索">
-      <input id="search" type="search" placeholder="搜索皮肤：名称 / id / 分组 / 标签…" autocomplete="off" spellcheck="false">
+      <div class="controls-row">
+        <input id="search" type="search" placeholder="搜皮肤：如 马里奥 / 樱花 / 深色…" autocomplete="off" spellcheck="false">
+        ${randomBtn}
+      </div>
       <p class="result-count" id="result-count" hidden></p>
     </section>
 
+    <section class="featured" id="featured">
+      <h2 class="section-title">编辑精选 · Editor's Picks</h2>
+      <p class="section-hint">最经典耐看的一批——不知道从哪开始，就从上往下逛</p>
+      <div class="grid">${featuredHtml}</div>
+    </section>
+
     <section class="community" id="community">
-      <h2 class="section-title">社区收录 · Community</h2>
-      <p class="section-hint">来自 dsh-suite 目录的社区皮肤插件，按星数排序</p>
+      <h2 class="section-title section-title-community">社区皮肤 · Community Skins</h2>
+      <p class="section-hint">来自 dsh-suite 目录的社区皮肤插件（按星数排序）——开源作品，点「复制」即可安装</p>
       <div class="com-grid">${communityHtml}</div>
     </section>
 
     <h2 class="section-title gallery-title" id="gallery-title">官方皮肤 · Official</h2>
-    <p class="section-hint">共 ${stats.skins} 款，按分组浏览；点击卡片查看大图与安装命令</p>
+    <p class="section-hint">共 ${stats.skins} 款，点击卡片查看大图、安装命令与热插拔测试情况</p>
     <section class="gallery" id="gallery">
       ${groupsHtml}
     </section>
@@ -143,7 +155,7 @@ const html = `<!doctype html>
         <p class="m-desc" id="m-desc"></p>
         <div class="m-meta">
           <span class="m-accent" id="m-accent"></span>
-          <span class="m-badge">✅ 契约测试通过</span>
+          <span class="m-badge" title="自动化验证：装上再卸载后界面完全复原（EN: auto-verified, uninstall restores the UI fully）">✅ 热插拔测试通过（随装随卸不残留）</span>
           <span class="m-group" id="m-group"></span>
         </div>
         <div class="m-install">

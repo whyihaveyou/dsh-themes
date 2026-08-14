@@ -36,6 +36,20 @@ while ((m = re.exec(readme)) !== null) {
   groupOrder.push(name);
 }
 
+// 2b) editor picks: classic / durable skins shown in the featured row (curated)
+const featuredIds = [
+  'catppuccin', 'everforest', 'dracula', 'darcula',        // 经典配色
+  'style-art-deco', 'style-dunhuang', 'style-steampunk',   // 美学风格
+  'mario',                                                  // 最出圈的游戏皮
+];
+
+// 2c) group order: generic groups first, then game-IP groups in README order
+const genericFirst = ['经典配色', '美学风格', '节日限定', '系统复古', '彩蛋'];
+const rankedGroups = [
+  ...genericFirst.filter(g => groups[g]),
+  ...groupOrder.filter(g => !genericFirst.includes(g)),
+];
+
 // 3) community skins: ui category + skin/theme nature (regex or curated whale/qq family)
 const curatedExtra = ['dsh-deep-whale', 'dsh-ui-whale', 'dsh-qq2006', 'harness-whale'];
 let community = [];
@@ -59,8 +73,8 @@ if (existsSync(dshSuiteData)) {
     .slice(0, 12);
 }
 
-// 4) assemble skins.json in README group order
-const skins = groupOrder.flatMap(g => groups[g].map(id => {
+// 4) assemble skins.json in ranked group order
+const skins = rankedGroups.flatMap(g => groups[g].map(id => {
   const s = skinsById[id] || {};
   return {
     id, name: s.name, nameEn: s.nameEn || '', author: s.author || '', tagline: s.tagline || '',
@@ -78,11 +92,12 @@ if (missing.length) console.warn('[manifest] unmatched skins: ' + missing.join('
 const now = new Date().toISOString().slice(0, 10);
 writeFileSync(join(OUT, 'skins.json'), JSON.stringify({
   generated: now, count: skins.length,
-  groups: groupOrder.map(g => ({ name: g, count: groups[g].length })),
+  groups: rankedGroups.map(g => ({ name: g, count: groups[g].length })),
+  featured: featuredIds.filter(id => skinsById[id]),
   skins,
 }, null, 1));
 writeFileSync(join(OUT, 'community.json'), JSON.stringify({
   generated: now, count: community.length, entries: community,
 }, null, 1));
-console.log('[manifest] skins.json: ' + skins.length + ' skins / ' + groupOrder.length + ' groups');
+console.log('[manifest] skins.json: ' + skins.length + ' skins / ' + rankedGroups.length + ' groups / featured ' + featuredIds.length);
 console.log('[manifest] community.json: ' + community.length + ' entries from ' + dshSuiteData);
