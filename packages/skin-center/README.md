@@ -1,5 +1,7 @@
 # @dsh-suite/themes — 151 款 DSH 皮肤聚合 / 151-skin pack for DSH Web UI
 
+[💬 问题反馈](https://github.com/whyihaveyou/dsh-suite/issues/new?template=plugin-feedback.yml&labels=feedback&plugin=skin-center)
+
 > 把 dsh-themes 的 151 个皮肤包**一包打尽**：一个 npm 包 + 一个「皮肤中心」试穿面板。
 
 ## 安装 / Install
