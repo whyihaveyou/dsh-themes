@@ -69,6 +69,8 @@
     toggleLabel();
     $modal.hidden = false;
     document.body.style.overflow = 'hidden';
+    // force fetch+decode: Chromium defers imgs whose src is set while the modal is hidden
+    if (window.HTMLImageElement && $preview.decode) $preview.decode().catch(function () {});
   }
   function closeModal() {
     $modal.hidden = true;
@@ -82,6 +84,7 @@
     dark = !dark;
     $preview.src = dark ? cur.previewDark : cur.previewLight;
     toggleLabel();
+    if (window.HTMLImageElement && $preview.decode) $preview.decode().catch(function () {});
   });
   /* 随机试穿 */
   var $random = document.getElementById('random-btn');
