@@ -98,17 +98,7 @@
     var card = e.target.closest('.skin-card');
     if (card) openModal(card.getAttribute('data-id'));
   });
-  /* hover 预取：鼠标悬停卡片时预热大图，点开浮层秒出 */
-  document.addEventListener('mouseover', function (e) {
-    var card = e.target.closest('.skin-card');
-    if (!card) return;
-    var s = byId[card.getAttribute('data-id')];
-    if (s && !s._warmed) {
-      s._warmed = true;
-      var a = new Image(); a.src = s.previewLight;
-      var b2 = new Image(); b2.src = s.previewDark;
-    }
-  });
+
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !$modal.hidden) closeModal();
   });
