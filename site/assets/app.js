@@ -69,8 +69,12 @@
     toggleLabel();
     $modal.hidden = false;
     document.body.style.overflow = 'hidden';
-    // force fetch+decode: Chromium defers imgs whose src is set while the modal is hidden
-    if (window.HTMLImageElement && $preview.decode) $preview.decode().catch(function () {});
+    // Chromium defers the fetch of imgs whose src is set while the modal is
+    // display:none — even explicit decode() is deferred at that point. Re-request
+    // decode in the next frame, once the modal is actually visible.
+    if (window.HTMLImageElement && $preview.decode) {
+      requestAnimationFrame(function () { $preview.decode().catch(function () {}); });
+    }
   }
   function closeModal() {
     $modal.hidden = true;
