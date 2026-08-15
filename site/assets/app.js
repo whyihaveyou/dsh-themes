@@ -50,7 +50,9 @@
     cur = byId[id];
     if (!cur) return;
     dark = false;
-    $preview.src = cur.previewLight;
+    $modal.hidden = false;              // unhide FIRST: an img whose src is set while
+    document.body.style.overflow = 'hidden';  // its container is display:none gets its
+    $preview.src = cur.previewLight;    // fetch deferred by the browser (never loads)
     document.getElementById('m-name').textContent = cur.name;
     document.getElementById('m-nameen').textContent = (cur.nameEn || '') + ' · ' + cur.id;
     document.getElementById('m-tags').innerHTML = (cur.tags || []).map(function (t) {
@@ -67,14 +69,6 @@
     var repoLink = document.getElementById('m-repo');
     repoLink.href = 'https://github.com/whyihaveyou/dsh-themes/tree/main/skins/' + encodeURIComponent(cur.id);
     toggleLabel();
-    $modal.hidden = false;
-    document.body.style.overflow = 'hidden';
-    // Chromium defers the fetch of imgs whose src is set while the modal is
-    // display:none — even explicit decode() is deferred at that point. Re-request
-    // decode in the next frame, once the modal is actually visible.
-    if (window.HTMLImageElement && $preview.decode) {
-      requestAnimationFrame(function () { $preview.decode().catch(function () {}); });
-    }
   }
   function closeModal() {
     $modal.hidden = true;
@@ -102,6 +96,17 @@
     if (e.target.closest('[data-close]')) { closeModal(); return; }
     var card = e.target.closest('.skin-card');
     if (card) openModal(card.getAttribute('data-id'));
+  });
+  /* hover 预取：鼠标悬停卡片时预热大图，点开浮层秒出 */
+  document.addEventListener('mouseover', function (e) {
+    var card = e.target.closest('.skin-card');
+    if (!card) return;
+    var s = byId[card.getAttribute('data-id')];
+    if (s && !s._warmed) {
+      s._warmed = true;
+      var a = new Image(); a.src = s.previewLight;
+      var b2 = new Image(); b2.src = s.previewDark;
+    }
   });
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !$modal.hidden) closeModal();
