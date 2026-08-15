@@ -19,8 +19,8 @@ const fmt = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' :
 function card(s) {
   return `<article class="skin-card" data-id="${esc(s.id)}" tabindex="0" role="button" aria-label="${esc(s.name)}">
     <div class="skin-previews">
-      <img class="tp tp-light" src="${esc(s.thumbLight)}" alt="${esc(s.name)} 浅色" loading="lazy" width="320">
-      <img class="tp tp-dark" src="${esc(s.thumbDark)}" alt="${esc(s.name)} 深色" loading="lazy" width="320">
+      <img class="tp tp-light" data-src="${esc(s.thumbLight)}" alt="${esc(s.name)} 浅色" width="320">
+      <img class="tp tp-dark" data-src="${esc(s.thumbDark)}" alt="${esc(s.name)} 深色" width="320">
       <span class="tp-switch" aria-hidden="true">昼夜</span>
     </div>
     <div class="skin-meta">

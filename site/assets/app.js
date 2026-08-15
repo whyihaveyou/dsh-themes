@@ -45,6 +45,28 @@
   }
   $search.addEventListener('input', applySearch);
 
+  /* ---- 缩略图按需加载（IntersectionObserver，300px 边距）----
+     Chromium 原生 loading=lazy 的 3000px 边距会把 302 张图全部提前拉取，
+     占满连接队列，导致模态大图排队 20-80 秒（看着像裂图）。 */
+  function initLazy() {
+    var imgs = document.querySelectorAll('img[data-src]');
+    if (!('IntersectionObserver' in window)) {
+      imgs.forEach(function (im) { im.src = im.dataset.src; });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          var im = en.target;
+          if (im.dataset.src && !im.src) im.src = im.dataset.src;
+          io.unobserve(im);
+        }
+      });
+    }, { rootMargin: '300px' });
+    imgs.forEach(function (im) { io.observe(im); });
+  }
+  initLazy();
+
   /* ---- 详情浮层 ---- */
   function openModal(id) {
     cur = byId[id];
