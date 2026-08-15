@@ -201,7 +201,7 @@ const html = `<!doctype html>
       <a href="${MAIN}">dsh-suite 主站目录</a>
       <a href="${MAIN}stars.html">Star 榜</a>
       <a href="${REPO}">GitHub 仓库</a>
-      <a href="https://deepseek-harness.github.io/">DeepSeek Harness 官方文档</a>
+      <a href="${MAIN}learn.html">DeepSeek Harness 官方指南</a>
     </nav>
   </footer>
 
