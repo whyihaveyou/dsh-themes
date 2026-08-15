@@ -50,7 +50,7 @@
     cur = byId[id];
     if (!cur) return;
     dark = false;
-    $preview.src = '../' + cur.previewLight;
+    $preview.src = cur.previewLight;
     document.getElementById('m-name').textContent = cur.name;
     document.getElementById('m-nameen').textContent = (cur.nameEn || '') + ' · ' + cur.id;
     document.getElementById('m-tags').innerHTML = (cur.tags || []).map(function (t) {
@@ -80,7 +80,7 @@
   $toggle.addEventListener('click', function () {
     if (!cur) return;
     dark = !dark;
-    $preview.src = '../' + (dark ? cur.previewDark : cur.previewLight);
+    $preview.src = dark ? cur.previewDark : cur.previewLight;
     toggleLabel();
   });
   /* 随机试穿 */

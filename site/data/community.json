@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14",
+ "generated": "2026-08-15",
  "count": 12,
  "entries": [
   {
@@ -7,7 +7,7 @@
    "name": "dsh-deep-whale",
    "repo": "Small-tailqwq/dsh-deep-whale",
    "author": "Small-tailqwq",
-   "stars": 567,
+   "stars": 588,
    "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
    "installCmd": "dsh plugin add git+https://github.com/Small-tailqwq/dsh-deep-whale"
   },
@@ -16,7 +16,7 @@
    "name": "dsh-ui-whale",
    "repo": "lhh010/dsh-ui-whale",
    "author": "lhh010",
-   "stars": 27,
+   "stars": 29,
    "url": "https://github.com/lhh010/dsh-ui-whale",
    "installCmd": "dsh plugin add git+https://github.com/lhh010/dsh-ui-whale"
   },
@@ -30,22 +30,22 @@
    "installCmd": "dsh plugin add git+https://github.com/HeiGeAi/deepseek-harness-skin"
   },
   {
-   "id": "dskin",
-   "name": "dskin",
-   "repo": "dancingmemory/dskin",
-   "author": "dancingmemory",
-   "stars": 22,
-   "url": "https://github.com/dancingmemory/dskin",
-   "installCmd": "dsh plugin add git+https://github.com/dancingmemory/dskin"
-  },
-  {
    "id": "dsh-xiaoyao-skins",
    "name": "dsh-xiaoyao-skins",
    "repo": "147228/dsh-xiaoyao-skins",
    "author": "147228",
-   "stars": 16,
+   "stars": 17,
    "url": "https://github.com/147228/dsh-xiaoyao-skins",
    "installCmd": "dsh plugin add git+https://github.com/147228/dsh-xiaoyao-skins"
+  },
+  {
+   "id": "dskin",
+   "name": "dskin",
+   "repo": "dancingmemory/dskin",
+   "author": "dancingmemory",
+   "stars": 17,
+   "url": "https://github.com/dancingmemory/dskin",
+   "installCmd": "dsh plugin add git+https://github.com/dancingmemory/dskin"
   },
   {
    "id": "freestyle-dsh-theme",
@@ -93,6 +93,15 @@
    "installCmd": "dsh plugin add git+https://github.com/drfccv/dsh-theme-neko"
   },
   {
+   "id": "dsh-client-ui-skin-claude",
+   "name": "dsh-client-ui-skin-claude",
+   "repo": "PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+   "author": "PAKIKNOWLEDGE",
+   "stars": 2,
+   "url": "https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+   "installCmd": "dsh plugin add git+https://github.com/PAKIKNOWLEDGE/dsh-client-ui-skin-claude"
+  },
+  {
    "id": "dsh-miku-skin",
    "name": "dsh-miku-skin",
    "repo": "stushansusu/dsh-miku-skin",
@@ -100,15 +109,6 @@
    "stars": 2,
    "url": "https://github.com/stushansusu/dsh-miku-skin",
    "installCmd": "dsh plugin add git+https://github.com/stushansusu/dsh-miku-skin"
-  },
-  {
-   "id": "dsh-naiwa-theme",
-   "name": "dsh-naiwa-theme",
-   "repo": "DevourerM/dsh-naiwa-theme",
-   "author": "DevourerM",
-   "stars": 2,
-   "url": "https://github.com/DevourerM/dsh-naiwa-theme",
-   "installCmd": "dsh plugin add git+https://github.com/DevourerM/dsh-naiwa-theme"
   }
  ]
 }

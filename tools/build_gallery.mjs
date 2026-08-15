@@ -53,14 +53,16 @@ const rankedGroups = [
 // 3) community skins: ui category + skin/theme nature (regex or curated whale/qq family)
 const curatedExtra = ['dsh-deep-whale', 'dsh-ui-whale', 'dsh-qq2006', 'harness-whale'];
 let community = [];
+const communityFile = join(OUT, 'community.json');
 if (existsSync(dshSuiteData)) {
   const data = JSON.parse(readFileSync(dshSuiteData, 'utf8'));
   const pat = /skin|theme/i;
+  const curatedExtraSet = new Set(curatedExtra);
   community = (data.plugins || [])
     .filter(p => p.category === 'ui')
     .filter(p => {
       const hay = String(p.id || '') + ' ' + String(p.repo || '') + ' ' + String(p.name || '');
-      return pat.test(hay) || curatedExtra.includes(p.id);
+      return pat.test(hay) || curatedExtraSet.has(p.id);
     })
     .map(p => ({
       id: p.id, name: p.name || p.id, repo: p.repo,
@@ -71,6 +73,15 @@ if (existsSync(dshSuiteData)) {
     }))
     .sort((a, b) => (b.stars - a.stars) || (a.id < b.id ? -1 : 1))
     .slice(0, 12);
+} else {
+  // dsh-suite catalog not available (e.g. CI checkout): KEEP the committed
+  // community.json instead of overwriting it with an empty array (Bug 1 fix).
+  if (existsSync(communityFile)) {
+    try { community = JSON.parse(readFileSync(communityFile, 'utf8')).entries || []; } catch (e) { community = []; }
+    console.warn('[manifest] dsh-suite data missing (' + dshSuiteData + '); keeping committed community.json (' + community.length + ' entries)');
+  } else {
+    console.warn('[manifest] dsh-suite data missing and no committed community.json; community empty');
+  }
 }
 
 // 4) assemble skins.json in ranked group order
@@ -80,7 +91,7 @@ const skins = rankedGroups.flatMap(g => groups[g].map(id => {
     id, name: s.name, nameEn: s.nameEn || '', author: s.author || '', tagline: s.tagline || '',
     description: s.description || '', tags: s.tags || [], accent: s.accent || '#4d6bfe', group: g,
     order: s.order || 0, package: s.package || '',
-    previewLight: `skins/${id}/preview/light.png`, previewDark: `skins/${id}/preview/dark.png`,
+    previewLight: `assets/previews/${id}-l.jpg`, previewDark: `assets/previews/${id}-d.jpg`,
     thumbLight: `assets/thumbs/${id}-l.jpg`, thumbDark: `assets/thumbs/${id}-d.jpg`,
     installCmd: `dsh plugin --profile <profile> add ./dsh-themes/skins/${id}`,
   };
@@ -96,8 +107,18 @@ writeFileSync(join(OUT, 'skins.json'), JSON.stringify({
   featured: featuredIds.filter(id => skinsById[id]),
   skins,
 }, null, 1));
-writeFileSync(join(OUT, 'community.json'), JSON.stringify({
-  generated: now, count: community.length, entries: community,
+writeFileSync(join(OUT, 'skins.json'), JSON.stringify({
+  generated: now, count: skins.length,
+  groups: rankedGroups.map(g => ({ name: g, count: groups[g].length })),
+  featured: featuredIds.filter(id => skinsById[id]),
+  skins,
 }, null, 1));
 console.log('[manifest] skins.json: ' + skins.length + ' skins / ' + rankedGroups.length + ' groups / featured ' + featuredIds.length);
-console.log('[manifest] community.json: ' + community.length + ' entries from ' + dshSuiteData);
+if (existsSync(dshSuiteData)) {
+  writeFileSync(communityFile, JSON.stringify({
+    generated: now, count: community.length, entries: community,
+  }, null, 1));
+  console.log('[manifest] community.json: ' + community.length + ' entries from ' + dshSuiteData);
+} else {
+  console.log('[manifest] community.json kept as committed (' + community.length + ' entries)');
+}
