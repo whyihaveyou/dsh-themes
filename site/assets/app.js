@@ -50,9 +50,10 @@
     cur = byId[id];
     if (!cur) return;
     dark = false;
-    $modal.hidden = false;              // unhide FIRST: an img whose src is set while
-    document.body.style.overflow = 'hidden';  // its container is display:none gets its
-    $preview.src = cur.previewLight;    // fetch deferred by the browser (never loads)
+    $preview.src = cur.previewLight;    // src BEFORE unhide: setting src while hidden is
+    $modal.hidden = false;              // fine (fetch completes on reveal); the reverse
+    document.body.style.overflow = 'hidden';  // order (unhide then src in one task) leaves
+                                           // the img permanently stuck (Chromium quirk)
     document.getElementById('m-name').textContent = cur.name;
     document.getElementById('m-nameen').textContent = (cur.nameEn || '') + ' · ' + cur.id;
     document.getElementById('m-tags').innerHTML = (cur.tags || []).map(function (t) {
