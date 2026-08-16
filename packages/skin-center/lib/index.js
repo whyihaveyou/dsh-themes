@@ -51,33 +51,32 @@ export function apply(ctx) {
       handler: payload(cssBuf, cssGz, MIME['.css']),
     })
 
-    const dThumbs = ctx.webServer.register({
-      kind: 'prefix',
-      path: '/skin-center/thumbs',
-      handler: (req, res) => {
-        const pathname = new URL(req.url ?? '/', 'http://x').pathname
-        const file = pathname.slice('/skin-center/thumbs/'.length)
-        if (!file || file.includes('..') || file.includes('/')) {
-          res.writeHead(404, { 'content-type': 'text/plain' })
-          res.end('not found')
-          return
-        }
-        try {
-          const buf = readFileSync(join(ASSETS, 'thumbs', file))
-          const ext = extname(file).toLowerCase()
-          res.writeHead(200, {
-            'content-type': MIME[ext] || 'application/octet-stream',
-            'content-length': buf.length,
-            'cache-control': 'public, max-age=86400',
-          })
-          res.end(buf)
-        } catch {
-          res.writeHead(404, { 'content-type': 'text/plain' })
-          res.end('not found')
-        }
-      },
-    })
+    const serveDir = (sub) => (req, res) => {
+      const pathname = new URL(req.url ?? '/', 'http://x').pathname
+      const file = pathname.slice(`/skin-center/${sub}/`.length)
+      if (!file || file.includes('..') || file.includes('/')) {
+        res.writeHead(404, { 'content-type': 'text/plain' })
+        res.end('not found')
+        return
+      }
+      try {
+        const buf = readFileSync(join(ASSETS, sub, file))
+        const ext = extname(file).toLowerCase()
+        res.writeHead(200, {
+          'content-type': MIME[ext] || 'application/octet-stream',
+          'content-length': buf.length,
+          'cache-control': 'public, max-age=86400',
+        })
+        res.end(buf)
+      } catch {
+        res.writeHead(404, { 'content-type': 'text/plain' })
+        res.end('not found')
+      }
+    }
 
-    return () => { dManifest(); dCss(); dThumbs() }
+    const dThumbs = ctx.webServer.register({ kind: 'prefix', path: '/skin-center/thumbs', handler: serveDir('thumbs') })
+    const dPreviews = ctx.webServer.register({ kind: 'prefix', path: '/skin-center/previews', handler: serveDir('previews') })
+
+    return () => { dManifest(); dCss(); dThumbs(); dPreviews() }
   }, 'skin-center: routes')
 }

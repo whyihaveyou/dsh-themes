@@ -16,7 +16,8 @@ dsh plugin --profile web add @dsh-suite/themes
 
 - **试穿**: 点卡片即写 `body[data-dsh-<id>]` 属性切肤（CSS 变量实时生效），再次点击其他卡片切换，✖ 清除皮肤。
 - **151 款皮肤**: 分组（绝区零 / 原神 / 经典配色 / 节日限定 …，游戏系按品牌分组）、搜索（中文名/英文名/分组/标签）。
-- **昼夜预览**: 昼/夜切换预览各皮肤的 light/dark 缩略图；实际昼夜跟随 DSH 主题（`data-ds-dark-theme`）。
+- **昼夜三态 (v0.3)**: 工具条「☀️ 昼 / 🌙 夜 / 🖥 跟随系统」——昼/夜手动切换预览与实际主题（`data-ds-dark-theme`）；「跟随系统」监听 `prefers-color-scheme`，系统深浅色切换时预览与已应用皮肤自动跟随。
+- **皮肤详情卡 (v0.3)**: 点击卡片除试穿外，网格上方展示详情——作者 / 标签 / 令牌数（CSS 体积估算）/ 分组 / 宣传语 + 昼·夜两张 640px 大图预览。
 - **懒加载**: 缩略图经 IntersectionObserver 视口按需加载，151 卡不全量拉图。
 - **收藏**: 卡片 ♡/♥ 收藏按钮，localStorage 持久化（重开面板/重启 DSH 仍在），网格顶部「♡ 只看收藏」开关。
 - **最近试穿**: 最近试穿的 8 款皮肤在网格上方横向展示，点击可再次应用。
@@ -27,7 +28,7 @@ dsh plugin --profile web add @dsh-suite/themes
 | 内容 | 体积 |
 |---|---|
 | 原始预览图（151×2 PNG, 1280×800） | ~67 MB |
-| 打包后 assets（320×200 WebP q72 缩略图 + manifest + 全量 CSS） | **~4.2 MB**（压缩 16×） |
+| 打包后 assets（320×200 WebP 缩略图 + 640px WebP 大图 + manifest + 全量 CSS） | **~7.1 MB**（压缩 ~10×） |
 | skins.css（151 皮肤全量 CSS，试穿时经宿主 gzip 按需拉取） | 3.2 MB raw / 0.44 MB gzip |
 
 ## 生成 / Regenerate

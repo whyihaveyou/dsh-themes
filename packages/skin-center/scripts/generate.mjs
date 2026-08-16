@@ -24,8 +24,10 @@ const PKG = resolve(HERE, '..')
 const SKINS = resolve(PKG, '..', '..', 'skins')
 const ASSETS = join(PKG, 'assets')
 const THUMBS = join(ASSETS, 'thumbs')
+const PREVIEWS = join(ASSETS, 'previews')
 
 mkdirSync(THUMBS, { recursive: true })
+mkdirSync(PREVIEWS, { recursive: true })
 
 /** Parse `const css = "…"` out of a skin's compiled lib/client.js. */
 function extractCss(clientJsPath) {
@@ -49,6 +51,7 @@ for (const dir of readdirSync(SKINS).sort()) {
   const group = tags[0] === '游戏' && tags.length > 1 ? tags[1] : (tags[0] || '其他')
   const css = extractCss(join(skinDir, 'lib', 'client.js'))
   if (css) cssParts.push(css)
+  const tokens = css ? Math.max(1, Math.ceil(css.length / 4)) : 0
 
   const id = meta.id || dir
   jobs.push({
@@ -69,7 +72,9 @@ for (const dir of readdirSync(SKINS).sort()) {
     author: meta.author || '',
     tagline: meta.tagline || '',
     order: meta.order ?? 0,
+    tokens,
     thumb: { light: `thumbs/${id}.light.webp`, dark: `thumbs/${id}.dark.webp` },
+    preview: { light: `previews/${id}.light.webp`, dark: `previews/${id}.dark.webp` },
   })
 }
 
@@ -78,18 +83,21 @@ writeFileSync(join(ASSETS, 'manifest.json'), JSON.stringify(manifest, null, 2), 
 writeFileSync(join(ASSETS, 'skins.css'), cssParts.join('\n'), 'utf8')
 
 writeFileSync('/tmp/skin-center-jobs.json', JSON.stringify(jobs), 'utf8')
-execFileSync('python3', [join(HERE, 'thumbs.py'), '/tmp/skin-center-jobs.json', THUMBS], { stdio: 'inherit' })
+execFileSync('python3', [join(HERE, 'thumbs.py'), '/tmp/skin-center-jobs.json', THUMBS, PREVIEWS], { stdio: 'inherit' })
 
 let thumbBytes = 0
 for (const f of readdirSync(THUMBS)) thumbBytes += statSync(join(THUMBS, f)).size
+let prevBytes = 0
+for (const f of readdirSync(PREVIEWS)) prevBytes += statSync(join(PREVIEWS, f)).size
 const cssBytes = statSync(join(ASSETS, 'skins.css')).size
 const manBytes = statSync(join(ASSETS, 'manifest.json')).size
 console.log(`\n=== skin-center assets generated ===`)
 console.log(`skins: ${skins.length} (css extracted: ${cssParts.length})`)
 console.log(`manifest.json: ${(manBytes / 1024).toFixed(1)} KB`)
 console.log(`skins.css:     ${(cssBytes / 1024).toFixed(1)} KB`)
-console.log(`thumbs:        ${thumbBytes / 1024 / 1024} MB total (${jobs.length * 2} files, avg ${(thumbBytes / (jobs.length * 2)).toFixed(1)} KB each)`)
-console.log(`assets total:  ${((manBytes + cssBytes + thumbBytes) / 1024 / 1024).toFixed(2)} MB (vs ~67 MB raw previews)`)
+console.log(`thumbs:        ${(thumbBytes / 1048576).toFixed(2)} MB total (${jobs.length * 2} files, avg ${(thumbBytes / (jobs.length * 2)).toFixed(1)} KB each)`)
+console.log(`previews:      ${(prevBytes / 1048576).toFixed(2)} MB total (${jobs.length * 2} files, avg ${(prevBytes / (jobs.length * 2)).toFixed(1)} KB each)`)
+console.log(`assets total:  ${((manBytes + cssBytes + thumbBytes + prevBytes) / 1048576).toFixed(2)} MB (vs ~67 MB raw previews)`)
 
 // pipeline "fail loudly if most skins lost their CSS"
 if (cssParts.length < skins.length) {

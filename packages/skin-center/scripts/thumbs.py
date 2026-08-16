@@ -1,21 +1,31 @@
-#!/usr/bin/env python3
-"""skin-center thumbnail generator (Pillow).
+"""skin-center thumbnail + preview generator (Pillow).
 
-Usage: python3 thumbs.py <jobs.json> <outDir>
+Usage: python3 thumbs.py <jobs.json> <thumbsOut> [previewsOut]
 jobs.json: [{ "id": "mario", "light": "/abs/.../light.png", "dark": "..." }]
-Outputs <outDir>/<id>.light.webp and <outDir>/<id>.dark.webp at 320x200, q72.
+Outputs:
+  <thumbsOut>/<id>.light.webp   — 320x200 q72 (grid cards)
+  <previewsOut>/<id>.light.webp — 640px wide q80 (detail card, if given)
 """
 import json, sys, os
 from PIL import Image
 
 JOBS, OUT = sys.argv[1], sys.argv[2]
+OUT_PREV = sys.argv[3] if len(sys.argv) > 3 else None
 os.makedirs(OUT, exist_ok=True)
+if OUT_PREV:
+    os.makedirs(OUT_PREV, exist_ok=True)
 jobs = json.load(open(JOBS, encoding="utf-8"))
 SIZE = (320, 200)
+PREV_W = 640
 
-def thumb(src, dst):
-    im = Image.open(src).convert("RGB").resize(SIZE, Image.LANCZOS)
-    im.save(dst, "WEBP", quality=72, method=6)
+def write(im, dst, w, q):
+    im2 = im
+    if w:
+        h = round(im.height * w / im.width)
+        im2 = im.resize((w, h), Image.LANCZOS)
+    else:
+        im2 = im.resize(SIZE, Image.LANCZOS)
+    im2.save(dst, "WEBP", quality=q, method=6)
 
 done = 0
 for j in jobs:
@@ -23,9 +33,11 @@ for j in jobs:
         src = j.get(mode)
         if not src or not os.path.exists(src):
             continue
-        dst = os.path.join(OUT, f"{j['id']}.{mode}.webp")
         try:
-            thumb(src, dst)
+            im = Image.open(src).convert("RGB")
+            write(im, os.path.join(OUT, f"{j['id']}.{mode}.webp"), None, 72)
+            if OUT_PREV:
+                write(im, os.path.join(OUT_PREV, f"{j['id']}.{mode}.webp"), PREV_W, 80)
             done += 1
         except Exception as e:
             print(f"FAIL {j['id']}.{mode}: {e}", file=sys.stderr)
