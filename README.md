@@ -300,6 +300,14 @@ skins/<id>/
 - 经典配色系列色板来自各方案官方定义（Catppuccin / Dracula / Nord / Tokyo Night / Gruvbox / Solarized / Rosé Pine / Everforest / Atom / Monokai / Night Owl / Synthwave '84 / Kanagawa / Ayu / GitHub Primer / Material Theme / VS Code / JetBrains / Flexoki）
 - 角色名称与形象版权归米哈游 / 任天堂 / 迪士尼 / 卡普空等各自厂商所有，本项目为粉丝向非商业作品
 
+## 相关项目
+
+- 🌐 [dsh-suite 目录网站](https://whyihaveyou.github.io/dsh-suite/) — 在线逛全部插件，带兼容徽章与搜索
+- 📦 [dsh-suite 主仓](https://github.com/whyihaveyou/dsh-suite) — DSH 插件活目录 + 内置商店 + 脚手架
+- 📖 [DSH 中文文档 · dsh-docs.com](https://dsh-docs.com) — 中文教程与文档，开箱即用无需翻墙
+- 📕 [DSH 插件开发指南](https://github.com/whyihaveyou/dsh-plugin-tutorial) — 中英双语成书
+- 🖥 [dsh-workstation](https://github.com/whyihaveyou/dsh-workstation) — 一体化工作台（🚧 开发中）
+
 ## License
 
 Apache-2.0
