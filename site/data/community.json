@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-15",
- "count": 12,
+ "count": 13,
  "entries": [
   {
    "id": "dsh-deep-whale",
@@ -10,6 +10,15 @@
    "stars": 588,
    "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
    "installCmd": "dsh plugin add git+https://github.com/Small-tailqwq/dsh-deep-whale"
+  },
+  {
+   "id": "dsh-liang-skin",
+   "name": "dsh-liang-skin",
+   "repo": "kingOfSoySauce/dsh-liang-skin",
+   "author": "kingOfSoySauce",
+   "stars": 117,
+   "url": "https://github.com/kingOfSoySauce/dsh-liang-skin",
+   "installCmd": "dsh plugin add git+https://github.com/kingOfSoySauce/dsh-liang-skin"
   },
   {
    "id": "dsh-ui-whale",
