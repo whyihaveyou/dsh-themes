@@ -55,9 +55,23 @@ cd packages/skin-center && node scripts/generate.mjs   # 需要系统 python3 + 
 
 ## Theme & Skin Compatibility / 主题与皮肤兼容
 
-This is a skin pack: it follows the skin-manifest v2 structure and the primary-action token rules
-(verbatim four-token set, no cross-family pairing). Each skin scopes its palette via
-`body[data-dsh-<id>]` and overrides `--dsw-alias-*` tokens for day/night modes.
+The **panel itself** follows the DSH Web styling contract
+([`docs/web-styling.md`](https://github.com/deepseek-ai/deepseek-harness/blob/main/docs/web-styling.md)):
+all colors come from `--dsw-alias-*` design tokens, no hardcoded color literals.
+It also implements the dsh-web Skin Center compatibility contract
+**L1 (token coverage) + L2 (semantic attributes)** — root node
+`data-dsh-plugin="skin-center"` + `data-dsh-surface="settings"`, parts
+`input / select / button-ghost / card` (v0.3.1).
 
-本包是皮肤聚合包：遵循 skin-manifest v2 结构与 primary-action 令牌规则（主按钮四件套 verbatim 使用、禁止跨族配对）；
-每个皮肤经 `body[data-dsh-<id>]` 属性作用域覆写 `--dsw-alias-*` 令牌，昼夜双模式。
+As a **skin pack**, each skin scopes its palette via `body[data-dsh-<id>]` and
+overrides `--dsw-alias-*` tokens for day/night; it follows the primary-action
+token rules (verbatim four-token set, no cross-family pairing). The bundled
+manifest is an aggregate format (151 skins in one manifest + one CSS), not the
+per-skin skin-manifest-v2 asset-directory layout.
+
+面板自身遵循 DSH Web 样式契约：全部颜色经 `--dsw-alias-*` 设计令牌引用、无硬编码色值；并实现 dsh-web 皮肤中心兼容契约
+**L1（令牌覆盖）+ L2（语义属性）**——根节点 `data-dsh-plugin="skin-center"` + `data-dsh-surface="settings"`，
+部件标注 `input / select / button-ghost / card`（v0.3.1）。
+作为皮肤聚合包，每个皮肤经 `body[data-dsh-<id>]` 作用域覆写 `--dsw-alias-*` 令牌（昼夜双模式），并遵循
+primary-action 令牌规则（主按钮四件套 verbatim、禁止跨族配对）；随包 manifest 为聚合格式（151 皮合一），
+非逐皮的 skin-manifest-v2 资产目录布局。

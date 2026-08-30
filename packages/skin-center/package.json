@@ -1,6 +1,6 @@
 {
   "name": "@dsh-suite/themes",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "151 款 AionUi 皮肤聚合 + 皮肤中心试穿面板 / A 151-skin pack with a try-on panel for DSH Web UI.",
   "type": "module",
   "main": "lib/index.js",

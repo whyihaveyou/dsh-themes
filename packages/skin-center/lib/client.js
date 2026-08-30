@@ -40,12 +40,12 @@ window.__ModuleLoader__.load({
     // ---- styles (dark UI, GitHub-ish) ----
     const S = {
       bar: { display: 'flex', gap: '10px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '12px' },
-      input: { flex: '1 1 220px', minWidth: '180px', background: '#0d1117', border: '1px solid #30363d', borderRadius: '6px', color: '#c9d1d9', padding: '7px 12px', fontSize: '13px' },
-      select: { background: '#0d1117', border: '1px solid #30363d', borderRadius: '6px', color: '#c9d1d9', padding: '7px 10px', fontSize: '13px' },
-      btn: { background: 'transparent', border: '1px solid #30363d', borderRadius: '6px', color: '#8b949e', padding: '7px 12px', fontSize: '13px', cursor: 'pointer' },
-      btnActive: { background: '#21262d', border: '1px solid #8b949e', borderRadius: '6px', color: '#e6edf3', padding: '7px 12px', fontSize: '13px', cursor: 'pointer' },
+      input: { flex: '1 1 220px', minWidth: '180px', background: 'var(--dsw-alias-bg-layer-2)', border: '1px solid var(--dsw-alias-border-l1)', borderRadius: '6px', color: 'var(--dsw-alias-label-primary)', padding: '7px 12px', fontSize: '13px' },
+      select: { background: 'var(--dsw-alias-bg-layer-2)', border: '1px solid var(--dsw-alias-border-l1)', borderRadius: '6px', color: 'var(--dsw-alias-label-primary)', padding: '7px 10px', fontSize: '13px' },
+      btn: { background: 'transparent', border: '1px solid var(--dsw-alias-border-l1)', borderRadius: '6px', color: 'var(--dsw-alias-label-secondary)', padding: '7px 12px', fontSize: '13px', cursor: 'pointer' },
+      btnActive: { background: 'var(--dsw-alias-bg-layer-3)', border: '1px solid var(--dsw-alias-label-secondary)', borderRadius: '6px', color: 'var(--dsw-alias-label-primary)', padding: '7px 12px', fontSize: '13px', cursor: 'pointer' },
       grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(190px, 1fr))', gap: '12px' },
-      status: { fontSize: '11px', color: '#8b949e', marginBottom: '10px' },
+      status: { fontSize: '11px', color: 'var(--dsw-alias-label-secondary)', marginBottom: '10px' },
     }
 
     function loadJSON(key, fallback) {
@@ -84,7 +84,7 @@ window.__ModuleLoader__.load({
       if (failed) return null
       return h('div', {
         ref,
-        style: { width: '100%', aspectRatio: '16/10', borderRadius: '6px', background: '#0d1117', border: '1px solid #21262d', overflow: 'hidden' },
+        style: { width: '100%', aspectRatio: '16/10', borderRadius: '6px', background: 'var(--dsw-alias-bg-layer-2)', border: '1px solid var(--dsw-alias-bg-layer-3)', overflow: 'hidden' },
       },
         show
           ? h('img', {
@@ -221,74 +221,75 @@ window.__ModuleLoader__.load({
 
       // detail card: dual large previews + meta
       const detailCard = selected
-        ? h('div', { style: { background: '#161b22', border: '1px solid ' + (selected.accent || '#30363d'), borderRadius: '8px', padding: '12px', marginBottom: '12px' } },
-            h('div', { style: { fontSize: '12px', color: '#e6edf3', fontWeight: '700', marginBottom: '8px' } }, '📋 ' + t('detail')),
+        ? h('div', { 'data-dsh-part': 'card', style: { background: 'var(--dsw-alias-bg-layer-2)', border: '1px solid ' + (selected.accent || 'var(--dsw-alias-border-l1)'), borderRadius: '8px', padding: '12px', marginBottom: '12px' } },
+            h('div', { style: { fontSize: '12px', color: 'var(--dsw-alias-label-primary)', fontWeight: '700', marginBottom: '8px' } }, '📋 ' + t('detail')),
             h('div', { style: { display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'flex-start' } },
               h('div', { style: { display: 'flex', gap: '8px', flex: '1 1 340px', minWidth: '280px' } },
                 h('div', { style: { flex: 1 } },
                   h(Thumb, { src: previewOf(selected, false), alt: selected.name + ' ' + t('day') }),
-                  h('div', { style: { fontSize: '10px', color: '#8b949e', marginTop: '3px', textAlign: 'center' } }, '☀️ ' + t('day'))),
+                  h('div', { style: { fontSize: '10px', color: 'var(--dsw-alias-label-secondary)', marginTop: '3px', textAlign: 'center' } }, '☀️ ' + t('day'))),
                 h('div', { style: { flex: 1 } },
                   h(Thumb, { src: previewOf(selected, true), alt: selected.name + ' ' + t('night') }),
-                  h('div', { style: { fontSize: '10px', color: '#8b949e', marginTop: '3px', textAlign: 'center' } }, '🌙 ' + t('night'))),
+                  h('div', { style: { fontSize: '10px', color: 'var(--dsw-alias-label-secondary)', marginTop: '3px', textAlign: 'center' } }, '🌙 ' + t('night'))),
               ),
-              h('div', { style: { flex: '1 1 200px', minWidth: '180px', fontSize: '12px', color: '#c9d1d9', lineHeight: '2' } },
-                h('div', { style: { fontWeight: '700', color: selected.accent || '#e6edf3', fontSize: '13px' } }, selected.name + (selected.nameEn ? ' · ' + selected.nameEn : '')),
+              h('div', { style: { flex: '1 1 200px', minWidth: '180px', fontSize: '12px', color: 'var(--dsw-alias-label-primary)', lineHeight: '2' } },
+                h('div', { style: { fontWeight: '700', color: selected.accent || 'var(--dsw-alias-label-primary)', fontSize: '13px' } }, selected.name + (selected.nameEn ? ' · ' + selected.nameEn : '')),
                 h('div', {}, t('author') + ': ' + (selected.author || '—')),
                 h('div', {}, t('tags') + ': ' + ((selected.tags || []).join(' / ') || '—')),
                 h('div', {}, t('tokens') + ': ' + (selected.tokens || 0)),
                 h('div', {}, t('group') + ': ' + (selected.group || '—')),
-                selected.tagline ? h('div', { style: { color: '#8b949e', marginTop: '4px' } }, selected.tagline) : null,
+                selected.tagline ? h('div', { style: { color: 'var(--dsw-alias-label-secondary)', marginTop: '4px' } }, selected.tagline) : null,
               ),
             ),
           )
         : null
 
-      return h('div', { style: { maxWidth: '980px' } },
+      return h('div', { style: { maxWidth: '980px' }, 'data-dsh-plugin': 'skin-center', 'data-dsh-surface': 'settings' },
         h('div', { style: S.bar },
-          h('input', { style: S.input, placeholder: t('search'), value: search, onChange: (e) => setSearch(e.target.value) }),
-          h('select', { style: S.select, value: group, onChange: (e) => setGroup(e.target.value) },
+          h('input', { style: S.input, 'data-dsh-part': 'input', placeholder: t('search'), value: search, onChange: (e) => setSearch(e.target.value) }),
+          h('select', { style: S.select, 'data-dsh-part': 'select', value: group, onChange: (e) => setGroup(e.target.value) },
             h('option', { value: 'all' }, t('all')),
             groups.map((g) => h('option', { key: g, value: g }, g))),
           h('div', { style: { display: 'flex', gap: '4px' } },
-            modeBtns.map(([m, label]) => h('button', { key: m, style: mode === m ? S.btnActive : S.btn, onClick: () => setMode(m) }, label))),
-          h('button', { style: S.btn, onClick: randomSkin, title: t('random') }, '🎲 ' + t('random')),
-          h('button', { style: favOnly ? S.btnActive : S.btn, onClick: () => setFavOnly(!favOnly) }, (favOnly ? '♥ ' : '♡ ') + t('favOnly')),
-          applied ? h('button', { style: S.btn, onClick: clearSkin }, '✖ ' + t('clearSkin')) : null,
+            modeBtns.map(([m, label]) => h('button', { key: m, 'data-dsh-part': 'button-ghost', style: mode === m ? S.btnActive : S.btn, onClick: () => setMode(m) }, label))),
+          h('button', { 'data-dsh-part': 'button-ghost', style: S.btn, onClick: randomSkin, title: t('random') }, '🎲 ' + t('random')),
+          h('button', { 'data-dsh-part': 'button-ghost', style: favOnly ? S.btnActive : S.btn, onClick: () => setFavOnly(!favOnly) }, (favOnly ? '♥ ' : '♡ ') + t('favOnly')),
+          applied ? h('button', { 'data-dsh-part': 'button-ghost', style: S.btn, onClick: clearSkin }, '✖ ' + t('clearSkin')) : null,
         ),
         h('div', { style: S.status },
           skins.length + ' ' + t('count') + (q || favOnly ? ' · ' + t('filterCount') + ': ' + favHit.length : '') + (group !== 'all' ? ' · ' + group : '') + ' · ' + t('hint')),
         detailCard,
         lastTried.length
           ? h('div', { style: { display: 'flex', gap: '8px', alignItems: 'stretch', marginBottom: '12px', overflowX: 'auto', paddingBottom: '4px' } },
-              h('span', { style: { fontSize: '11px', color: '#8b949e', fontWeight: '700', whiteSpace: 'nowrap', alignSelf: 'center', marginRight: '2px' } }, t('recent')),
+              h('span', { style: { fontSize: '11px', color: 'var(--dsw-alias-label-secondary)', fontWeight: '700', whiteSpace: 'nowrap', alignSelf: 'center', marginRight: '2px' } }, t('recent')),
               lastTried.map((s) => h('div', {
-                key: s.id,
+                key: s.id, 'data-dsh-part': 'card',
                 onClick: () => { applySkin(s); setSelected(s) },
                 title: s.name,
                 style: {
-                  flex: '0 0 96px', cursor: 'pointer', background: '#161b22',
-                  border: applied === s.bodyAttr ? '1px solid ' + (s.accent || '#3fb950') : '1px solid #30363d',
+                  flex: '0 0 96px', cursor: 'pointer', background: 'var(--dsw-alias-bg-layer-2)',
+                  border: applied === s.bodyAttr ? '1px solid ' + (s.accent || 'var(--dsw-alias-brand-primary)') : '1px solid var(--dsw-alias-border-l1)',
                   borderRadius: '8px', padding: '4px',
                 },
               },
                 h(Thumb, { src: '/skin-center/' + (dark ? s.thumb.dark : s.thumb.light), alt: s.name }),
-                h('div', { style: { fontSize: '10px', color: 'rgba(139,148,158,.95)', marginTop: '3px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } }, s.name),
+                h('div', { style: { fontSize: '10px', color: 'color-mix(in srgb, var(--dsw-alias-label-secondary) 95%, transparent)', marginTop: '3px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } }, s.name),
               )))
           : null,
-        loading ? h('div', { style: { color: '#8b949e', fontSize: '13px' } }, t('loading')) : null,
+        loading ? h('div', { style: { color: 'var(--dsw-alias-label-secondary)', fontSize: '13px' } }, t('loading')) : null,
         h('div', { style: S.grid },
           shown.map((s) => {
             const active = applied === s.bodyAttr
             const isFav = favs.has(s.id)
             return h('div', {
               key: s.id,
+              'data-dsh-part': 'card',
               onClick: () => { applySkin(s); setSelected(s) },
               title: s.name + ' (' + s.nameEn + ')',
               style: {
                 position: 'relative',
-                background: active ? 'rgba(63,185,80,0.08)' : '#161b22',
-                border: active ? '1px solid ' + (s.accent || '#3fb950') : '1px solid #30363d',
+                background: active ? 'color-mix(in srgb, var(--dsw-alias-brand-primary) 8%, transparent)' : 'var(--dsw-alias-bg-layer-2)',
+                border: active ? '1px solid ' + (s.accent || 'var(--dsw-alias-brand-primary)') : '1px solid var(--dsw-alias-border-l1)',
                 borderRadius: '8px',
                 padding: '8px',
                 cursor: 'pointer',
@@ -301,14 +302,14 @@ window.__ModuleLoader__.load({
                 onClick: (e) => { e.stopPropagation(); toggleFav(s.id) },
                 style: {
                   position: 'absolute', top: '13px', right: '13px', zIndex: 2,
-                  background: 'rgba(13,17,23,0.78)', border: '1px solid #30363d', borderRadius: '6px',
-                  color: isFav ? '#f778ba' : '#8b949e', cursor: 'pointer',
+                  background: 'color-mix(in srgb, var(--dsw-alias-bg-layer-1) 78%, transparent)', border: '1px solid var(--dsw-alias-border-l1)', borderRadius: '6px',
+                  color: isFav ? 'var(--dsw-alias-brand-primary)' : 'var(--dsw-alias-label-secondary)', cursor: 'pointer',
                   fontSize: '15px', lineHeight: '1', padding: '4px 6px', transition: 'color .15s',
                 },
               }, isFav ? '♥' : '♡'),
-              h('div', { style: { fontSize: '12px', color: active ? (s.accent || '#3fb950') : '#e6edf3', fontWeight: active ? '700' : '500', marginTop: '6px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } },
+              h('div', { style: { fontSize: '12px', color: active ? (s.accent || 'var(--dsw-alias-brand-primary)') : 'var(--dsw-alias-label-primary)', fontWeight: active ? '700' : '500', marginTop: '6px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } },
                 s.name + (active ? ' ✓' : '')),
-              h('div', { style: { fontSize: '10px', color: '#8b949e', marginTop: '2px' } }, s.group + (s.tokens ? ' · ' + s.tokens + ' tok' : '')),
+              h('div', { style: { fontSize: '10px', color: 'var(--dsw-alias-label-secondary)', marginTop: '2px' } }, s.group + (s.tokens ? ' · ' + s.tokens + ' tok' : '')),
             )
           })),
       )

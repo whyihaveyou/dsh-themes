@@ -71,6 +71,7 @@ for (const dir of readdirSync(SKINS).sort()) {
     bodyAttr: meta.bodyAttr || `data-dsh-${id}`,
     author: meta.author || '',
     tagline: meta.tagline || '',
+    description: meta.description || '',
     order: meta.order ?? 0,
     tokens,
     thumb: { light: `thumbs/${id}.light.webp`, dark: `thumbs/${id}.dark.webp` },

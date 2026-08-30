@@ -25,7 +25,8 @@
       "preview": {
         "light": "previews/ayu.light.webp",
         "dark": "previews/ayu.dark.webp"
-      }
+      },
+      "description": "Ayu 官方 Mirage 版，暖橙夜色（含昼夜双模式）"
     },
     {
       "id": "catppuccin",
@@ -50,7 +51,8 @@
       "preview": {
         "light": "previews/catppuccin.light.webp",
         "dark": "previews/catppuccin.dark.webp"
-      }
+      },
+      "description": "Mocha 深夜咖啡，Mauve 马卡龙紫（含昼夜双模式）"
     },
     {
       "id": "darcula",
@@ -75,7 +77,8 @@
       "preview": {
         "light": "previews/darcula.light.webp",
         "dark": "previews/darcula.dark.webp"
-      }
+      },
+      "description": "IntelliJ 经典深灰底与橙黄关键字（含昼夜双模式）"
     },
     {
       "id": "donald-duck",
@@ -100,7 +103,8 @@
       "preview": {
         "light": "previews/donald-duck.light.webp",
         "dark": "previews/donald-duck.dark.webp"
-      }
+      },
+      "description": "深夜甲板上水手蓝衫映着黄嘴红领结（含昼夜双模式）"
     },
     {
       "id": "dracula",
@@ -125,7 +129,8 @@
       "preview": {
         "light": "previews/dracula.light.webp",
         "dark": "previews/dracula.dark.webp"
-      }
+      },
+      "description": "暗紫古堡底，紫粉绿的吸血鬼之夜（含昼夜双模式）"
     },
     {
       "id": "egg-matrix",
@@ -151,7 +156,8 @@
       "preview": {
         "light": "previews/egg-matrix.light.webp",
         "dark": "previews/egg-matrix.dark.webp"
-      }
+      },
+      "description": "绿色数字雨落在黑色终端上（含昼夜双模式）"
     },
     {
       "id": "egg-pacman",
@@ -176,7 +182,8 @@
       "preview": {
         "light": "previews/egg-pacman.light.webp",
         "dark": "previews/egg-pacman.dark.webp"
-      }
+      },
+      "description": "黑底黄吃豆人，迷宫蓝墙四幽灵（含昼夜双模式）"
     },
     {
       "id": "everforest",
@@ -201,7 +208,8 @@
       "preview": {
         "light": "previews/everforest.light.webp",
         "dark": "previews/everforest.dark.webp"
-      }
+      },
+      "description": "森林绿底，护眼低对比的暗夜林海（含昼夜双模式）"
     },
     {
       "id": "festival-christmas",
@@ -226,7 +234,8 @@
       "preview": {
         "light": "previews/festival-christmas.light.webp",
         "dark": "previews/festival-christmas.dark.webp"
-      }
+      },
+      "description": "圣诞夜雪落，彩灯与礼物相伴（含昼夜双模式）"
     },
     {
       "id": "festival-dragonboat",
@@ -250,7 +259,8 @@
       "preview": {
         "light": "previews/festival-dragonboat.light.webp",
         "dark": "previews/festival-dragonboat.dark.webp"
-      }
+      },
+      "description": "夜泊汨罗，灯影龙舟映江波（含昼夜双模式）"
     },
     {
       "id": "festival-halloween",
@@ -275,7 +285,8 @@
       "preview": {
         "light": "previews/festival-halloween.light.webp",
         "dark": "previews/festival-halloween.dark.webp"
-      }
+      },
+      "description": "南瓜灯、蝙蝠与鬼火的紫夜狂欢（含昼夜双模式）"
     },
     {
       "id": "festival-lantern",
@@ -300,7 +311,8 @@
       "preview": {
         "light": "previews/festival-lantern.light.webp",
         "dark": "previews/festival-lantern.dark.webp"
-      }
+      },
+      "description": "夜色灯会，花灯暖光映汤圆（含昼夜双模式）"
     },
     {
       "id": "festival-midautumn",
@@ -324,7 +336,8 @@
       "preview": {
         "light": "previews/festival-midautumn.light.webp",
         "dark": "previews/festival-midautumn.dark.webp"
-      }
+      },
+      "description": "圆月金辉桂香夜，玉兔月饼共团圆（含昼夜双模式）"
     },
     {
       "id": "festival-newyear",
@@ -348,7 +361,8 @@
       "preview": {
         "light": "previews/festival-newyear.light.webp",
         "dark": "previews/festival-newyear.dark.webp"
-      }
+      },
+      "description": "午夜蓝下的烟花与香槟金倒计时（含昼夜双模式）"
     },
     {
       "id": "festival-qixi",
@@ -373,7 +387,8 @@
       "preview": {
         "light": "previews/festival-qixi.light.webp",
         "dark": "previews/festival-qixi.dark.webp"
-      }
+      },
+      "description": "银河鹊桥会，一线系牵牛（含昼夜双模式）"
     },
     {
       "id": "festival-sakura",
@@ -398,7 +413,8 @@
       "preview": {
         "light": "previews/festival-sakura.light.webp",
         "dark": "previews/festival-sakura.dark.webp"
-      }
+      },
+      "description": "夜樱灯影下缓缓飘落的绯色花瓣（含昼夜双模式）"
     },
     {
       "id": "festival-spring",
@@ -423,7 +439,8 @@
       "preview": {
         "light": "previews/festival-spring.light.webp",
         "dark": "previews/festival-spring.dark.webp"
-      }
+      },
+      "description": "中国红金灯笼映照的喜庆年夜（含昼夜双模式）"
     },
     {
       "id": "festival-valentine",
@@ -447,7 +464,8 @@
       "preview": {
         "light": "previews/festival-valentine.light.webp",
         "dark": "previews/festival-valentine.dark.webp"
-      }
+      },
+      "description": "夜色玫瑰、烛光爱心与火漆情书（含昼夜双模式）"
     },
     {
       "id": "flexoki",
@@ -472,7 +490,8 @@
       "preview": {
         "light": "previews/flexoki.light.webp",
         "dark": "previews/flexoki.dark.webp"
-      }
+      },
+      "description": "墨色纸感暗色系，青墨点睛（含昼夜双模式）"
     },
     {
       "id": "game-amongus",
@@ -497,7 +516,8 @@
       "preview": {
         "light": "previews/game-amongus.light.webp",
         "dark": "previews/game-amongus.dark.webp"
-      }
+      },
+      "description": "红色船员在太空舱里做任务（含昼夜双模式）"
     },
     {
       "id": "game-animalcrossing",
@@ -522,7 +542,8 @@
       "preview": {
         "light": "previews/game-animalcrossing.light.webp",
         "dark": "previews/game-animalcrossing.dark.webp"
-      }
+      },
+      "description": "夜航无人岛：萤火绿叶与狸克木牌（含昼夜双模式）"
     },
     {
       "id": "game-cyberpunk2077",
@@ -547,7 +568,8 @@
       "preview": {
         "light": "previews/game-cyberpunk2077.light.webp",
         "dark": "previews/game-cyberpunk2077.dark.webp"
-      }
+      },
+      "description": "夜之城霓虹黄黑与RELIC红（含昼夜双模式）"
     },
     {
       "id": "game-eldenring",
@@ -572,7 +594,8 @@
       "preview": {
         "light": "previews/game-eldenring.light.webp",
         "dark": "previews/game-eldenring.dark.webp"
-      }
+      },
+      "description": "黄金树的赐福与褪色者的夜（含昼夜双模式）"
     },
     {
       "id": "game-hollowknight",
@@ -597,7 +620,8 @@
       "preview": {
         "light": "previews/game-hollowknight.light.webp",
         "dark": "previews/game-hollowknight.dark.webp"
-      }
+      },
+      "description": "黑白小骑士面具与梦之钉微光（含昼夜双模式）"
     },
     {
       "id": "game-kirby",
@@ -622,7 +646,8 @@
       "preview": {
         "light": "previews/game-kirby.light.webp",
         "dark": "previews/game-kirby.dark.webp"
-      }
+      },
+      "description": "夜空下粉球与星星棒的梦境（含昼夜双模式）"
     },
     {
       "id": "game-minecraft",
@@ -647,7 +672,8 @@
       "preview": {
         "light": "previews/game-minecraft.light.webp",
         "dark": "previews/game-minecraft.dark.webp"
-      }
+      },
+      "description": "黑夜嘶嘶作响的苦力怕（含昼夜双模式）"
     },
     {
       "id": "game-portal",
@@ -672,7 +698,8 @@
       "preview": {
         "light": "previews/game-portal.light.webp",
         "dark": "previews/game-portal.dark.webp"
-      }
+      },
+      "description": "深夜实验舱里的橙蓝传送门辉光（含昼夜双模式）"
     },
     {
       "id": "game-stardew",
@@ -697,7 +724,8 @@
       "preview": {
         "light": "previews/game-stardew.light.webp",
         "dark": "previews/game-stardew.dark.webp"
-      }
+      },
+      "description": "夜幕农场，星光下的蓝鸡低鸣（含昼夜双模式）"
     },
     {
       "id": "game-tetris",
@@ -722,7 +750,8 @@
       "preview": {
         "light": "previews/game-tetris.light.webp",
         "dark": "previews/game-tetris.dark.webp"
-      }
+      },
+      "description": "七彩四格方块的深夜霓虹堆叠（含昼夜双模式）"
     },
     {
       "id": "genshin-ayaka",
@@ -747,7 +776,8 @@
       "preview": {
         "light": "previews/genshin-ayaka.light.webp",
         "dark": "previews/genshin-ayaka.dark.webp"
-      }
+      },
+      "description": "雪夜庭园的冰蓝折扇与椿花（含昼夜双模式）"
     },
     {
       "id": "genshin-furina",
@@ -772,7 +802,8 @@
       "preview": {
         "light": "previews/genshin-furina.light.webp",
         "dark": "previews/genshin-furina.dark.webp"
-      }
+      },
+      "description": "谢幕后的深蓝剧场，水光与礼帽（含昼夜双模式）"
     },
     {
       "id": "genshin-ganyu",
@@ -797,7 +828,8 @@
       "preview": {
         "light": "previews/genshin-ganyu.light.webp",
         "dark": "previews/genshin-ganyu.dark.webp"
-      }
+      },
+      "description": "夜幕云海间的冰麟微光（含昼夜双模式）"
     },
     {
       "id": "genshin-hutao",
@@ -822,7 +854,8 @@
       "preview": {
         "light": "previews/genshin-hutao.light.webp",
         "dark": "previews/genshin-hutao.dark.webp"
-      }
+      },
+      "description": "往生堂主的火红梅花夜（含昼夜双模式）"
     },
     {
       "id": "genshin-klee",
@@ -847,7 +880,8 @@
       "preview": {
         "light": "previews/genshin-klee.light.webp",
         "dark": "previews/genshin-klee.dark.webp"
-      }
+      },
+      "description": "夜幕下的蹦蹦炸弹火花涂鸦（含昼夜双模式）"
     },
     {
       "id": "genshin-nahida",
@@ -872,7 +906,8 @@
       "preview": {
         "light": "previews/genshin-nahida.light.webp",
         "dark": "previews/genshin-nahida.dark.webp"
-      }
+      },
+      "description": "虚空终端绿光照亮的深夜梦境（含昼夜双模式）"
     },
     {
       "id": "genshin-raiden",
@@ -897,7 +932,8 @@
       "preview": {
         "light": "previews/genshin-raiden.light.webp",
         "dark": "previews/genshin-raiden.dark.webp"
-      }
+      },
+      "description": "紫电巴纹，无想一刀（含昼夜双模式）"
     },
     {
       "id": "genshin-wanderer",
@@ -922,7 +958,8 @@
       "preview": {
         "light": "previews/genshin-wanderer.light.webp",
         "dark": "previews/genshin-wanderer.dark.webp"
-      }
+      },
+      "description": "靛蓝斗笠下，风起人偶行（含昼夜双模式）"
     },
     {
       "id": "genshin-xiao",
@@ -947,7 +984,8 @@
       "preview": {
         "light": "previews/genshin-xiao.light.webp",
         "dark": "previews/genshin-xiao.dark.webp"
-      }
+      },
+      "description": "傩面夜叉，青绿风息隐于业障暗夜（含昼夜双模式）"
     },
     {
       "id": "genshin-zhongli",
@@ -972,7 +1010,8 @@
       "preview": {
         "light": "previews/genshin-zhongli.light.webp",
         "dark": "previews/genshin-zhongli.dark.webp"
-      }
+      },
+      "description": "岩王帝君的棕金华袍与天星（含昼夜双模式）"
     },
     {
       "id": "github",
@@ -997,7 +1036,8 @@
       "preview": {
         "light": "previews/github.light.webp",
         "dark": "previews/github.dark.webp"
-      }
+      },
+      "description": "GitHub 官方深色，深夜蓝黑与贡献格绿（含昼夜双模式）"
     },
     {
       "id": "gruvbox",
@@ -1022,7 +1062,8 @@
       "preview": {
         "light": "previews/gruvbox.light.webp",
         "dark": "previews/gruvbox.dark.webp"
-      }
+      },
+      "description": "复古暖黄做旧纸底的深夜模式（含昼夜双模式）"
     },
     {
       "id": "hsr-acheron",
@@ -1047,7 +1088,8 @@
       "preview": {
         "light": "previews/hsr-acheron.light.webp",
         "dark": "previews/hsr-acheron.dark.webp"
-      }
+      },
+      "description": "紫黑虚无里的血刃与彼岸花（含昼夜双模式）"
     },
     {
       "id": "hsr-danheng",
@@ -1072,7 +1114,8 @@
       "preview": {
         "light": "previews/hsr-danheng.light.webp",
         "dark": "previews/hsr-danheng.dark.webp"
-      }
+      },
+      "description": "青龙水纹与长枪寒光的冷青夜（含昼夜双模式）"
     },
     {
       "id": "hsr-firefly",
@@ -1097,7 +1140,8 @@
       "preview": {
         "light": "previews/hsr-firefly.light.webp",
         "dark": "previews/hsr-firefly.dark.webp"
-      }
+      },
+      "description": "夏夜萤火绿光与萨姆银白机甲（含昼夜双模式）"
     },
     {
       "id": "hsr-jingyuan",
@@ -1122,7 +1166,8 @@
       "preview": {
         "light": "previews/hsr-jingyuan.light.webp",
         "dark": "previews/hsr-jingyuan.dark.webp"
-      }
+      },
+      "description": "夜幕罗浮上的金雷棋局（含昼夜双模式）"
     },
     {
       "id": "hsr-kafka",
@@ -1147,7 +1192,8 @@
       "preview": {
         "light": "previews/hsr-kafka.light.webp",
         "dark": "previews/hsr-kafka.dark.webp"
-      }
+      },
+      "description": "紫红蛛丝缠绕的红酒之夜（含昼夜双模式）"
     },
     {
       "id": "hsr-march7",
@@ -1172,7 +1218,8 @@
       "preview": {
         "light": "previews/hsr-march7.light.webp",
         "dark": "previews/hsr-march7.dark.webp"
-      }
+      },
+      "description": "星夜冰晶里的粉发快门少女（含昼夜双模式）"
     },
     {
       "id": "hsr-silverwolf",
@@ -1197,7 +1244,8 @@
       "preview": {
         "light": "previews/hsr-silverwolf.light.webp",
         "dark": "previews/hsr-silverwolf.dark.webp"
-      }
+      },
+      "description": "像素故障与紫蓝霓虹的黑客空间（含昼夜双模式）"
     },
     {
       "id": "hsr-sparkle",
@@ -1222,7 +1270,8 @@
       "preview": {
         "light": "previews/hsr-sparkle.light.webp",
         "dark": "previews/hsr-sparkle.dark.webp"
-      }
+      },
+      "description": "红金狐面剧场，烟花绽于夜幕（含昼夜双模式）"
     },
     {
       "id": "kanagawa",
@@ -1247,7 +1296,8 @@
       "preview": {
         "light": "previews/kanagawa.light.webp",
         "dark": "previews/kanagawa.dark.webp"
-      }
+      },
+      "description": "葛饰北斋浮世绘，神奈川深海浪蓝（含昼夜双模式）"
     },
     {
       "id": "mario",
@@ -1272,7 +1322,8 @@
       "preview": {
         "light": "previews/mario.light.webp",
         "dark": "previews/mario.dark.webp"
-      }
+      },
+      "description": "夜幕蘑菇王国的红帽与金币辉光（含昼夜双模式）"
     },
     {
       "id": "mario-bowser",
@@ -1297,7 +1348,8 @@
       "preview": {
         "light": "previews/mario-bowser.light.webp",
         "dark": "previews/mario-bowser.dark.webp"
-      }
+      },
+      "description": "熔岩城堡里的橙黄刺壳魔王（含昼夜双模式）"
     },
     {
       "id": "mario-luigi",
@@ -1322,7 +1374,8 @@
       "preview": {
         "light": "previews/mario-luigi.light.webp",
         "dark": "previews/mario-luigi.dark.webp"
-      }
+      },
+      "description": "洋馆暗夜里闪着绿光的吸尘器（含昼夜双模式）"
     },
     {
       "id": "mario-peach",
@@ -1347,7 +1400,8 @@
       "preview": {
         "light": "previews/mario-peach.light.webp",
         "dark": "previews/mario-peach.dark.webp"
-      }
+      },
+      "description": "夜幕城堡下的桃粉皇冠（含昼夜双模式）"
     },
     {
       "id": "mario-toad",
@@ -1372,7 +1426,8 @@
       "preview": {
         "light": "previews/mario-toad.light.webp",
         "dark": "previews/mario-toad.dark.webp"
-      }
+      },
+      "description": "夜幕下头灯照亮红蘑菇的寻宝之旅（含昼夜双模式）"
     },
     {
       "id": "mario-yoshi",
@@ -1397,7 +1452,8 @@
       "preview": {
         "light": "previews/mario-yoshi.light.webp",
         "dark": "previews/mario-yoshi.dark.webp"
-      }
+      },
+      "description": "夜色耀西绿，斑点蛋微光（含昼夜双模式）"
     },
     {
       "id": "mickey-mouse",
@@ -1422,7 +1478,8 @@
       "preview": {
         "light": "previews/mickey-mouse.light.webp",
         "dark": "previews/mickey-mouse.dark.webp"
-      }
+      },
+      "description": "午夜影院里的红短裤黑圆耳（含昼夜双模式）"
     },
     {
       "id": "monokai",
@@ -1447,7 +1504,8 @@
       "preview": {
         "light": "previews/monokai.light.webp",
         "dark": "previews/monokai.dark.webp"
-      }
+      },
+      "description": "Sublime 原版暗色，粉绿橙高饱和语法色（含昼夜双模式）"
     },
     {
       "id": "night-owl",
@@ -1472,7 +1530,8 @@
       "preview": {
         "light": "previews/night-owl.light.webp",
         "dark": "previews/night-owl.dark.webp"
-      }
+      },
+      "description": "深夜蓝底，为夜猫子而生（含昼夜双模式）"
     },
     {
       "id": "nord",
@@ -1497,7 +1556,8 @@
       "preview": {
         "light": "previews/nord.light.webp",
         "dark": "previews/nord.dark.webp"
-      }
+      },
+      "description": "极地蓝灰夜色，Frost 冰蓝与 Aurora 极光点缀（含昼夜双模式）"
     },
     {
       "id": "one",
@@ -1522,7 +1582,8 @@
       "preview": {
         "light": "previews/one.light.webp",
         "dark": "previews/one.dark.webp"
-      }
+      },
+      "description": "Atom 经典深色，蓝紫语法光（含昼夜双模式）"
     },
     {
       "id": "os-aero",
@@ -1547,7 +1608,8 @@
       "preview": {
         "light": "previews/os-aero.light.webp",
         "dark": "previews/os-aero.dark.webp"
-      }
+      },
+      "description": "黑玻璃窗框与极光绿光晕缎带（含昼夜双模式）"
     },
     {
       "id": "os-bliss",
@@ -1572,7 +1634,8 @@
       "preview": {
         "light": "previews/os-bliss.light.webp",
         "dark": "previews/os-bliss.dark.webp"
-      }
+      },
+      "description": "夜幕下的 Bliss 山丘与星光（含昼夜双模式）"
     },
     {
       "id": "os-fc",
@@ -1599,7 +1662,8 @@
       "preview": {
         "light": "previews/os-fc.light.webp",
         "dark": "previews/os-fc.dark.webp"
-      }
+      },
+      "description": "关灯后的 CRT 磷光与待机红点（含昼夜双模式）"
     },
     {
       "id": "os-gameboy",
@@ -1625,7 +1689,8 @@
       "preview": {
         "light": "previews/os-gameboy.light.webp",
         "dark": "previews/os-gameboy.dark.webp"
-      }
+      },
+      "description": "背光改装机的深夜磷光绿屏（含昼夜双模式）"
     },
     {
       "id": "os-ios",
@@ -1650,7 +1715,8 @@
       "preview": {
         "light": "previews/os-ios.light.webp",
         "dark": "previews/os-ios.dark.webp"
-      }
+      },
+      "description": "深色模式纯黑与夜间蓝（含昼夜双模式）"
     },
     {
       "id": "os-luna",
@@ -1675,7 +1741,8 @@
       "preview": {
         "light": "previews/os-luna.light.webp",
         "dark": "previews/os-luna.dark.webp"
-      }
+      },
+      "description": "夜幕 Bliss 下的深蓝标题栏（含昼夜双模式）"
     },
     {
       "id": "os-macos-aqua",
@@ -1700,7 +1767,8 @@
       "preview": {
         "light": "previews/os-macos-aqua.light.webp",
         "dark": "previews/os-macos-aqua.dark.webp"
-      }
+      },
+      "description": "夜幕下的水蓝凝胶与石墨金属（含昼夜双模式）"
     },
     {
       "id": "os-msdos",
@@ -1725,7 +1793,8 @@
       "preview": {
         "light": "previews/os-msdos.light.webp",
         "dark": "previews/os-msdos.dark.webp"
-      }
+      },
+      "description": "海军蓝屏黄字与灰对话框（含昼夜双模式）"
     },
     {
       "id": "os-win95",
@@ -1750,7 +1819,8 @@
       "preview": {
         "light": "previews/os-win95.light.webp",
         "dark": "previews/os-win95.dark.webp"
-      }
+      },
+      "description": "假如 Win95 也有夜间模式（含昼夜双模式）"
     },
     {
       "id": "os-winamp",
@@ -1775,7 +1845,8 @@
       "preview": {
         "light": "previews/os-winamp.light.webp",
         "dark": "previews/os-winamp.dark.webp"
-      }
+      },
+      "description": "黑绿播放器，均衡器彻夜跳动（含昼夜双模式）"
     },
     {
       "id": "palenight",
@@ -1800,7 +1871,8 @@
       "preview": {
         "light": "previews/palenight.light.webp",
         "dark": "previews/palenight.dark.webp"
-      }
+      },
+      "description": "紫灰夜幕下的 Material 经典（含昼夜双模式）"
     },
     {
       "id": "pikachu",
@@ -1825,7 +1897,8 @@
       "preview": {
         "light": "previews/pikachu.light.webp",
         "dark": "previews/pikachu.dark.webp"
-      }
+      },
+      "description": "深夜电气黄配脸颊红的十万伏特（含昼夜双模式）"
     },
     {
       "id": "pokemon-charizard",
@@ -1850,7 +1923,8 @@
       "preview": {
         "light": "previews/pokemon-charizard.light.webp",
         "dark": "previews/pokemon-charizard.dark.webp"
-      }
+      },
+      "description": "夜幕熔岩间喷火龙尾焰长明（含昼夜双模式）"
     },
     {
       "id": "pokemon-eevee",
@@ -1876,7 +1950,8 @@
       "preview": {
         "light": "previews/pokemon-eevee.light.webp",
         "dark": "previews/pokemon-eevee.dark.webp"
-      }
+      },
+      "description": "夜色棕绒，领结沐着进化微光（含昼夜双模式）"
     },
     {
       "id": "pokemon-gengar",
@@ -1901,7 +1976,8 @@
       "preview": {
         "light": "previews/pokemon-gengar.light.webp",
         "dark": "previews/pokemon-gengar.dark.webp"
-      }
+      },
+      "description": "紫影坏笑与幽蓝鬼火的夜行者（含昼夜双模式）"
     },
     {
       "id": "pokemon-mewtwo",
@@ -1927,7 +2003,8 @@
       "preview": {
         "light": "previews/pokemon-mewtwo.light.webp",
         "dark": "previews/pokemon-mewtwo.dark.webp"
-      }
+      },
+      "description": "培养舱深处的紫色念力光纹（含昼夜双模式）"
     },
     {
       "id": "pokemon-mimikyu",
@@ -1952,7 +2029,8 @@
       "preview": {
         "light": "previews/pokemon-mimikyu.light.webp",
         "dark": "previews/pokemon-mimikyu.dark.webp"
-      }
+      },
+      "description": "破布伪装下的暗影爪与涂鸦脸（含昼夜双模式）"
     },
     {
       "id": "pokemon-snorlax",
@@ -1977,7 +2055,8 @@
       "preview": {
         "light": "previews/pokemon-snorlax.light.webp",
         "dark": "previews/pokemon-snorlax.dark.webp"
-      }
+      },
+      "description": "月光树荫下卡比兽抱着肚子熟睡（含昼夜双模式）"
     },
     {
       "id": "pokemon-umbreon",
@@ -2002,7 +2081,8 @@
       "preview": {
         "light": "previews/pokemon-umbreon.light.webp",
         "dark": "previews/pokemon-umbreon.dark.webp"
-      }
+      },
+      "description": "黑金光环的月夜行者（含昼夜双模式）"
     },
     {
       "id": "retro-terminal",
@@ -2027,7 +2107,8 @@
       "preview": {
         "light": "previews/retro-terminal.light.webp",
         "dark": "previews/retro-terminal.dark.webp"
-      }
+      },
+      "description": "P1 绿磷光 CRT 终端（含昼夜双模式）"
     },
     {
       "id": "rose-pine",
@@ -2052,7 +2133,8 @@
       "preview": {
         "light": "previews/rose-pine.light.webp",
         "dark": "previews/rose-pine.dark.webp"
-      }
+      },
+      "description": "玫瑰与松木的深夜低饱和松林（含昼夜双模式）"
     },
     {
       "id": "solarized",
@@ -2077,7 +2159,8 @@
       "preview": {
         "light": "previews/solarized.light.webp",
         "dark": "previews/solarized.dark.webp"
-      }
+      },
+      "description": "精确Lab对比度的深青底经典配色（含昼夜双模式）"
     },
     {
       "id": "street-fighter",
@@ -2102,7 +2185,8 @@
       "preview": {
         "light": "previews/street-fighter.light.webp",
         "dark": "previews/street-fighter.dark.webp"
-      }
+      },
+      "description": "街机厅暗场里的红头带与波动拳蓝焰（含昼夜双模式）"
     },
     {
       "id": "style-art-deco",
@@ -2127,7 +2211,8 @@
       "preview": {
         "light": "previews/style-art-deco.light.webp",
         "dark": "previews/style-art-deco.dark.webp"
-      }
+      },
+      "description": "金黑几何与放射太阳线的二十年代奢华（含昼夜双模式）"
     },
     {
       "id": "style-bauhaus",
@@ -2153,7 +2238,8 @@
       "preview": {
         "light": "previews/style-bauhaus.light.webp",
         "dark": "previews/style-bauhaus.dark.webp"
-      }
+      },
+      "description": "红黄蓝三原色，圆方三角的理性构成（含昼夜双模式）"
     },
     {
       "id": "style-cottagecore",
@@ -2178,7 +2264,8 @@
       "preview": {
         "light": "previews/style-cottagecore.light.webp",
         "dark": "previews/style-cottagecore.dark.webp"
-      }
+      },
+      "description": "月光下的鼠尾草与萤火（含昼夜双模式）"
     },
     {
       "id": "style-dark-academia",
@@ -2203,7 +2290,8 @@
       "preview": {
         "light": "previews/style-dark-academia.light.webp",
         "dark": "previews/style-dark-academia.dark.webp"
-      }
+      },
+      "description": "深棕皮革、黄铜与羊皮纸的哥特书房（含昼夜双模式）"
     },
     {
       "id": "style-doodle",
@@ -2228,7 +2316,8 @@
       "preview": {
         "light": "previews/style-doodle.light.webp",
         "dark": "previews/style-doodle.dark.webp"
-      }
+      },
+      "description": "夜幕书桌上发光的荧光笔涂鸦（含昼夜双模式）"
     },
     {
       "id": "style-dunhuang",
@@ -2253,7 +2342,8 @@
       "preview": {
         "light": "previews/style-dunhuang.light.webp",
         "dark": "previews/style-dunhuang.dark.webp"
-      }
+      },
+      "description": "赭石石绿石青，飞天藻井千年壁色（含昼夜双模式）"
     },
     {
       "id": "style-galaxy",
@@ -2277,7 +2367,8 @@
       "preview": {
         "light": "previews/style-galaxy.light.webp",
         "dark": "previews/style-galaxy.dark.webp"
-      }
+      },
+      "description": "深空紫蓝星云，星点闪烁流星划过（含昼夜双模式）"
     },
     {
       "id": "style-glassmorphism",
@@ -2301,7 +2392,8 @@
       "preview": {
         "light": "previews/style-glassmorphism.light.webp",
         "dark": "previews/style-glassmorphism.dark.webp"
-      }
+      },
+      "description": "暗夜毛玻璃与极光霓虹光晕（含昼夜双模式）"
     },
     {
       "id": "style-glitch",
@@ -2326,7 +2418,8 @@
       "preview": {
         "light": "previews/style-glitch.light.webp",
         "dark": "previews/style-glitch.dark.webp"
-      }
+      },
+      "description": "RGB色散与信号噪点的数字崩坏（含昼夜双模式）"
     },
     {
       "id": "style-ink-wash",
@@ -2351,7 +2444,8 @@
       "preview": {
         "light": "previews/style-ink-wash.light.webp",
         "dark": "previews/style-ink-wash.dark.webp"
-      }
+      },
+      "description": "墨夜深处一纸暖光与朱砂落款（含昼夜双模式）"
     },
     {
       "id": "style-macaron",
@@ -2376,7 +2470,8 @@
       "preview": {
         "light": "previews/style-macaron.light.webp",
         "dark": "previews/style-macaron.dark.webp"
-      }
+      },
+      "description": "可可夜色里的法式粉彩甜点（含昼夜双模式）"
     },
     {
       "id": "style-memphis",
@@ -2401,7 +2496,8 @@
       "preview": {
         "light": "previews/style-memphis.light.webp",
         "dark": "previews/style-memphis.dark.webp"
-      }
+      },
+      "description": "80年代撞色几何的深夜舞池（含昼夜双模式）"
     },
     {
       "id": "style-morandi",
@@ -2426,7 +2522,8 @@
       "preview": {
         "light": "previews/style-morandi.light.webp",
         "dark": "previews/style-morandi.dark.webp"
-      }
+      },
+      "description": "夜色高级灰，静物柔光不熄（含昼夜双模式）"
     },
     {
       "id": "style-neo-chinese",
@@ -2451,7 +2548,8 @@
       "preview": {
         "light": "previews/style-neo-chinese.light.webp",
         "dark": "previews/style-neo-chinese.dark.webp"
-      }
+      },
+      "description": "黛墨夜色，月白飞白印章（含昼夜双模式）"
     },
     {
       "id": "style-paper-minimal",
@@ -2476,7 +2574,8 @@
       "preview": {
         "light": "previews/style-paper-minimal.light.webp",
         "dark": "previews/style-paper-minimal.dark.webp"
-      }
+      },
+      "description": "夜色纸面上的黑墨与一根红线（含昼夜双模式）"
     },
     {
       "id": "style-pixel-art",
@@ -2502,7 +2601,8 @@
       "preview": {
         "light": "previews/style-pixel-art.light.webp",
         "dark": "previews/style-pixel-art.dark.webp"
-      }
+      },
+      "description": "8bit硬边像素与抖动纹理夜色（含昼夜双模式）"
     },
     {
       "id": "style-rococo",
@@ -2527,7 +2627,8 @@
       "preview": {
         "light": "previews/style-rococo.light.webp",
         "dark": "previews/style-rococo.dark.webp"
-      }
+      },
+      "description": "烛金卷草纹的凡尔赛夜宴（含昼夜双模式）"
     },
     {
       "id": "style-steampunk",
@@ -2552,7 +2653,8 @@
       "preview": {
         "light": "previews/style-steampunk.light.webp",
         "dark": "previews/style-steampunk.dark.webp"
-      }
+      },
+      "description": "黄铜齿轮与皮革铆钉的工业夜色（含昼夜双模式）"
     },
     {
       "id": "style-vaporwave",
@@ -2577,7 +2679,8 @@
       "preview": {
         "light": "previews/style-vaporwave.light.webp",
         "dark": "previews/style-vaporwave.dark.webp"
-      }
+      },
+      "description": "粉紫青霓虹、大理石雕像与网格落日（含昼夜双模式）"
     },
     {
       "id": "style-y2k",
@@ -2602,7 +2705,8 @@
       "preview": {
         "light": "previews/style-y2k.light.webp",
         "dark": "previews/style-y2k.dark.webp"
-      }
+      },
+      "description": "午夜铬银上的荧光泡泡糖（含昼夜双模式）"
     },
     {
       "id": "synthwave84",
@@ -2627,7 +2731,8 @@
       "preview": {
         "light": "previews/synthwave84.light.webp",
         "dark": "previews/synthwave84.dark.webp"
-      }
+      },
+      "description": "80年代霓虹粉紫与迈阿密夜色（含昼夜双模式）"
     },
     {
       "id": "tokyo-night",
@@ -2651,7 +2756,8 @@
       "preview": {
         "light": "previews/tokyo-night.light.webp",
         "dark": "previews/tokyo-night.dark.webp"
-      }
+      },
+      "description": "东京夜景的蓝紫霓虹（含昼夜双模式）"
     },
     {
       "id": "vscode-plus",
@@ -2676,7 +2782,8 @@
       "preview": {
         "light": "previews/vscode-plus.light.webp",
         "dark": "previews/vscode-plus.dark.webp"
-      }
+      },
+      "description": "Dark+ 深夜编辑器与蓝色状态栏（含昼夜双模式）"
     },
     {
       "id": "zelda-link",
@@ -2702,7 +2809,8 @@
       "preview": {
         "light": "previews/zelda-link.light.webp",
         "dark": "previews/zelda-link.dark.webp"
-      }
+      },
+      "description": "深夜海拉鲁：剑光蓝与三角力量金映海利亚绿（含昼夜双模式）"
     },
     {
       "id": "zzz-alice",
@@ -2727,7 +2835,8 @@
       "preview": {
         "light": "previews/zzz-alice.light.webp",
         "dark": "previews/zzz-alice.dark.webp"
-      }
+      },
+      "description": "金发异色瞳大小姐的午夜茶会（含昼夜双模式）"
     },
     {
       "id": "zzz-anby",
@@ -2752,7 +2861,8 @@
       "preview": {
         "light": "previews/zzz-anby.light.webp",
         "dark": "previews/zzz-anby.dark.webp"
-      }
+      },
+      "description": "银白浅绿入夜，狡兔屋的电光刀手（含昼夜双模式）"
     },
     {
       "id": "zzz-anton",
@@ -2778,7 +2888,8 @@
       "preview": {
         "light": "previews/zzz-anton.light.webp",
         "dark": "previews/zzz-anton.dark.webp"
-      }
+      },
+      "description": "深夜工地的白祇蓝，焊花在墨色钢板上明灭（含昼夜双模式）"
     },
     {
       "id": "zzz-astra",
@@ -2804,7 +2915,8 @@
       "preview": {
         "light": "previews/zzz-astra.light.webp",
         "dark": "previews/zzz-astra.dark.webp"
-      }
+      },
+      "description": "丽都歌后的紫金舞台与红裙烟花（含昼夜双模式）"
     },
     {
       "id": "zzz-banyue",
@@ -2829,7 +2941,8 @@
       "preview": {
         "light": "previews/zzz-banyue.light.webp",
         "dark": "previews/zzz-banyue.dark.webp"
-      }
+      },
+      "description": "云岿山夜色中的命破烈焰（含昼夜双模式）"
     },
     {
       "id": "zzz-ben",
@@ -2854,7 +2967,8 @@
       "preview": {
         "light": "previews/zzz-ben.light.webp",
         "dark": "previews/zzz-ben.dark.webp"
-      }
+      },
+      "description": "夜色工地里不熄的安全黄警示灯（含昼夜双模式）"
     },
     {
       "id": "zzz-billy",
@@ -2880,7 +2994,8 @@
       "preview": {
         "light": "previews/zzz-billy.light.webp",
         "dark": "previews/zzz-billy.dark.webp"
-      }
+      },
+      "description": "午夜铬甲下依旧炽热的星徽枪手（含昼夜双模式）"
     },
     {
       "id": "zzz-burnice",
@@ -2906,7 +3021,8 @@
       "preview": {
         "light": "previews/zzz-burnice.light.webp",
         "dark": "previews/zzz-burnice.dark.webp"
-      }
+      },
+      "description": "燃油火焰与吧台霓虹的狂欢（含昼夜双模式）"
     },
     {
       "id": "zzz-caesar",
@@ -2931,7 +3047,8 @@
       "preview": {
         "light": "previews/zzz-caesar.light.webp",
         "dark": "previews/zzz-caesar.dark.webp"
-      }
+      },
+      "description": "红黑机车霸主，火焰披风燃夜（含昼夜双模式）"
     },
     {
       "id": "zzz-corin",
@@ -2957,7 +3074,8 @@
       "preview": {
         "light": "previews/zzz-corin.light.webp",
         "dark": "previews/zzz-corin.dark.webp"
-      }
+      },
+      "description": "深夜值勤的小女仆，抹茶光里藏着电锯（含昼夜双模式）"
     },
     {
       "id": "zzz-ellen",
@@ -2982,7 +3100,8 @@
       "preview": {
         "light": "previews/zzz-ellen.light.webp",
         "dark": "previews/zzz-ellen.dark.webp"
-      }
+      },
+      "description": "鲨鱼女仆的红丝带与深夜黑裙（含昼夜双模式）"
     },
     {
       "id": "zzz-evelyn",
@@ -3007,7 +3126,8 @@
       "preview": {
         "light": "previews/zzz-evelyn.light.webp",
         "dark": "previews/zzz-evelyn.dark.webp"
-      }
+      },
+      "description": "黑红特工皮衣与谍影迷城夜色（含昼夜双模式）"
     },
     {
       "id": "zzz-grace",
@@ -3033,7 +3153,8 @@
       "preview": {
         "light": "previews/zzz-grace.light.webp",
         "dark": "previews/zzz-grace.dark.webp"
-      }
+      },
+      "description": "夜班车间的安全橙与蓝图荧光（含昼夜双模式）"
     },
     {
       "id": "zzz-harumasa",
@@ -3058,7 +3179,8 @@
       "preview": {
         "light": "previews/zzz-harumasa.light.webp",
         "dark": "previews/zzz-harumasa.dark.webp"
-      }
+      },
+      "description": "夜巡弓手，薄荷冷月（含昼夜双模式）"
     },
     {
       "id": "zzz-hugo",
@@ -3083,7 +3205,8 @@
       "preview": {
         "light": "previews/zzz-hugo.light.webp",
         "dark": "previews/zzz-hugo.dark.webp"
-      }
+      },
+      "description": "反舌鸟怪盗的冰蓝与扑克绯红（含昼夜双模式）"
     },
     {
       "id": "zzz-jane",
@@ -3108,7 +3231,8 @@
       "preview": {
         "light": "previews/zzz-jane.light.webp",
         "dark": "previews/zzz-jane.dark.webp"
-      }
+      },
+      "description": "鼠希人灰粉与暗夜潜行冷灰调（含昼夜双模式）"
     },
     {
       "id": "zzz-jufufu",
@@ -3134,7 +3258,8 @@
       "preview": {
         "light": "previews/zzz-jufufu.light.webp",
         "dark": "previews/zzz-jufufu.dark.webp"
-      }
+      },
+      "description": "深夜锅气里的小猛虎暖光（含昼夜双模式）"
     },
     {
       "id": "zzz-koleda",
@@ -3159,7 +3284,8 @@
       "preview": {
         "light": "previews/zzz-koleda.light.webp",
         "dark": "previews/zzz-koleda.dark.webp"
-      }
+      },
+      "description": "夜班工地，白祇红钢在深海黑里发光（含昼夜双模式）"
     },
     {
       "id": "zzz-lighter",
@@ -3184,7 +3310,8 @@
       "preview": {
         "light": "previews/zzz-lighter.light.webp",
         "dark": "previews/zzz-lighter.dark.webp"
-      }
+      },
+      "description": "赤红围巾与金拳套的常胜冠军（含昼夜双模式）"
     },
     {
       "id": "zzz-lucy",
@@ -3209,7 +3336,8 @@
       "preview": {
         "light": "previews/zzz-lucy.light.webp",
         "dark": "previews/zzz-lucy.dark.webp"
-      }
+      },
+      "description": "粉金不良少女的午夜暴走（含昼夜双模式）"
     },
     {
       "id": "zzz-lycaon",
@@ -3234,7 +3362,8 @@
       "preview": {
         "light": "previews/zzz-lycaon.light.webp",
         "dark": "previews/zzz-lycaon.dark.webp"
-      }
+      },
+      "description": "黑白狼执事的冰蓝禁欲优雅（含昼夜双模式）"
     },
     {
       "id": "zzz-miyabi",
@@ -3259,7 +3388,8 @@
       "preview": {
         "light": "previews/zzz-miyabi.light.webp",
         "dark": "previews/zzz-miyabi.dark.webp"
-      }
+      },
+      "description": "狐耳课长的冰蓝太刀寒光（含昼夜双模式）"
     },
     {
       "id": "zzz-nekomata",
@@ -3284,7 +3414,8 @@
       "preview": {
         "light": "previews/zzz-nekomata.light.webp",
         "dark": "previews/zzz-nekomata.dark.webp"
-      }
+      },
+      "description": "黑猫夜行，赤红围巾与狡兔屋（含昼夜双模式）"
     },
     {
       "id": "zzz-nicole",
@@ -3310,7 +3441,8 @@
       "preview": {
         "light": "previews/zzz-nicole.light.webp",
         "dark": "previews/zzz-nicole.dark.webp"
-      }
+      },
+      "description": "粉发双马尾的狡兔屋甜辣老大·夜巷版（含昼夜双模式）"
     },
     {
       "id": "zzz-orphie",
@@ -3335,7 +3467,8 @@
       "preview": {
         "light": "previews/zzz-orphie.light.webp",
         "dark": "previews/zzz-orphie.dark.webp"
-      }
+      },
+      "description": "鬼火尾刃与橙发的暗夜军服（含昼夜双模式）"
     },
     {
       "id": "zzz-panyinhu",
@@ -3361,7 +3494,8 @@
       "preview": {
         "light": "previews/zzz-panyinhu.light.webp",
         "dark": "previews/zzz-panyinhu.dark.webp"
-      }
+      },
+      "description": "深夜茶馆,竹影灯下的麻将局（含昼夜双模式）"
     },
     {
       "id": "zzz-piper",
@@ -3387,7 +3521,8 @@
       "preview": {
         "light": "previews/zzz-piper.light.webp",
         "dark": "previews/zzz-piper.dark.webp"
-      }
+      },
+      "description": "夜色公路与车灯琥珀的慵懒巡航（含昼夜双模式）"
     },
     {
       "id": "zzz-pulchra",
@@ -3412,7 +3547,8 @@
       "preview": {
         "light": "previews/zzz-pulchra.light.webp",
         "dark": "previews/zzz-pulchra.dark.webp"
-      }
+      },
+      "description": "夜巡虎猫的墨底琥珀微光（含昼夜双模式）"
     },
     {
       "id": "zzz-qingyi",
@@ -3438,7 +3574,8 @@
       "preview": {
         "light": "previews/zzz-qingyi.light.webp",
         "dark": "previews/zzz-qingyi.dark.webp"
-      }
+      },
+      "description": "墨夜瓷底，青绿电光映描金关节（含昼夜双模式）"
     },
     {
       "id": "zzz-rina",
@@ -3464,7 +3601,8 @@
       "preview": {
         "light": "previews/zzz-rina.light.webp",
         "dark": "previews/zzz-rina.dark.webp"
-      }
+      },
+      "description": "幽灵女仆的幽紫电光之夜（含昼夜双模式）"
     },
     {
       "id": "zzz-seed",
@@ -3490,7 +3628,8 @@
       "preview": {
         "light": "previews/zzz-seed.light.webp",
         "dark": "previews/zzz-seed.dark.webp"
-      }
+      },
+      "description": "蓝灰机甲与电光黄的白色恶魔（含昼夜双模式）"
     },
     {
       "id": "zzz-seth",
@@ -3516,7 +3655,8 @@
       "preview": {
         "light": "previews/zzz-seth.light.webp",
         "dark": "previews/zzz-seth.dark.webp"
-      }
+      },
+      "description": "白蓝猫警官的治安局夜班巡逻风（含昼夜双模式）"
     },
     {
       "id": "zzz-soldier11",
@@ -3542,7 +3682,8 @@
       "preview": {
         "light": "previews/zzz-soldier11.light.webp",
         "dark": "previews/zzz-soldier11.dark.webp"
-      }
+      },
+      "description": "白红士兵与护目镜的军武冷调（含昼夜双模式）"
     },
     {
       "id": "zzz-soukaku",
@@ -3567,7 +3708,8 @@
       "preview": {
         "light": "previews/zzz-soukaku.light.webp",
         "dark": "previews/zzz-soukaku.dark.webp"
-      }
+      },
+      "description": "蓝肤鬼族的深夜冰蓝幻想（含昼夜双模式）"
     },
     {
       "id": "zzz-trigger",
@@ -3593,7 +3735,8 @@
       "preview": {
         "light": "previews/zzz-trigger.light.webp",
         "dark": "previews/zzz-trigger.dark.webp"
-      }
+      },
+      "description": "军绿狙击与战术目镜的冷峻锁定（含昼夜双模式）"
     },
     {
       "id": "zzz-vivian",
@@ -3619,7 +3762,8 @@
       "preview": {
         "light": "previews/zzz-vivian.light.webp",
         "dark": "previews/zzz-vivian.dark.webp"
-      }
+      },
+      "description": "紫罗兰哥特裙与夜色花园（含昼夜双模式）"
     },
     {
       "id": "zzz-yanagi",
@@ -3645,7 +3789,8 @@
       "preview": {
         "light": "previews/zzz-yanagi.light.webp",
         "dark": "previews/zzz-yanagi.dark.webp"
-      }
+      },
+      "description": "粉紫发丝没入夜色，紫瞳映着刀光（含昼夜双模式）"
     },
     {
       "id": "zzz-yeshunguang",
@@ -3671,7 +3816,8 @@
       "preview": {
         "light": "previews/zzz-yeshunguang.light.webp",
         "dark": "previews/zzz-yeshunguang.dark.webp"
-      }
+      },
+      "description": "青溟剑主的红绫与银青剑光（含昼夜双模式）"
     },
     {
       "id": "zzz-yidhari",
@@ -3697,7 +3843,8 @@
       "preview": {
         "light": "previews/zzz-yidhari.light.webp",
         "dark": "previews/zzz-yidhari.dark.webp"
-      }
+      },
+      "description": "触手紫与冰青的深海诡梦（含昼夜双模式）"
     },
     {
       "id": "zzz-yixuan",
@@ -3722,7 +3869,8 @@
       "preview": {
         "light": "previews/zzz-yixuan.light.webp",
         "dark": "previews/zzz-yixuan.dark.webp"
-      }
+      },
+      "description": "金黑云岿，符箓朱砂的虚狩宗师（含昼夜双模式）"
     },
     {
       "id": "zzz-yuzuha",
@@ -3748,7 +3896,8 @@
       "preview": {
         "light": "previews/zzz-yuzuha.light.webp",
         "dark": "previews/zzz-yuzuha.dark.webp"
-      }
+      },
+      "description": "狸猫绿棕的深夜怪谈收藏屋（含昼夜双模式）"
     },
     {
       "id": "zzz-zhao",
@@ -3773,7 +3922,8 @@
       "preview": {
         "light": "previews/zzz-zhao.light.webp",
         "dark": "previews/zzz-zhao.dark.webp"
-      }
+      },
+      "description": "粉发兔耳裁决官的夜幕审判（含昼夜双模式）"
     },
     {
       "id": "zzz-zhuyuan",
@@ -3798,7 +3948,8 @@
       "preview": {
         "light": "previews/zzz-zhuyuan.light.webp",
         "dark": "previews/zzz-zhuyuan.dark.webp"
-      }
+      },
+      "description": "藏青警服与朱红绳结的治安官正气（含昼夜双模式）"
     }
   ]
 }
