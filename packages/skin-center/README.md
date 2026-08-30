@@ -49,3 +49,15 @@ cd packages/skin-center && node scripts/generate.mjs   # 需要系统 python3 + 
 
 - 单皮肤包（`skins/*`）：cordis.patch.yml 插入 `ui-skin-<id>` roster + client.js 注入 `body[data-dsh-<id>]` CSS。
 - 本聚合包：**不等价替换**单包，而是宿主半批量服务全部皮肤资产 + 浏览器半统一试穿面板；已装单包与聚合包共存互不干扰（CSS 同选择器幂等）。
+
+
+---
+
+## Theme & Skin Compatibility / 主题与皮肤兼容
+
+This is a skin pack: it follows the skin-manifest v2 structure and the primary-action token rules
+(verbatim four-token set, no cross-family pairing). Each skin scopes its palette via
+`body[data-dsh-<id>]` and overrides `--dsw-alias-*` tokens for day/night modes.
+
+本包是皮肤聚合包：遵循 skin-manifest v2 结构与 primary-action 令牌规则（主按钮四件套 verbatim 使用、禁止跨族配对）；
+每个皮肤经 `body[data-dsh-<id>]` 属性作用域覆写 `--dsw-alias-*` 令牌，昼夜双模式。
